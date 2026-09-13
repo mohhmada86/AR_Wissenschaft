@@ -67,7 +67,8 @@ export function driveURL(value) {
   // PDF sharing links use these file routes; folder and download routes are excluded.
   const fileRoute = /^\/file\/d\/[a-zA-Z0-9_-]+\/(?:view|preview)\/?$/.test(url.pathname);
   const legacyRoute = url.pathname === "/open" && /^[a-zA-Z0-9_-]+$/.test(url.searchParams.get("id") || "");
-  return fileRoute || legacyRoute ? url.href : null;
+  // أعد النص الأصلي نفسه بعد التحقق؛ روابط Drive بيانات غير قابلة للتطبيع أو إعادة البناء.
+  return fileRoute || legacyRoute ? value : null;
 }
 
 export function validCover(value) {
@@ -342,9 +343,12 @@ export function renderCard(book, updates, updatesAvailable) {
   description.dir = "auto";
   card.append(description);
   const actions = el("div", null, "card-actions");
-  actions.append(readingAction(book.drive_url));
+  actions.append(link("فتح صفحة الكتاب", bookURL(book.id), "button primary"));
   const secondary = el("div", null, "inline-links");
-  secondary.append(link("تفاصيل الكتاب", bookURL(book.id)), link("سجل التحديثات", bookURL(book.id, true)));
+  secondary.append(
+    readingAction(book.drive_url, "فتح نسخة القراءة", "history-file"),
+    link("سجل التحديثات", bookURL(book.id, true))
+  );
   actions.append(secondary);
   card.append(actions);
   return card;

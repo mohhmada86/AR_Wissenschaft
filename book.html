@@ -18,13 +18,16 @@
   <header class="site-header"><div class="container header-inner">
     <a class="brand" href="index.html"><img src="assets/favicon.svg" alt="" width="38" height="38"><span data-site-title>مشروع القراءة والمراجعة الجماعية</span></a>
     <nav aria-label="التنقل الرئيسي"><ul>
-      <li><a href="index.html">الرئيسية</a></li><li><a href="index.html#books">الكتب</a></li>
-      <li><a href="index.html#recent-updates">آخر التحديثات</a></li><li><a href="index.html#participate">طريقة المشاركة</a></li>
+      <li><a href="index.html">الرئيسية</a></li><li><a href="index.html#categories">المجالات</a></li>
+      <li><a href="catalog.html" target="_blank" rel="noopener noreferrer">جميع الكتب<span class="sr-only"> (يفتح في علامة تبويب جديدة)</span></a></li>
       <li><a href="index.html#about">عن المشروع</a></li><li data-github hidden></li>
     </ul></nav>
   </div></header>
   <main id="main" class="container" tabindex="-1">
-    <a href="index.html#books" class="back-link">العودة إلى جميع الكتب</a>
+    <div class="detail-navigation">
+      <a href="index.html" class="back-link">العودة إلى الرئيسية</a>
+      <a href="catalog.html" class="back-link" target="_blank" rel="noopener noreferrer">جميع الكتب<span class="sr-only"> (يفتح في علامة تبويب جديدة)</span></a>
+    </div>
     <noscript><p class="notice warning">تحتاج تفاصيل الكتاب إلى JavaScript. فعّله ثم أعد التحميل، أو عد إلى الصفحة الرئيسية.</p></noscript>
     <div id="warnings"></div>
     <div id="book-content" aria-busy="true"><p class="notice" role="status">جارٍ تحميل تفاصيل الكتاب…</p></div>

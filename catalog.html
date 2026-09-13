@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>جميع الكتب | مشروع القراءة والمراجعة الجماعية</title>
+  <meta name="description" content="تصفح جميع كتب مشروع القراءة والمراجعة الجماعية وابحث حسب العنوان أو المؤلف أو المجال.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ar_EG">
+  <meta property="og:title" content="جميع الكتب | مشروع القراءة والمراجعة الجماعية">
+  <meta property="og:description" content="الفهرس الكامل للكتب المتاحة للقراءة والمراجعة.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script type="module" src="assets/js/catalog.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">انتقل إلى المحتوى</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/favicon.svg" alt="" width="38" height="38">
+        <span data-site-title>مشروع القراءة والمراجعة الجماعية</span>
+      </a>
+      <nav aria-label="التنقل الرئيسي">
+        <ul>
+          <li><a href="index.html">الرئيسية</a></li>
+          <li><a href="index.html#categories">المجالات</a></li>
+          <li><a href="catalog.html" aria-current="page">جميع الكتب</a></li>
+          <li><a href="index.html#about">عن المشروع</a></li>
+          <li data-github hidden></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container" tabindex="-1">
+    <section class="catalog-hero" aria-labelledby="catalog-title">
+      <div>
+        <p class="eyebrow">الفهرس الكامل</p>
+        <h1 id="catalog-title">جميع الكتب</h1>
+        <p id="catalog-summary">ابحث عن كتاب أو اختر مجالًا.</p>
+      </div>
+      <a class="button" href="index.html">العودة إلى الرئيسية</a>
+    </section>
+
+    <noscript>
+      <p class="notice warning">عرض الكتب والبحث يحتاجان إلى JavaScript. فعّله ثم أعد تحميل الصفحة.</p>
+    </noscript>
+
+    <section class="catalog-section" aria-labelledby="search-heading">
+      <h2 id="search-heading" class="sr-only">البحث والتصفية</h2>
+      <form id="filters" class="filters" role="search" aria-label="البحث في الكتب">
+        <fieldset id="filter-fields" disabled>
+          <legend class="sr-only">البحث والتصفية</legend>
+          <div class="filter-grid catalog-filter-grid">
+            <div class="field">
+              <label for="search">ابحث عن كتاب</label>
+              <input type="search" id="search" placeholder="العنوان، المؤلف، أو المجال" autocomplete="off" dir="auto">
+            </div>
+            <div class="field">
+              <label for="category">المجال</label>
+              <select id="category"><option value="">كل المجالات</option></select>
+            </div>
+            <div class="field">
+              <label for="status">الحالة</label>
+              <select id="status"><option value="">كل الحالات</option></select>
+            </div>
+          </div>
+          <div class="filter-bottom">
+            <p id="result-count" role="status" aria-live="polite">جارٍ تحميل الكتب…</p>
+            <button class="quiet-button" type="reset">مسح البحث والفلاتر</button>
+          </div>
+        </fieldset>
+      </form>
+      <p class="catalog-note">استخدم «فتح صفحة الكتاب» لعرض التفاصيل، أو افتح رابط القراءة للمشاركة في مراجعة محتواه.</p>
+      <div id="warnings"></div>
+      <div id="catalog" class="books-grid" aria-busy="true">
+        <p class="notice" role="status">جارٍ تحميل الكتب…</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p data-site-title>مشروع القراءة والمراجعة الجماعية</p>
+      <div class="footer-links">
+        <a href="index.html">الرئيسية</a>
+        <a href="tools/update-helper.html">أداة صيانة البيانات</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

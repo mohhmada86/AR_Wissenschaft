@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>أداة صيانة البيانات | مشروع القراءة والمراجعة الجماعية</title>
+  <meta name="description" content="أداة محلية في المتصفح لتجهيز بيانات الكتب والتحديثات والتحقق منها وتنزيلها.">
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <script type="module" src="update-helper.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">انتقل إلى المحتوى</a>
+  <header class="site-header"><div class="container header-inner">
+    <a class="brand" href="../index.html"><img src="../assets/favicon.svg" alt="" width="38" height="38"><span data-site-title>مشروع القراءة والمراجعة الجماعية</span></a>
+    <nav aria-label="روابط الصيانة"><ul><li><a href="../index.html">الرئيسية</a></li><li><a href="../README.md">دليل البداية</a></li><li><a href="../HOW_TO_UPDATE_A_BOOK.md">دليل التحديث</a></li></ul></nav>
+  </div></header>
+  <main id="main" class="container" tabindex="-1">
+    <div class="helper-intro"><p class="eyebrow">صيانة المشروع</p><h1>جهّز التغيير، ثم انشره.</h1>
+      <p>حمّل أحدث بياناتك، عدّلها، تحقّق منها، ثم نزّل الملفين. ارفعهما معًا إلى مجلد <bdi dir="ltr">data</bdi> في GitHub بعد مراجعة الفرق، ثم اضغط <bdi dir="ltr">Commit changes</bdi>.</p>
+      <p class="notice">هذه الأداة تغيّر البيانات في ذاكرة الصفحة فقط. لا تحفظ في GitHub، ولا ترفع PDF، ولا تغيّر مشاركة Drive، ولا تطلب تسجيل دخول. إعادة تحميل الصفحة تفقد التعديلات غير المنزّلة.</p>
+    </div>
+    <noscript><p class="notice error">تحتاج هذه الأداة إلى JavaScript وإلى فتحها عبر HTTP(S). يمكنك تعديل JSON مباشرة في GitHub باتباع الأدلة.</p></noscript>
+    <section class="panel" aria-labelledby="load-heading">
+      <h2 id="load-heading">1. حمّل الملفين الحاليين</h2>
+      <button type="button" id="load-published" class="button primary">تحميل أحدث البيانات المنشورة</button>
+      <p class="help-text">أو اختر الملفين المحليين معًا. للاستيراد الأول استخدم ملفات الحزمة، وللعمل اليومي تأكد أن النسخة المنشورة تشمل آخر Commit.</p>
+      <div class="form-grid">
+        <div class="field"><label for="import-books">ملف books.json</label><input type="file" id="import-books" accept=".json,application/json" dir="ltr"></div>
+        <div class="field"><label for="import-updates">ملف updates.json</label><input type="file" id="import-updates" accept=".json,application/json" dir="ltr"></div>
+      </div>
+      <button type="button" id="import-files" class="button form-actions">استيراد الملفين</button>
+      <div id="load-message" class="result-message" role="status" aria-live="polite"></div>
+      <p id="data-summary" class="helper-summary">لم تُحمّل البيانات بعد؛ التعديل والتنزيل متوقفان.</p>
+    </section>
+    <section class="panel" aria-labelledby="edit-heading">
+      <h2 id="edit-heading">2. عدّل البيانات</h2>
+      <div class="helper-nav"><button id="task-book" type="button" class="button" aria-pressed="true" aria-controls="book-form">إضافة أو تعديل كتاب</button><button id="task-update" type="button" class="button" aria-pressed="false" aria-controls="update-form">إضافة تحديث</button></div>
+      <form id="book-form">
+        <fieldset id="book-fields" disabled>
+          <legend>بيانات الكتاب</legend>
+          <div class="field"><label for="book-choice">اختر كتابًا لتعديله أو أضف كتابًا جديدًا</label><select id="book-choice"><option value="">كتاب جديد</option></select></div>
+          <p class="help-text">احفظ التعديل في الذاكرة قبل تغيير الكتاب أو الانتقال لتنزيل JSON. معرّف الكتاب الموجود مقفل للحفاظ على الروابط والسجل.</p>
+          <div class="form-grid">
+            <div class="field"><label for="b-id">المعرّف الدائم — id</label><input id="b-id" name="id" dir="ltr" required pattern="[a-z0-9]+(?:-[a-z0-9]+)*" placeholder="language-learning-notes"></div>
+            <div class="field"><label for="b-title-ar">العنوان العربي — title_ar</label><input id="b-title-ar" name="title_ar" dir="auto" required></div>
+            <div class="field"><label for="b-title-en">العنوان الإنجليزي الاختياري — title_en</label><input id="b-title-en" name="title_en" dir="ltr"></div>
+            <div class="field"><label for="b-author">المؤلف — author</label><input id="b-author" name="author" dir="auto" required></div>
+            <div class="field"><label for="b-category">التخصص — category</label><input id="b-category" name="category" dir="auto" required></div>
+            <div class="field"><label for="b-cover">مسار الغلاف الاختياري — cover</label><input id="b-cover" name="cover" dir="ltr" placeholder="assets/covers/book-cover.webp"></div>
+            <div class="field"><label for="b-status">الحالة — status</label><select id="b-status" name="status"></select></div>
+            <div class="field"><label for="b-version">الإصدار الحالي — version</label><input id="b-version" name="version" dir="ltr" required pattern="v[0-9]+\.[0-9]+" placeholder="v1.0"></div>
+            <div class="field"><label for="b-progress">نسبة المراجعة — progress</label><input id="b-progress" name="progress" type="number" min="0" max="100" step="any" dir="ltr" lang="en" aria-describedby="progress-help"><span id="progress-help" class="help-text">0 إلى 100؛ الفراغ يعني null، أي نسبة غير معروفة.</span></div>
+            <div class="field"><label for="b-date">تاريخ تغيير بيانات الكتاب — last_updated</label><input id="b-date" name="last_updated" type="date" min="0001-01-01" max="9999-12-31" dir="ltr" lang="en" required></div>
+            <div class="field full-width"><label for="b-description">الوصف — description</label><textarea id="b-description" name="description" dir="auto" required></textarea></div>
+            <div class="field full-width"><label for="b-drive">رابط القراءة الحالي — drive_url</label><input id="b-drive" name="drive_url" dir="ltr" type="text" aria-describedby="drive-help"><span id="drive-help" class="help-text">رابط مشاركة ملف PDF من drive.google.com، أو اتركه فارغًا. يُفحص شكل الرابط فقط. قبل تغييره احفظ رابط النسخة القديمة في حدث إصدارها.</span></div>
+            <label class="check-field"><input id="b-enabled" name="enabled" type="checkbox" checked>إظهار الكتاب — enabled</label>
+            <label class="check-field"><input id="b-demo" name="demo" type="checkbox">بيانات تجريبية — demo</label>
+          </div>
+          <p class="help-text">غيّر التاريخ عند تعديل بيانات الكتاب. إلغاء إظهاره لا يجعل بيانات JSON خاصة.</p>
+          <button type="submit" class="button primary form-actions">حفظ الكتاب في الذاكرة</button>
+        </fieldset>
+      </form>
+      <form id="update-form" hidden>
+        <fieldset id="update-fields" disabled>
+          <legend>حدث جديد في السجل</legend>
+          <div class="form-grid">
+            <div class="field full-width"><label for="u-book">الكتاب — book_id</label><select id="u-book" name="book_id" required></select></div>
+            <div class="field"><label for="u-id">معرّف الحدث الدائم — id</label><input id="u-id" name="id" dir="ltr" required pattern="[a-z0-9]+(?:-[a-z0-9]+)*" placeholder="book-id-2026-09-11-01"></div>
+            <div class="field"><label for="u-date">تاريخ الحدث — date</label><input id="u-date" name="date" type="date" min="0001-01-01" max="9999-12-31" dir="ltr" lang="en" required></div>
+            <div class="field"><label for="u-version">الإصدار الاختياري — version</label><input id="u-version" name="version" dir="ltr" pattern="v[0-9]+\.[0-9]+" placeholder="v1.1"></div>
+            <div class="field"><label for="u-type">نوع الحدث — type</label><select id="u-type" name="type"></select></div>
+            <div class="field full-width"><label for="u-title">عنوان الحدث — title</label><input id="u-title" name="title" dir="auto" required></div>
+            <div class="field full-width"><label for="u-description">وصف الحدث — description</label><textarea id="u-description" name="description" dir="auto" required></textarea></div>
+            <div class="field full-width"><label for="u-drive">رابط ملف هذا الحدث فقط — drive_url</label><input id="u-drive" name="drive_url" dir="ltr"><span class="help-text">اتركه فارغًا إن لم يرتبط الحدث بملف. لا يُستبدل تلقائيًا بالرابط الحالي.</span></div>
+          </div>
+          <p class="help-text">يُضاف الحدث إلى بداية السجل دون حذف القديم. لن يغيّر إصدار الكتاب أو حالته أو نسبته أو رابطه؛ عدّل هذه الحقول في بيانات الكتاب عند الحاجة.</p>
+          <button type="submit" class="button primary form-actions">إضافة التحديث إلى الذاكرة</button>
+        </fieldset>
+      </form>
+      <div id="edit-message" class="result-message" role="status" aria-live="polite"></div>
+    </section>
+    <section class="panel" aria-labelledby="export-heading">
+      <h2 id="export-heading">3. تحقّق ونزّل الملفين</h2>
+      <button type="button" id="validate-export" class="button primary" disabled>التحقق وتجهيز JSON</button>
+      <div id="export-message" class="result-message" role="status" aria-live="polite"></div>
+      <div id="export-area" hidden>
+        <p>نزّل الملفين كاملين، ثم GitHub → مجلد <bdi dir="ltr">data</bdi> → <bdi dir="ltr">Add file → Upload files</bdi>. راجع الاستبدالات والفرق قبل <bdi dir="ltr">Commit changes</bdi>. ارفع أي غلاف جديد أولًا.</p>
+        <div class="form-grid">
+          <div class="field"><label for="books-output">books.json الكامل</label><textarea id="books-output" class="json-output" readonly spellcheck="false"></textarea><div class="actions"><button type="button" id="download-books" class="button">تنزيل books.json</button><button type="button" id="copy-books" class="button">نسخ books.json</button></div></div>
+          <div class="field"><label for="updates-output">updates.json الكامل</label><textarea id="updates-output" class="json-output" readonly spellcheck="false"></textarea><div class="actions"><button type="button" id="download-updates" class="button">تنزيل updates.json</button><button type="button" id="copy-updates" class="button">نسخ updates.json</button></div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><p>تغييرات في الذاكرة فقط؛ التنزيل لا ينشر الموقع.</p><a href="../TROUBLESHOOTING.md">حل المشكلات</a></div></footer>
+</body>
+</html>

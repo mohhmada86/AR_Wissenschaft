@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>مشروع القراءة والمراجعة الجماعية</title>
+  <meta name="description" content="مساحة للقراءة الجماعية ومراجعة الكتب في مختلف التخصصات. اختر كتابًا وشارك بملاحظاتك على النسخة الحالية.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ar_EG">
+  <meta property="og:title" content="مشروع القراءة والمراجعة الجماعية">
+  <meta property="og:description" content="كتب في تخصصات متعددة، ونسخ متجددة، ومساحة للمراجعة المشتركة.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script type="module" src="assets/js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">انتقل إلى المحتوى</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><img src="assets/favicon.svg" alt="" width="38" height="38"><span data-site-title>مشروع القراءة والمراجعة الجماعية</span></a>
+      <nav aria-label="التنقل الرئيسي"><ul>
+        <li><a href="index.html" aria-current="page">الرئيسية</a></li>
+        <li><a href="#books">الكتب</a></li>
+        <li><a href="#recent-updates">آخر التحديثات</a></li>
+        <li><a href="#participate">طريقة المشاركة</a></li>
+        <li><a href="#about">عن المشروع</a></li>
+        <li data-github hidden></li>
+      </ul></nav>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">
+    <section class="container hero" aria-labelledby="welcome-title">
+      <div class="hero-copy">
+        <p class="eyebrow">قراءة متأنية · معرفة مشتركة</p>
+        <h1 id="welcome-title">نقرأ معًا، ونراجع بدقّة.</h1>
+        <p data-site-intro>اختر كتابًا، واقرأ النسخة الحالية، وشارك بملاحظاتك وتصحيحاتك.</p>
+        <div class="actions"><a class="button primary" href="#books">استعرض الكتب</a><a class="button" href="#recent-updates">آخر التحديثات</a></div>
+      </div>
+      <aside class="hero-side"><strong>كل ملاحظة واضحة تساعد.</strong>اذكر النسخة والصفحة، واقترح التصحيح داخل ملف القراءة.</aside>
+    </section>
+    <noscript><p class="container notice warning">عرض الكتب والبحث يحتاجان إلى JavaScript. فعّله ثم أعد تحميل الصفحة. تُكتب الملاحظات داخل Google Drive.</p></noscript>
+    <section id="books" class="container section" aria-labelledby="books-heading">
+      <div class="section-heading"><h2 id="books-heading">رفّ الكتب</h2><p>تخصصات مختلفة، وطريقة مشاركة واحدة.</p></div>
+      <form id="filters" class="filters" role="search" aria-label="البحث في الكتب">
+        <fieldset id="filter-fields" disabled>
+          <legend class="sr-only">البحث والتصفية والترتيب</legend>
+          <div class="filter-grid">
+            <div class="field"><label for="search">ابحث عن كتاب</label><input type="search" id="search" placeholder="العنوان، المؤلف، أو التخصص" autocomplete="off" dir="auto"></div>
+            <div class="field"><label for="category">التخصص</label><select id="category"><option value="">الكل</option></select></div>
+            <div class="field"><label for="status">الحالة</label><select id="status"><option value="">الكل</option></select></div>
+            <div class="field"><label for="sort">ترتيب الكتب</label><select id="sort"><option value="latest">الأحدث تحديثًا</option><option value="title">اسم الكتاب</option><option value="progress">نسبة الإنجاز</option></select></div>
+          </div>
+          <div class="filter-bottom"><p id="result-count" role="status" aria-live="polite">جارٍ تحميل الكتب…</p><button class="quiet-button" type="reset">إعادة ضبط البحث</button></div>
+        </fieldset>
+      </form>
+      <p class="catalog-note">نسبة المراجعة تقدير يحدّثه صاحب المشروع، ولا تتزامن تلقائيًا مع تعليقات Google Drive.</p>
+      <div id="warnings"></div>
+      <div id="catalog" class="books-grid" aria-busy="true"><p class="notice" role="status">جارٍ تحميل الكتب…</p></div>
+    </section>
+    <section id="recent-updates" class="container section" aria-labelledby="recent-heading">
+      <div class="section-heading"><h2 id="recent-heading">آخر التحديثات</h2><p>أحدث ما سُجّل في رحلة كل كتاب.</p></div>
+      <div id="recent-feed" aria-busy="true"><p class="notice">جارٍ تحميل التحديثات…</p></div>
+    </section>
+    <section id="participate" class="section participation" aria-labelledby="participate-heading">
+      <div class="container">
+        <h2 id="participate-heading">كيف تشارك في المراجعة؟</h2>
+        <ol class="steps">
+          <li><strong>اختر كتابًا</strong><p>اطّلع على حالته ورقم نسخته، ثم افتح رابط «اقرأ وشارك في المراجعة».</p></li>
+          <li><strong>حدّد موضع الملاحظة</strong><p>داخل عارض PDF في Drive، حدّد النص أو المنطقة، ثم أضف تعليقًا. قد تحتاج إلى تسجيل الدخول بحساب Google.</p></li>
+          <li><strong>اقترح تصحيحًا محددًا</strong><p>اذكر إصدار PDF ورقم صفحته، والصفحة المطبوعة إن اختلفت، والقسم أو المعادلة عند الحاجة.</p></li>
+        </ol>
+        <p class="example-note">مثال على صياغة ملاحظة: النسخة <bdi dir="ltr">v1.1</bdi>، صفحة PDF <bdi dir="ltr">12</bdi>، الصفحة المطبوعة <bdi dir="ltr">8</bdi>، المعادلة <bdi dir="ltr">(2.3)</bdi>: أرجو مراجعة إشارة الحد الثاني.</p>
+        <p class="help-text">التعليقات تُكتب وتُحفظ في Google Drive. تصفح هذا الموقع لا يحتاج إلى تسجيل دخول.</p>
+      </div>
+    </section>
+    <section id="about" class="container section" aria-labelledby="about-heading">
+      <h2 id="about-heading">عن المشروع</h2>
+      <p class="about-copy" data-site-about>مساحة للقراءة الجماعية ومراجعة الكتب في مختلف التخصصات.</p>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><p data-site-title>مشروع القراءة والمراجعة الجماعية</p><a href="tools/update-helper.html">أداة صيانة البيانات</a></div></footer>
+</body>
+</html>

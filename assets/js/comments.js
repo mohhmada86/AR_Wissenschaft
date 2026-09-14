@@ -1,5 +1,8 @@
-import { COMMENTS_CONFIG } from "../../data/comments-config.js";
 import { el } from "./common.js";
+import {
+  TABLES, insertPublicRow, loadApprovedGeneralComments, sharedBackendAvailable
+} from "./community-backend.js";
+import { generalCommentError } from "./participation-validation.js";
 
 const LOCAL_KEY = "arabic-book-review-portal-comments-v1";
 const PAGE_SIZE = 5;
@@ -23,16 +26,6 @@ const formStatus = document.getElementById("comment-form-status");
 const storageNote = document.getElementById("comments-storage-note");
 const list = document.getElementById("comments-list");
 const moreButton = document.getElementById("comments-more");
-
-function sharedConfigAvailable() {
-  if (!COMMENTS_CONFIG.supabaseUrl || !COMMENTS_CONFIG.supabaseAnonKey) return false;
-  try {
-    const url = new URL(COMMENTS_CONFIG.supabaseUrl);
-    return url.protocol === "https:" && !url.username && !url.password;
-  } catch {
-    return false;
-  }
-}
 
 function validComment(item) {
   return item && typeof item.name === "string" && item.name.trim().length >= 2 &&
@@ -108,41 +101,13 @@ function setLocalMode(note = "") {
   renderComments();
 }
 
-function supabaseEndpoint() {
-  return new URL("/rest/v1/comments", COMMENTS_CONFIG.supabaseUrl);
-}
-
-function supabaseHeaders(extra = {}) {
-  return {
-    apikey: COMMENTS_CONFIG.supabaseAnonKey,
-    Authorization: `Bearer ${COMMENTS_CONFIG.supabaseAnonKey}`,
-    ...extra
-  };
-}
-
 async function loadSharedComments() {
-  const url = supabaseEndpoint();
-  url.searchParams.set("select", "id,name,comment,created_at");
-  url.searchParams.set("approved", "eq.true");
-  url.searchParams.set("order", "created_at.desc");
-  url.searchParams.set("limit", "100");
-  const response = await fetch(url, { headers: supabaseHeaders({ Accept: "application/json" }) });
-  if (!response.ok) throw new Error("shared comments unavailable");
-  const loaded = await response.json();
-  if (!Array.isArray(loaded)) throw new Error("invalid shared comments");
+  const loaded = await loadApprovedGeneralComments(100);
   comments = loaded.filter(validComment).map(normalizedComment);
 }
 
 async function submitSharedComment(name, comment) {
-  const response = await fetch(supabaseEndpoint(), {
-    method: "POST",
-    headers: supabaseHeaders({
-      "Content-Type": "application/json",
-      Prefer: "return=minimal"
-    }),
-    body: JSON.stringify({ name, comment })
-  });
-  if (!response.ok) throw new Error("shared comment submission failed");
+  await insertPublicRow(TABLES.generalComments, { name, comment });
 }
 
 function localID() {
@@ -162,25 +127,17 @@ function saveSubmittedCommentLocally(name, comment) {
   renderComments();
 }
 
-function validationMessage(name, comment) {
-  if (name.length < 2) return "اكتب اسمًا من حرفين على الأقل.";
-  if (name.length > 60) return "يجب ألا يزيد الاسم على 60 حرفًا.";
-  if (comment.length < 3) return "اكتب تعليقًا من 3 أحرف على الأقل.";
-  if (comment.length > 1000) return "يجب ألا يزيد التعليق على 1000 حرف.";
-  return "";
-}
-
 async function submit(event) {
   event.preventDefault();
   const name = nameField.value.trim();
   const comment = commentField.value.trim();
-  const invalid = validationMessage(name, comment);
+  const invalid = generalCommentError(name, comment);
   formStatus.classList.remove("success", "failure");
 
   if (invalid) {
-    formStatus.textContent = invalid;
+    formStatus.textContent = invalid.message;
     formStatus.classList.add("failure");
-    (name.length < 2 || name.length > 60 ? nameField : commentField).focus();
+    (invalid.field === "name" ? nameField : commentField).focus();
     return;
   }
 
@@ -232,7 +189,7 @@ export async function initComments() {
   });
 
   list.setAttribute("aria-busy", "true");
-  if (!sharedConfigAvailable()) {
+  if (!sharedBackendAvailable()) {
     setLocalMode();
     return;
   }

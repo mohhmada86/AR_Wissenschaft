@@ -39,6 +39,12 @@ export function bookURL(id, history = false) {
   return url.href;
 }
 
+export function reviewURL(id) {
+  const url = new URL("review.html", BASE);
+  url.searchParams.set("book", id);
+  return url.href;
+}
+
 export function validDate(value) {
   if (typeof value !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(value)) return false;
   const [year, month, day] = value.split("-").map(Number);

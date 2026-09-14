@@ -296,6 +296,141 @@ legend { font-size: 1.25rem; margin-block-end: 1rem; }
 .comments-wall > .quiet-button { margin-block-start: .75rem; }
 .footer-links { display: flex; flex-wrap: wrap; gap: .5rem 1.2rem; }
 
+/* إرشاد القارئ ومسار المراجعة */
+.motivation-line {
+  max-inline-size: 56rem;
+  margin: 1.4rem auto 0;
+  padding: 1rem 1.15rem;
+  background: white;
+  border-inline-start: 4px solid var(--accent);
+  border-radius: 6px;
+}
+.quality-steps {
+  list-style: none;
+  counter-reset: quality-step;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: .8rem;
+  padding: 0;
+  margin: 0;
+}
+.quality-steps li {
+  position: relative;
+  min-inline-size: 0;
+  padding: 1rem 3.2rem 1rem 1rem;
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+}
+.quality-steps li::before {
+  counter-increment: quality-step;
+  content: counter(quality-step);
+  position: absolute;
+  inset-inline-start: .85rem;
+  inset-block-start: .85rem;
+  inline-size: 1.8rem;
+  block-size: 1.8rem;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--accent);
+  color: white;
+  font-weight: 800;
+}
+.quality-steps strong, .quality-steps span { display: block; }
+.quality-steps span { margin-block-start: .25rem; color: var(--muted); font-size: .88rem; }
+.example-comparison {
+  display: grid;
+  grid-template-columns: minmax(0, .7fr) minmax(0, 1.3fr);
+  gap: .8rem;
+  margin-block-start: 1rem;
+}
+.example {
+  padding: .9rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+}
+.example p { margin: .3rem 0 0; }
+.bad-example { background: #fff7f4; border-color: #e1b4a8; }
+.good-example { background: #edf7f3; border-color: #9bc8ba; }
+.reviewer-invitation {
+  background: #eef3f6;
+  border-block: 1px solid var(--line);
+}
+.reviewer-path {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: .7rem;
+  padding: 0;
+  margin: 0 0 1.2rem;
+}
+.reviewer-path li {
+  min-block-size: 70px;
+  display: grid;
+  place-items: center;
+  padding: .8rem;
+  text-align: center;
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  font-weight: 700;
+}
+.reviewer-copy { max-inline-size: 58rem; }
+.reviewer-copy p:last-child { margin-block-end: 0; color: var(--muted); }
+.review-button { border-color: var(--accent); color: var(--accent); }
+
+/* صفحة الملاحظة التفصيلية */
+.review-page { padding-block-end: 2.5rem; }
+.review-welcome { max-inline-size: 54rem; margin-block: .4rem 1.5rem; }
+.review-welcome p:last-child { color: var(--muted); font-size: 1.03rem; }
+.selected-book { margin-block-end: 1.25rem; }
+.review-book-card {
+  display: grid;
+  grid-template-columns: 108px minmax(0, 1fr);
+  gap: 1.2rem;
+  align-items: center;
+  padding: 1rem;
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+.review-book-card .cover { max-inline-size: 108px; }
+.review-book-body { min-inline-size: 0; }
+.review-book-body h2 { margin-block-end: .35rem; font-size: clamp(1.35rem, 3vw, 1.8rem); }
+.review-book-body p { margin-block-end: .25rem; }
+.review-book-body .back-link { margin-block: .3rem 0; }
+.review-book-category { color: var(--accent); font-weight: 700; }
+.review-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(280px, .75fr);
+  gap: 1.25rem;
+  align-items: start;
+}
+.review-form-panel { margin-block-end: 0; }
+.review-guide-stack { display: grid; gap: 1rem; }
+.review-guide-stack .panel { margin: 0; }
+.review-guide h2, .review-check-panel h2 { font-size: 1.25rem; }
+.compact-list { margin-block: .5rem 1rem; padding-inline-start: 1.3rem; }
+.compact-list li { margin-block-end: .35rem; }
+.review-details summary { font-size: 1.1rem; font-weight: 750; }
+.review-details[open] summary { margin-block-end: .75rem; }
+.review-checklist { list-style: none; padding: 0; margin: 0; display: grid; gap: .35rem; }
+.review-checklist li { position: relative; padding-inline-start: 1.7rem; }
+.review-checklist li::before {
+  content: "";
+  position: absolute;
+  inset-inline-start: .15rem;
+  inset-block-start: .55rem;
+  inline-size: .78rem;
+  block-size: .78rem;
+  border: 2px solid var(--accent);
+  border-radius: 2px;
+}
+.optional-label { color: var(--muted); font-weight: 400; font-size: .84rem; }
+.deeper-review { max-inline-size: 58rem; margin: 1.5rem auto 0; }
+.deeper-review p:last-child { color: var(--muted); margin-block-end: 0; }
+
 @media (max-width: 1000px) {
   .books-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .filter-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -305,6 +440,9 @@ legend { font-size: 1.25rem; margin-block-end: 1rem; }
   .hero-stats { max-inline-size: 280px; }
   .featured-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .comments-layout { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+  .quality-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .reviewer-path { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .review-layout { grid-template-columns: minmax(0, 1fr); }
 }
 @media (max-width: 650px) {
   .container { inline-size: calc(100% - 2rem); }
@@ -325,6 +463,9 @@ legend { font-size: 1.25rem; margin-block-end: 1rem; }
   .catalog-hero { align-items: flex-start; flex-direction: column; }
   .catalog-filter-grid { grid-template-columns: minmax(0, 1fr); }
   .comments-form { padding: 1rem; }
+  .quality-steps, .reviewer-path, .example-comparison { grid-template-columns: minmax(0, 1fr); }
+  .review-book-card { grid-template-columns: 82px minmax(0, 1fr); gap: .9rem; }
+  .review-book-card .cover { max-inline-size: 82px; }
 }
 @media (max-width: 380px) {
   .filter-grid { grid-template-columns: minmax(0, 1fr); }

@@ -1,7 +1,7 @@
 import {
   loadSite, loadCatalog, applyBranding, coverImage, badges, metadata, progressBlock,
   relatedUpdates, renderEvent, readingAction, el, isolated, link, localURL,
-  notice, errorState, catalogWarnings, scrollHistory
+  notice, errorState, catalogWarnings, scrollHistory, reviewURL
 } from "./common.js";
 
 const content = document.getElementById("book-content");
@@ -23,8 +23,15 @@ function showBook(book, data) {
   description.dir = "auto";
   body.append(description);
   const actions = el("div", null, "actions");
-  actions.append(readingAction(book.drive_url), link("سجل التحديثات", "#updates", "button"));
-  body.append(actions, el("p", "رقم الإصدار يخص مراجعة المشروع أو ترجمته، وليس طبعة الناشر الأصلية.", "help-text"));
+  actions.append(
+    readingAction(book.drive_url),
+    link("أرسل ملاحظة على هذا الكتاب", reviewURL(book.id), "button review-button"),
+    link("سجل التحديثات", "#updates", "button")
+  );
+  body.append(
+    actions,
+    el("p", "يمكنك إرسال تصحيح محدد مع رقم الصفحة من نموذج المراجعة. رقم الإصدار يخص مراجعة المشروع أو ترجمته، وليس طبعة الناشر الأصلية.", "help-text")
+  );
   const idLine = el("p", "معرّف الكتاب: ", "help-text");
   idLine.append(isolated(book.id, "ltr"));
   body.append(idLine);

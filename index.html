@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>مشروع القراءة والمراجعة الجماعية</title>
-  <meta name="description" content="مكتبة عربية للكتب الجاري إعدادها ومراجعتها، مع تصفح بسيط حسب المجال ومساحة للاقتراحات العامة.">
+  <meta name="description" content="مكتبة عربية للقراءة والمراجعة الجماعية؛ اختر كتابًا وأرسل ملاحظة دقيقة مع رقم الصفحة.">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ar_EG">
   <meta property="og:title" content="مشروع القراءة والمراجعة الجماعية">
-  <meta property="og:description" content="اختر مجالًا، افتح كتابًا، وشارك بملاحظاتك واقتراحاتك.">
+  <meta property="og:description" content="اختر مجالًا، افتح كتابًا، وساعد في تحسينه بملاحظة دقيقة.">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="stylesheet" href="assets/css/style.css">
   <script type="module" src="assets/js/app.js"></script>
@@ -39,7 +39,7 @@
       <div class="hero-copy">
         <p class="eyebrow">مكتبة عربية · مراجعة مشتركة</p>
         <h1 id="welcome-title">اختر مجالًا، ثم ابدأ القراءة.</h1>
-        <p class="hero-lead">مكتبة عربية للكتب الجاري إعدادها ومراجعتها، تتيح لك الوصول إلى النسخ الحالية والمشاركة بملاحظاتك بسهولة.</p>
+        <p class="hero-lead">مكتبة عربية للكتب الجاري إعدادها ومراجعتها. افتح كتابًا وساعد في تحسينه بملاحظة واضحة، حتى لو كانت خطأً مطبعيًا بسيطًا.</p>
         <div class="actions">
           <a class="button primary" href="#categories">تصفح المجالات</a>
           <a class="button" href="catalog.html" target="_blank" rel="noopener noreferrer">عرض جميع الكتب<span class="sr-only"> (يفتح في علامة تبويب جديدة)</span></a>
@@ -96,8 +96,56 @@
         <ol class="steps simple-steps">
           <li><strong>اختر المجال</strong><p>افتح المجال الأقرب إلى اهتمامك.</p></li>
           <li><strong>افتح الكتاب</strong><p>ادخل إلى صفحة الكتاب ثم افتح نسخته الحالية.</p></li>
-          <li><strong>شارك ملاحظتك</strong><p>اكتب الملاحظات التفصيلية داخل ملف الكتاب.</p></li>
+          <li><strong>شارك ملاحظتك</strong><p>من صفحة الكتاب اختر «أرسل ملاحظة» واكتب رقم الصفحة.</p></li>
         </ol>
+        <p class="motivation-line"><strong>كل ملاحظة دقيقة تساعد على تحسين الكتاب.</strong> لا تحتاج إلى أن تكون متخصصًا؛ الجملة غير الواضحة أو المصطلح غير المتسق أو الخطأ المطبعي كلها ملاحظات مفيدة.</p>
+      </div>
+    </section>
+
+    <section id="useful-feedback" class="container section" aria-labelledby="useful-feedback-heading">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">أربع نقاط قصيرة</p>
+          <h2 id="useful-feedback-heading">كيف تكتب ملاحظة مفيدة؟</h2>
+        </div>
+        <p>الملاحظة المحددة أسهل في الفهم والتصحيح.</p>
+      </div>
+      <ol class="quality-steps">
+        <li><strong>اذكر الصفحة</strong><span>اكتب رقمها كما يظهر في الكتاب.</span></li>
+        <li><strong>حدد المشكلة</strong><span>الجملة أو المصطلح أو الشكل.</span></li>
+        <li><strong>اشرح السبب</strong><span>لماذا تبدو غير دقيقة أو غير واضحة؟</span></li>
+        <li><strong>اقترح تصحيحًا</strong><span>إن كان لديك بديل مناسب.</span></li>
+      </ol>
+      <div class="example-comparison" aria-label="مثال على الملاحظة">
+        <div class="example bad-example">
+          <strong>أقل فائدة</strong>
+          <p>«الترجمة هنا غلط.»</p>
+        </div>
+        <div class="example good-example">
+          <strong>أكثر فائدة</strong>
+          <p>«الصفحة 73 — الفقرة الثانية: ترجمة <bdi dir="ltr">angular momentum</bdi> غير متسقة. أقترح «الزخم الزاوي».»</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="deeper-participation" class="section reviewer-invitation" aria-labelledby="reviewer-heading">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">لمن يرغب في الاستمرار</p>
+            <h2 id="reviewer-heading">هل تريد المشاركة بصورة أعمق؟</h2>
+          </div>
+        </div>
+        <ol class="reviewer-path" aria-label="مسار المشاركة">
+          <li>قارئ</li>
+          <li>ملاحظات دقيقة</li>
+          <li>مراجع نشط</li>
+          <li>تعاون أعمق محتمل</li>
+        </ol>
+        <div class="reviewer-copy">
+          <p>نراجع المساهمات بصورة دورية. إذا كانت ملاحظاتك دقيقة ومفيدة بصورة مستمرة، فقد نتواصل معك للمشاركة في مراجعة أكثر تفصيلًا.</p>
+          <p>قد نتيح للمراجعين النشطين نسخة مخصصة للمراجعة، ونشارك معهم طريقة العمل والأدوات والحيل العملية التي تساعد على مراجعة الكتب بكفاءة أكبر. هذه دعوة محتملة للتعاون وليست مكافأة مضمونة أو عرض عمل.</p>
+        </div>
       </div>
     </section>
 
@@ -111,7 +159,7 @@
       <div class="comments-layout">
         <div class="comments-intro">
           <p>لديك اقتراح لكتاب أو رأي في المشروع؟ اكتب اسمك وتعليقك هنا.</p>
-          <p class="help-text">للملاحظات التفصيلية على محتوى كتاب محدد، استخدم رابط الكتاب المخصص للمراجعة.</p>
+          <p class="help-text">للملاحظات التفصيلية على محتوى كتاب محدد، افتح صفحة الكتاب ثم اختر «أرسل ملاحظة على هذا الكتاب».</p>
           <p id="comments-storage-note" class="storage-note" role="status"></p>
         </div>
         <form id="comment-form" class="comments-form" novalidate>

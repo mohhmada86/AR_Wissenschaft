@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>إرسال ملاحظة على كتاب | مشروع القراءة والمراجعة الجماعية</title>
+  <meta name="description" content="أرسل ملاحظة محددة على صفحة في أحد الكتب وساعد في تحسين الترجمة والمصطلحات والعرض.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ar_EG">
+  <meta property="og:title" content="شارك في مراجعة كتاب">
+  <meta property="og:description" content="كل ملاحظة دقيقة مع رقم الصفحة تساعد على تحسين الكتاب.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script type="module" src="assets/js/review.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">انتقل إلى المحتوى</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/favicon.svg" alt="" width="38" height="38">
+        <span data-site-title>مشروع القراءة والمراجعة الجماعية</span>
+      </a>
+      <nav aria-label="التنقل الرئيسي">
+        <ul>
+          <li><a href="index.html">الرئيسية</a></li>
+          <li><a href="index.html#categories">المجالات</a></li>
+          <li><a href="catalog.html" target="_blank" rel="noopener noreferrer">جميع الكتب<span class="sr-only"> (يفتح في علامة تبويب جديدة)</span></a></li>
+          <li><a href="index.html#comments">تعليق عام</a></li>
+          <li data-github hidden></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container review-page" tabindex="-1">
+    <div class="detail-navigation">
+      <a id="back-to-book" href="catalog.html" class="back-link">العودة إلى صفحة الكتاب</a>
+      <a href="index.html" class="back-link">العودة إلى الرئيسية</a>
+    </div>
+
+    <noscript>
+      <p class="notice warning">يحتاج نموذج المراجعة إلى JavaScript لتحديد الكتاب وإرسال الملاحظة بأمان.</p>
+    </noscript>
+
+    <section class="review-welcome" aria-labelledby="review-welcome-heading">
+      <p class="eyebrow">مراجعة دقيقة وبسيطة</p>
+      <h1 id="review-welcome-heading">كل ملاحظة دقيقة تساعد على تحسين الكتاب</h1>
+      <p>لا تحتاج إلى أن تكون متخصصًا. يكفينا أن تحدد الصفحة، وتشرح ما لاحظته بوضوح، وتقترح تصحيحًا إن أمكن.</p>
+    </section>
+
+    <div id="selected-book" class="selected-book" aria-live="polite" aria-busy="true">
+      <p class="notice">جارٍ تحميل بيانات الكتاب…</p>
+    </div>
+
+    <div class="review-layout">
+      <section class="panel review-form-panel" aria-labelledby="feedback-heading">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">ملاحظة على صفحة محددة</p>
+            <h2 id="feedback-heading">أرسل ملاحظتك</h2>
+          </div>
+        </div>
+        <p id="feedback-storage-note" class="storage-note" role="status"></p>
+
+        <form id="book-feedback-form" novalidate>
+          <fieldset id="feedback-fields" disabled>
+            <legend class="sr-only">بيانات ملاحظة الكتاب</legend>
+            <div class="form-grid">
+              <div class="field">
+                <label for="reviewer-name">اسم المراجع</label>
+                <input id="reviewer-name" name="reviewer_name" type="text" required minlength="2" maxlength="60" autocomplete="name" placeholder="اكتب اسمك">
+              </div>
+
+              <div class="field">
+                <label for="page-number">رقم الصفحة</label>
+                <input id="page-number" name="page_number" type="text" required minlength="1" maxlength="20" inputmode="text" dir="auto" aria-describedby="page-help" placeholder="مثال: 73 أو xiii">
+                <span id="page-help" class="help-text">اكتب رقم الصفحة التي ظهرت فيها المشكلة.</span>
+              </div>
+
+              <div class="field full-width">
+                <label for="issue-type">نوع الملاحظة</label>
+                <select id="issue-type" name="issue_type" required>
+                  <option value="">اختر نوع الملاحظة</option>
+                </select>
+              </div>
+
+              <div class="field full-width">
+                <label for="issue-comment">شرح الملاحظة</label>
+                <textarea id="issue-comment" name="comment" required minlength="5" maxlength="3000" rows="7" aria-describedby="comment-help" placeholder="حدد الجملة أو المشكلة، ثم اشرح لماذا تحتاج إلى تصحيح."></textarea>
+                <span id="comment-help" class="help-text">اذكر موضع المشكلة داخل الصفحة إن استطعت، مثل الفقرة الثانية أو المعادلة رقم 4.</span>
+              </div>
+
+              <div class="field full-width">
+                <label for="suggested-correction">التصحيح أو الاقتراح <span class="optional-label">(اختياري)</span></label>
+                <textarea id="suggested-correction" name="suggested_correction" maxlength="3000" rows="4" placeholder="اكتب الصياغة أو المصطلح المقترح إن أمكن."></textarea>
+              </div>
+
+              <div class="check-field full-width">
+                <input id="wants-contact" name="wants_contact" type="checkbox">
+                <label for="wants-contact">أرغب في أن تتواصلوا معي للمراجعة المتقدمة.</label>
+              </div>
+
+              <div class="field full-width">
+                <label for="reviewer-email">البريد الإلكتروني <span class="optional-label">(اختياري ما لم تطلب التواصل)</span></label>
+                <input id="reviewer-email" name="reviewer_email" type="email" maxlength="254" autocomplete="email" inputmode="email" dir="ltr" aria-describedby="email-required-note" placeholder="name@example.com">
+                <span id="email-required-note" class="help-text">اختياري، ولن يظهر للعامة.</span>
+              </div>
+            </div>
+
+            <div class="form-actions">
+              <button class="button primary" type="submit">إرسال الملاحظة</button>
+              <p id="feedback-form-status" class="form-status" role="status" aria-live="polite"></p>
+            </div>
+          </fieldset>
+        </form>
+      </section>
+
+      <aside class="review-guide-stack" aria-label="دليل المراجعة">
+        <section class="panel review-guide" aria-labelledby="useful-note-heading">
+          <h2 id="useful-note-heading">كيف تكتب ملاحظة مفيدة؟</h2>
+          <ol class="compact-list">
+            <li>اذكر رقم الصفحة.</li>
+            <li>حدد الجملة أو المشكلة.</li>
+            <li>اشرح لماذا تراها مشكلة.</li>
+            <li>اقترح تصحيحًا إن أمكن.</li>
+          </ol>
+
+          <div class="example bad-example">
+            <strong>غير مفيد:</strong>
+            <p>«الترجمة هنا غلط.»</p>
+          </div>
+          <div class="example good-example">
+            <strong>مفيد:</strong>
+            <p>«الصفحة 73 — الفقرة الثانية: مصطلح <bdi dir="ltr">angular momentum</bdi> تُرجم بصورة مختلفة عن بقية الفصل. أقترح استخدام «الزخم الزاوي» للمحافظة على الاتساق.»</p>
+          </div>
+        </section>
+
+        <details class="panel review-details">
+          <summary>أدوات تساعدك أثناء المراجعة</summary>
+          <ul class="compact-list">
+            <li>استخدم <bdi dir="ltr">Ctrl + F</bdi> للبحث عن المصطلح وتكراره.</li>
+            <li>قارن المصطلح بالصفحات المحيطة قبل الإبلاغ.</li>
+            <li>انسخ عبارة قصيرة مرتبطة بالمشكلة، وليس صفحة كاملة.</li>
+            <li>استخدم تعليقات Google Drive للتعليم المباشر إذا كان الملف يسمح بذلك.</li>
+            <li>راجع قاموسًا أو مرجعًا للمصطلحات عند الحاجة.</li>
+            <li>إذا كان الخلل بصريًا في شكل أو معادلة، صف موضعه بدقة. لا يلزم رفع صورة هنا.</li>
+          </ul>
+        </details>
+
+        <section class="panel review-check-panel" aria-labelledby="checklist-heading">
+          <h2 id="checklist-heading">أثناء القراءة اسأل نفسك</h2>
+          <ul class="review-checklist">
+            <li>هل المعنى واضح؟</li>
+            <li>هل المصطلح ثابت؟</li>
+            <li>هل الأرقام والمعادلات منطقية؟</li>
+            <li>هل الشكل مطابق للنص؟</li>
+            <li>هل يوجد نص مفقود؟</li>
+            <li>هل العربية طبيعية؟</li>
+            <li>هل يوجد خطأ مطبعي؟</li>
+            <li>هل الصفحة سهلة القراءة؟</li>
+          </ul>
+        </section>
+      </aside>
+    </div>
+
+    <section class="panel deeper-review" aria-labelledby="deeper-review-heading">
+      <p class="eyebrow">خطوة تالية اختيارية</p>
+      <h2 id="deeper-review-heading">هل تريد المشاركة بصورة أعمق؟</h2>
+      <p>نراجع المساهمات بصورة دورية. إذا لاحظنا أنك تقرأ بدقة وتقدم ملاحظات مفيدة ومحددة باستمرار، فقد نتواصل معك للمشاركة في مراجعة أعمق لبعض الكتب.</p>
+      <p>قد نتيح للمراجعين النشطين نسخة مخصصة للمراجعة، ونشارك معهم طرق العمل والأدوات العملية لاكتشاف الأخطاء وتوثيقها ومراجعة المصطلحات والترجمة والأسلوب. هذه فرصة محتملة للتعاون وليست وعدًا تلقائيًا أو عرض عمل.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p data-site-title>مشروع القراءة والمراجعة الجماعية</p>
+      <div class="footer-links">
+        <a href="index.html">الرئيسية</a>
+        <a href="index.html#comments">تعليق عام عن المشروع</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

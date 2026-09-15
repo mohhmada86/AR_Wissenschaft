@@ -477,3 +477,15 @@ legend { font-size: 1.25rem; margin-block-end: 1rem; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation: none !important; transition: none !important; }
 }
+.site-logo {
+  width: 210px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 650px) {
+  .site-logo {
+    width: 165px;
+  }
+}

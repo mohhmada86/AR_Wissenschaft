@@ -477,15 +477,110 @@ legend { font-size: 1.25rem; margin-block-end: 1rem; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation: none !important; transition: none !important; }
 }
-.site-logo {
-  width: 210px;
-  max-width: 100%;
-  height: auto;
-  display: block;
+/* =========================================================
+   MAIN WEBSITE LOGO
+   ========================================================= */
+
+.brand.brand-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+
+  padding: 4px 0;
+  margin: 0;
+
+  text-decoration: none;
+  background: transparent;
+
+  border: 0;
+  box-shadow: none;
 }
 
-@media (max-width: 650px) {
-  .site-logo {
-    width: 165px;
+
+/* Main logo image */
+.main-logo {
+  display: block;
+
+  /* Main desktop size */
+  width: 230px;
+
+  /* Never overflow header */
+  max-width: 100%;
+
+  /* Preserve original proportions */
+  height: auto;
+
+  object-fit: contain;
+
+  /* Better image rendering */
+  image-rendering: auto;
+
+  /* Remove unwanted inline-image spacing */
+  vertical-align: middle;
+
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
+}
+
+
+/* Small, clean hover effect */
+.brand.brand-logo:hover .main-logo {
+  transform: scale(1.02);
+}
+
+
+/* Keyboard accessibility */
+.brand.brand-logo:focus-visible {
+  outline: 3px solid var(--accent, #176b87);
+  outline-offset: 5px;
+  border-radius: 8px;
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+  .main-logo {
+    width: 195px;
   }
+
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 650px) {
+
+  .brand.brand-logo {
+    width: 100%;
+    justify-content: center;
+    padding: 3px 0 6px;
+  }
+
+  .main-logo {
+    width: 175px;
+    max-width: 80vw;
+  }
+
+}
+
+
+/* =========================================================
+   VERY SMALL PHONES
+   ========================================================= */
+
+@media (max-width: 380px) {
+
+  .main-logo {
+    width: 150px;
+  }
+
 }

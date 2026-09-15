@@ -18,13 +18,214 @@
 
   <header class="site-header">
     <div class="container header-inner">
-     <a class="brand brand-logo" href="index.html" aria-label="مشروع القراءة والمراجعة الجماعية - الصفحة الرئيسية">
-        <img
-          src="assets/logo.png"
-          alt="مشروع القراءة والمراجعة الجماعية"
-          class="main-logo"
+     <!-- =========================================================
+     WEBSITE LOGO
+     Everything related to the logo is controlled here.
+     ========================================================= -->
+
+        <style>
+          /* Main clickable logo container */
+          #main-site-logo-link {
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+
+            width: auto !important;
+            height: auto !important;
+
+            margin: 0 !important;
+            padding: 6px 0 !important;
+
+            text-decoration: none !important;
+            background: transparent !important;
+            border: 0 !important;
+            box-shadow: none !important;
+
+            flex-shrink: 0 !important;
+          }
+
+
+          /* =========================================================
+            DESKTOP LOGO
+            ========================================================= */
+
+          #main-site-logo {
+            display: block !important;
+
+            /*
+              IMPORTANT:
+              This is intentionally much larger than the old 38px logo.
+            */
+            width: clamp(320px, 32vw, 520px) !important;
+
+            max-width: 520px !important;
+            min-width: 320px !important;
+
+            height: auto !important;
+
+            max-height: 150px !important;
+
+            object-fit: contain !important;
+
+            margin: 0 !important;
+            padding: 0 !important;
+
+            border: 0 !important;
+            border-radius: 0 !important;
+
+            background: transparent !important;
+
+            vertical-align: middle !important;
+
+            image-rendering: auto !important;
+
+            transition:
+              transform 0.18s ease,
+              opacity 0.18s ease !important;
+          }
+
+
+          /* Small hover effect on computers */
+          #main-site-logo-link:hover #main-site-logo {
+            transform: scale(1.025);
+          }
+
+
+          /* Keyboard accessibility */
+          #main-site-logo-link:focus-visible {
+            outline: 3px solid #176b87 !important;
+            outline-offset: 6px !important;
+            border-radius: 10px !important;
+          }
+
+
+          /* =========================================================
+            LARGE LAPTOP / SMALL DESKTOP
+            ========================================================= */
+
+          @media (max-width: 1200px) {
+
+            #main-site-logo {
+              width: clamp(300px, 34vw, 450px) !important;
+              min-width: 300px !important;
+              max-width: 450px !important;
+
+              max-height: 135px !important;
+            }
+
+          }
+
+
+          /* =========================================================
+            TABLET
+            ========================================================= */
+
+          @media (max-width: 900px) {
+
+            #main-site-logo-link {
+              width: 100% !important;
+              justify-content: center !important;
+            }
+
+            #main-site-logo {
+              width: clamp(280px, 55vw, 400px) !important;
+              min-width: 280px !important;
+              max-width: 400px !important;
+
+              max-height: 130px !important;
+            }
+
+          }
+
+
+          /* =========================================================
+            MOBILE
+            ========================================================= */
+
+          @media (max-width: 650px) {
+
+            #main-site-logo-link {
+              display: flex !important;
+
+              width: 100% !important;
+
+              justify-content: center !important;
+              align-items: center !important;
+
+              padding: 6px 0 10px 0 !important;
+
+              margin: 0 auto !important;
+            }
+
+            #main-site-logo {
+              /*
+                Large mobile logo.
+                It occupies most of the phone width.
+              */
+              width: 88vw !important;
+
+              min-width: 250px !important;
+              max-width: 360px !important;
+
+              height: auto !important;
+              max-height: 125px !important;
+
+              margin: 0 auto !important;
+            }
+
+          }
+
+
+          /* =========================================================
+            SMALL MOBILE
+            ========================================================= */
+
+          @media (max-width: 420px) {
+
+            #main-site-logo {
+              width: 92vw !important;
+
+              min-width: 235px !important;
+              max-width: 340px !important;
+
+              max-height: 115px !important;
+            }
+
+          }
+
+
+          /* =========================================================
+            VERY SMALL PHONES
+            ========================================================= */
+
+          @media (max-width: 340px) {
+
+            #main-site-logo {
+              width: 94vw !important;
+
+              min-width: 210px !important;
+              max-width: 300px !important;
+
+              max-height: 105px !important;
+            }
+
+          }
+
+        </style>
+
+
+        <a
+          id="main-site-logo-link"
+          class="brand"
+          href="index.html"
+          aria-label="مشروع القراءة والمراجعة الجماعية - الصفحة الرئيسية"
         >
-      </a>
+          <img
+            id="main-site-logo"
+            src="assets/logo.png"
+            alt="مشروع القراءة والمراجعة الجماعية"
+          >
+        </a>
       <nav aria-label="التنقل الرئيسي">
         <ul>
           <li><a href="index.html" aria-current="page">الرئيسية</a></li>

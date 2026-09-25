@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>تواصل وطلبات | العلم بالعربي</title>
+  <meta name="description" content="اطلب دراسة ترجمة مادة تعليمية، أو نسخة للتحميل، أو ملفات تحرير للتعاون، أو أرسل استفسارك.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ar">
+  <meta property="og:title" content="تواصل وطلبات | العلم بالعربي">
+  <meta property="og:description" content="طلب واضح، وخطوة جديدة نحو المعرفة.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script type="module" src="assets/js/contact.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">انتقل إلى المحتوى</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="العلم بالعربي — الرئيسية"><img src="assets/brand/logo.webp" alt="العلم بالعربي" width="1448" height="1086" fetchpriority="high"></a>
+      <nav class="main-nav" aria-label="التنقل الرئيسي"><ul>
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="catalog.html" target="_blank" rel="noopener noreferrer">الكتب<span class="sr-only"> (يفتح في تبويب جديد)</span></a></li>
+        <li><a href="index.html#categories">المجالات</a></li>
+        <li><a href="contact.html?type=translation">اطلب ترجمة</a></li>
+        <li><a href="contact.html" aria-current="page">تواصل معنا</a></li>
+      </ul></nav>
+    </div>
+  </header>
+  <main id="main" class="container contact-page" tabindex="-1">
+    <div class="detail-navigation"><a class="back-link" href="index.html">الرئيسية ←</a></div>
+    <section class="review-welcome" aria-labelledby="contact-heading"><p class="eyebrow">نرحب باقتراحك وتعاونك</p><h1 id="contact-heading">ماذا تريد أن تطلب؟</h1><p>اختر نوع الطلب، ثم أرسل المعلومات التي تساعدنا على فهمه.</p></section>
+    <noscript><p class="notice">فعّل JavaScript لاختيار نوع الطلب وتجهيز رسالتك.</p></noscript>
+    <div class="contact-layout">
+      <section class="panel" aria-label="نموذج الطلب">
+        <div class="field request-selector"><label for="request-type">نوع الطلب</label><select id="request-type">
+          <option value="translation">ترجمة كتاب أو مادة تعليمية</option><option value="download">نسخة قراءة أو تحميل</option><option value="source">ملفات المصدر أو التحرير للتعاون</option><option value="feedback">ملاحظة على كتاب</option><option value="general">استفسار عام</option>
+        </select></div>
+        <p id="request-help" class="help-text"></p>
+        <div id="request-book-section" class="field request-fields" hidden><label for="request-book">الكتاب</label><select id="request-book" disabled><option value="">جارٍ تحميل الكتب…</option></select><p id="request-book-error" class="help-text" role="status"></p></div>
+        <div id="review-route" hidden><p>تُرسل الملاحظات من نموذج المراجعة المخصص، مع رقم الصفحة وشرح المشكلة.</p><a id="open-review" class="button primary" href="catalog.html">اختر كتابًا من الفهرس</a></div>
+        <form id="request-form" novalidate>
+          <fieldset id="request-fields" disabled>
+            <legend class="sr-only">تفاصيل الطلب</legend>
+            <div id="translation-fields" class="form-grid request-fields">
+              <div class="field full-width"><label for="material-title">عنوان الكتاب أو المادة</label><input id="material-title" maxlength="500" required dir="auto" placeholder="اسم الكتاب أو المذكرات أو المادة التعليمية"></div>
+              <div class="field"><label for="material-author">المؤلف <span class="optional-label">(اختياري)</span></label><input id="material-author" maxlength="200" dir="auto"></div>
+              <div class="field"><label for="original-language">اللغة الأصلية</label><input id="original-language" maxlength="80" required dir="auto" placeholder="مثال: الإنجليزية"></div>
+              <div class="field full-width"><label for="subject-area">المجال الدراسي</label><input id="subject-area" maxlength="160" required dir="auto" placeholder="مثال: فيزياء"></div>
+              <div class="field full-width"><label for="source-url">رابط المحتوى <span class="optional-label">(اختياري)</span></label><input id="source-url" type="url" maxlength="2000" dir="ltr" inputmode="url" aria-describedby="source-url-help"><span id="source-url-help" class="help-text">رابط معلومات الكتاب أو محتوى تملك حق مشاركته. لا ترسل ملفات خاصة أو روابط تتضمن كلمات مرور.</span></div>
+            </div>
+            <div class="form-grid">
+              <div class="field full-width"><label for="request-message" id="request-message-label">وصف مختصر للطلب</label><textarea id="request-message" required minlength="5" maxlength="3000" rows="4" dir="auto" placeholder="اشرح ما تحتاج إليه وكيف سيساعدك في الدراسة."></textarea></div>
+              <div class="field full-width"><label for="request-notes">ملاحظات إضافية <span class="optional-label">(اختياري)</span></label><textarea id="request-notes" maxlength="1000" rows="2" dir="auto"></textarea></div>
+              <div class="field"><label for="request-name">الاسم <span class="optional-label">(اختياري)</span></label><input id="request-name" minlength="2" maxlength="60" autocomplete="name" dir="auto"></div>
+              <div class="field"><label for="request-email">بريد للتواصل</label><input id="request-email" type="email" required maxlength="254" autocomplete="email" inputmode="email" dir="ltr" aria-describedby="request-privacy"></div>
+            </div>
+            <p id="request-privacy" class="help-text">نستخدم بريدك للرد على طلبك فقط. لن يُعرض طلبك أو بريدك للعامة.</p>
+            <p id="request-storage-note" class="storage-note" role="status"></p>
+            <div class="form-actions"><button id="request-submit" class="button primary" type="submit">تجهيز الطلب</button><p id="request-status" class="form-status" role="status" aria-live="polite"></p></div>
+          </fieldset>
+        </form>
+        <section id="draft-result" hidden aria-labelledby="draft-heading">
+          <h2 id="draft-heading">نسخة من طلبك</h2><p class="help-text">هذه النسخة ليست إثبات إرسال. يمكنك الاحتفاظ بها، أو إرسالها بنفسك عبر وسيلة تواصل معلنة للمشروع.</p>
+          <pre id="request-preview" class="request-preview" dir="auto"></pre>
+          <div class="request-actions"><a id="request-mailto" class="button" href="#" hidden>فتح تطبيق البريد</a><button id="copy-request" class="button" type="button">نسخ الطلب</button><button id="download-request" class="button" type="button">تنزيل الطلب كنص</button><button id="clear-request" class="quiet-button" type="button">حذف المسودة من هذا الجهاز</button></div>
+        </section>
+      </section>
+      <aside class="contact-aside">
+        <section class="panel"><h2>تواصل مباشر</h2><p>إذا تعذر استخدام التعليقات أو أردت التواصل مباشرة بشأن الترجمة أو أي طلب آخر، يمكنك مراسلتنا عبر البريد الإلكتروني أو صفحة فيسبوك.</p><div class="request-actions"><a class="button" href="mailto:mohhmadahamad0@gmail.com">إرسال بريد إلكتروني</a><a class="button" href="https://www.facebook.com/profile.php?id=61594138598701" target="_blank" rel="noopener noreferrer">صفحة فيسبوك<span class="sr-only"> (يفتح في تبويب جديد)</span></a></div></section>
+        <section class="panel"><h2>ماذا يحدث بعد الطلب؟</h2><p>نراجع المحتوى والغرض من الطلب وإمكانات المشروع وحقوق الاستخدام، ثم نتواصل معك عند إمكان المتابعة.</p><p>إرسال الطلب لا يضمن قبوله أو توفير الملفات أو إنجازه خلال مدة محددة.</p></section>
+        <section class="panel"><h2>للدراسة والتعاون</h2><p>يمكنك طلب نسخة قراءة متاحة، أو ملفات تحرير للمساعدة في الترجمة والمراجعة العلمية.</p><p>الملفات الخاصة لا تُنشر تلقائيًا، وتوفيرها يعتمد على توافرها وإمكان مشاركتها.</p><a class="section-link" href="index.html#comments">رأي عام أو اقتراح؟ شاركه هنا ←</a></section>
+      </aside>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div><strong data-site-title>العلم بالعربي</strong><p>قراءة اليوم، ومعرفة أوسع غدًا.</p></div>
+      <nav class="footer-links" aria-label="روابط التذييل">
+        <a href="catalog.html" target="_blank" rel="noopener noreferrer">جميع الكتب<span class="sr-only"> (يفتح في تبويب جديد)</span></a>
+        <a href="contact.html?type=translation">اطلب ترجمة</a><a href="contact.html">تواصل معنا</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

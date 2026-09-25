@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>إرسال ملاحظة على كتاب | مشروع القراءة والمراجعة الجماعية</title>
+  <title>إرسال ملاحظة على كتاب | العلم بالعربي</title>
   <meta name="description" content="أرسل ملاحظة محددة على صفحة في أحد الكتب وساعد في تحسين الترجمة والمصطلحات والعرض.">
   <meta property="og:type" content="website">
-  <meta property="og:locale" content="ar_EG">
+  <meta property="og:locale" content="ar">
   <meta property="og:title" content="شارك في مراجعة كتاب">
   <meta property="og:description" content="كل ملاحظة دقيقة مع رقم الصفحة تساعد على تحسين الكتاب.">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
@@ -18,19 +18,14 @@
 
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="index.html">
-        <img src="assets/favicon.svg" alt="" width="38" height="38">
-        <span data-site-title>مشروع القراءة والمراجعة الجماعية</span>
-      </a>
-      <nav aria-label="التنقل الرئيسي">
-        <ul>
-          <li><a href="index.html">الرئيسية</a></li>
-          <li><a href="index.html#categories">المجالات</a></li>
-          <li><a href="catalog.html" target="_blank" rel="noopener noreferrer">جميع الكتب<span class="sr-only"> (يفتح في علامة تبويب جديدة)</span></a></li>
-          <li><a href="index.html#comments">تعليق عام</a></li>
-          <li data-github hidden></li>
-        </ul>
-      </nav>
+      <a class="brand" href="index.html" aria-label="العلم بالعربي — الرئيسية"><img src="assets/brand/logo.webp" alt="العلم بالعربي" width="1448" height="1086" fetchpriority="high"></a>
+      <nav class="main-nav" aria-label="التنقل الرئيسي"><ul>
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="catalog.html" target="_blank" rel="noopener noreferrer">الكتب<span class="sr-only"> (يفتح في تبويب جديد)</span></a></li>
+        <li><a href="index.html#categories">المجالات</a></li>
+        <li><a href="contact.html?type=translation">اطلب ترجمة</a></li>
+        <li><a href="contact.html">تواصل معنا</a></li>
+      </ul></nav>
     </div>
   </header>
 
@@ -175,11 +170,11 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p data-site-title>مشروع القراءة والمراجعة الجماعية</p>
-      <div class="footer-links">
-        <a href="index.html">الرئيسية</a>
-        <a href="index.html#comments">تعليق عام عن المشروع</a>
-      </div>
+      <div><strong data-site-title>العلم بالعربي</strong><p>قراءة اليوم، ومعرفة أوسع غدًا.</p></div>
+      <nav class="footer-links" aria-label="روابط التذييل">
+        <a href="catalog.html" target="_blank" rel="noopener noreferrer">جميع الكتب<span class="sr-only"> (يفتح في تبويب جديد)</span></a>
+        <a href="contact.html?type=translation">اطلب ترجمة</a><a href="contact.html">تواصل معنا</a>
+      </nav>
     </div>
   </footer>
 </body>

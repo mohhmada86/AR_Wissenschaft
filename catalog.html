@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>جميع الكتب | مشروع القراءة والمراجعة الجماعية</title>
-  <meta name="description" content="تصفح جميع كتب مشروع القراءة والمراجعة الجماعية وابحث حسب العنوان أو المؤلف أو المجال.">
+  <title>جميع الكتب | العلم بالعربي</title>
+  <meta name="description" content="تصفح جميع كتب العلم بالعربي وابحث حسب العنوان أو المؤلف أو المجال.">
   <meta property="og:type" content="website">
-  <meta property="og:locale" content="ar_EG">
-  <meta property="og:title" content="جميع الكتب | مشروع القراءة والمراجعة الجماعية">
+  <meta property="og:locale" content="ar">
+  <meta property="og:title" content="جميع الكتب | العلم بالعربي">
   <meta property="og:description" content="الفهرس الكامل للكتب المتاحة للقراءة والمراجعة.">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="stylesheet" href="assets/css/style.css">
@@ -18,19 +18,14 @@
 
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="index.html">
-        <img src="assets/favicon.svg" alt="" width="38" height="38">
-        <span data-site-title>مشروع القراءة والمراجعة الجماعية</span>
-      </a>
-      <nav aria-label="التنقل الرئيسي">
-        <ul>
-          <li><a href="index.html">الرئيسية</a></li>
-          <li><a href="index.html#categories">المجالات</a></li>
-          <li><a href="catalog.html" aria-current="page">جميع الكتب</a></li>
-          <li><a href="index.html#about">عن المشروع</a></li>
-          <li data-github hidden></li>
-        </ul>
-      </nav>
+      <a class="brand" href="index.html" aria-label="العلم بالعربي — الرئيسية"><img src="assets/brand/logo.webp" alt="العلم بالعربي" width="1448" height="1086" fetchpriority="high"></a>
+      <nav class="main-nav" aria-label="التنقل الرئيسي"><ul>
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="catalog.html" aria-current="page" target="_blank" rel="noopener noreferrer">الكتب<span class="sr-only"> (يفتح في تبويب جديد)</span></a></li>
+        <li><a href="index.html#categories">المجالات</a></li>
+        <li><a href="contact.html?type=translation">اطلب ترجمة</a></li>
+        <li><a href="contact.html">تواصل معنا</a></li>
+      </ul></nav>
     </div>
   </header>
 
@@ -39,7 +34,7 @@
       <div>
         <p class="eyebrow">الفهرس الكامل</p>
         <h1 id="catalog-title">جميع الكتب</h1>
-        <p id="catalog-summary">ابحث عن كتاب أو اختر مجالًا.</p>
+        <p id="catalog-summary">ابحث بالعربية أو بعنوان الكتاب الأصلي أو اسم المؤلف.</p>
       </div>
       <a class="button" href="index.html">العودة إلى الرئيسية</a>
     </section>
@@ -73,7 +68,7 @@
           </div>
         </fieldset>
       </form>
-      <p class="catalog-note">استخدم «فتح صفحة الكتاب» لعرض التفاصيل، أو افتح رابط القراءة للمشاركة في مراجعة محتواه.</p>
+      <p class="catalog-note">ابدأ بالكتاب الأقرب لاهتمامك. صفحة كل كتاب تجمع رابط القراءة والتفاصيل وطرق المشاركة.</p>
       <div id="warnings"></div>
       <div id="catalog" class="books-grid" aria-busy="true">
         <p class="notice" role="status">جارٍ تحميل الكتب…</p>
@@ -83,11 +78,11 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p data-site-title>مشروع القراءة والمراجعة الجماعية</p>
-      <div class="footer-links">
-        <a href="index.html">الرئيسية</a>
-        <a href="tools/update-helper.html">أداة صيانة البيانات</a>
-      </div>
+      <div><strong data-site-title>العلم بالعربي</strong><p>قراءة اليوم، ومعرفة أوسع غدًا.</p></div>
+      <nav class="footer-links" aria-label="روابط التذييل">
+        <a href="catalog.html" target="_blank" rel="noopener noreferrer">جميع الكتب<span class="sr-only"> (يفتح في تبويب جديد)</span></a>
+        <a href="contact.html?type=translation">اطلب ترجمة</a><a href="contact.html">تواصل معنا</a>
+      </nav>
     </div>
   </footer>
 </body>

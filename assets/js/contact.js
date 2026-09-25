@@ -1,4 +1,4 @@
-import { applyBranding, el, loadCatalog, loadSite, reviewURL } from "./common.js";
+import { applyBranding, el, loadCatalog, loadSite } from "./common.js";
 import { TABLES, insertPublicRow, sharedBackendAvailable } from "./community-backend.js";
 import { REQUEST_TYPES, emailIsValid, requestError } from "./contact-validation.js";
 
@@ -20,31 +20,22 @@ function showStatus(message, success = false) {
   status.className = "form-status " + (success ? "success" : "failure");
 }
 
-function updateReviewLink() {
-  const selected = books.find(book => book.id === choice.value);
-  $("open-review").href = selected ? reviewURL(selected.id) : "catalog.html";
-  $("open-review").textContent = selected ? "افتح نموذج ملاحظة هذا الكتاب" : "اختر كتابًا من الفهرس";
-}
 
 function setType() {
   const translation = type.value === "translation";
-  const feedback = type.value === "feedback";
   $("translation-fields").hidden = !translation;
   $("translation-fields").querySelectorAll("input").forEach(input => { input.disabled = !translation; });
-  $("request-book-section").hidden = !["download", "source", "feedback"].includes(type.value);
-  $("review-route").hidden = !feedback;
-  form.hidden = feedback;
+  $("request-book-section").hidden = !["download", "source"].includes(type.value);
+  form.hidden = false;
   $("draft-result").hidden = true;
   status.textContent = "";
   $("request-help").textContent = {
     translation: "كتاب دراسي، مذكرات، دليل تعليمي أو مادة مقرر: أخبرنا بما تدرسه وما تحتاج إلى فهمه.",
     download: "اختر الكتاب ووضح النسخة التي تحتاج إليها للدراسة. سنراجع ما يمكن توفيره.",
     source: "اختر الكتاب واشرح كيف ترغب في المشاركة. توفير ملفات التحرير يعتمد على توافرها وحقوق استخدامها.",
-    feedback: "اختر الكتاب أولًا لتصل ملاحظتك إلى مكانها الصحيح.",
     general: "اكتب سؤالك أو اقتراحك، واترك بريدًا يمكننا الرد عليه."
   }[type.value];
   $("request-message-label").textContent = type.value === "source" ? "كيف ترغب في التعاون؟" : "وصف مختصر للطلب";
-  updateReviewLink();
 }
 
 function recordFromForm() {
@@ -169,18 +160,17 @@ async function start() {
   }
   $("request-fields").disabled = false;
   restoreDraft(params);
-  updateReviewLink();
 }
 
 function updateRequestURL() {
   const url = new URL(location.href);
   url.searchParams.set("type", type.value);
-  if (["download", "source", "feedback"].includes(type.value) && choice.value) url.searchParams.set("book", choice.value);
+  if (["download", "source"].includes(type.value) && choice.value) url.searchParams.set("book", choice.value);
   else url.searchParams.delete("book");
   history.replaceState(null, "", url);
 }
 type.addEventListener("change", () => { setType(); updateRequestURL(); });
-choice.addEventListener("change", () => { updateReviewLink(); updateRequestURL(); });
+choice.addEventListener("change", updateRequestURL);
 form.addEventListener("submit", submit);
 $("copy-request").addEventListener("click", async () => {
   try { await navigator.clipboard.writeText(preview); showStatus("نُسخ الطلب. لم يُرسل تلقائيًا.", true); }

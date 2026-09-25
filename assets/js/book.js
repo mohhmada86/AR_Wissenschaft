@@ -1,14 +1,14 @@
 import {
   loadSite, loadCatalog, applyBranding, coverImage, badges, metadata, progressBlock,
   relatedUpdates, renderEvent, readingAction, el, isolated, link, localURL,
-  notice, errorState, catalogWarnings, scrollHistory, reviewURL, requestURL
+  notice, errorState, catalogWarnings, scrollHistory, requestURL, externalLink
 } from "./common.js";
 
 const content = document.getElementById("book-content");
 const sitePromise = loadSite();
 sitePromise.then(applyBranding);
 
-function showBook(book, data) {
+function showBook(book, data, site) {
   const article = el("article", null, "book-detail");
   const body = el("div", null, "detail-body");
   body.append(el("p", book.category, "eyebrow"));
@@ -23,18 +23,38 @@ function showBook(book, data) {
   description.dir = "auto";
   body.append(description);
   const actions = el("div", null, "actions");
-  actions.append(
-    readingAction(book.drive_url),
-    link("أرسل ملاحظة", reviewURL(book.id), "button review-button")
-  );
+  actions.append(readingAction(book.drive_url));
   body.append(
     actions,
     el("p", "اقرأ بالعربية لفهم الفكرة، وقارن بالمصدر الأصلي إن كان متاحًا لديك لتعلّم المصطلحات وتوسيع فهمك.", "help-text")
   );
+
+  const accessHelp = el("section", null, "panel");
+  accessHelp.append(
+    el("h3", "هل تواجه مشكلة في فتح الكتاب على Google Drive؟"),
+    el("p", "إذا لم يفتح الكتاب أو تعذرت القراءة على Google Drive، تواصل معنا واذكر اسم الكتاب. سنرسل لك رابط تحميل للنسخة المتاحة.")
+  );
+  const contactActions = el("div", null, "request-actions");
+  const email = site.contact_email || "mohhmadahamad0@gmail.com";
+  const emailLine = el("p", null, "help-text");
+  emailLine.append("البريد: ", isolated(email, "ltr", "span"));
+  accessHelp.append(emailLine);
+  const subject = encodeURIComponent(`مشكلة في فتح كتاب على Google Drive - ${book.title_ar}`);
+  const bodyText = encodeURIComponent(`مرحبًا،\n\nأواجه مشكلة في فتح هذا الكتاب على Google Drive:\n${book.title_ar}\n\nأرجو إرسال رابط تحميل للنسخة المتاحة.\n`);
+  contactActions.append(
+    link("راسلنا بالبريد الإلكتروني", `mailto:${email}?subject=${subject}&body=${bodyText}`, "button"),
+    externalLink("راسلنا على فيسبوك", site.facebook_url || "https://www.facebook.com/profile.php?id=61594138598701", "button")
+  );
+  accessHelp.append(contactActions);
+  body.append(accessHelp);
+
   const requests = el("div", null, "detail-requests");
-  requests.append(link("اطلب نسخة للتحميل", requestURL("download", book.id), "section-link"), link("اطلب ملفات التحرير", requestURL("source", book.id), "section-link"));
+  requests.append(
+    link("طلب نسخة للتحميل", requestURL("download", book.id), "section-link"),
+    link("طلب ملفات التحرير", requestURL("source", book.id), "section-link")
+  );
   body.append(requests);
-  if (book.status === "review") body.append(el("p", "هذه نسخة قراءة ومراجعة قبل النشر النهائي: متاحة للدراسة الآن، وملاحظاتك الدقيقة تساعد في تحسين الإصدار القادم.", "storage-note"));
+  if (book.status === "review") body.append(el("p", "هذه نسخة قراءة ومراجعة قبل النشر النهائي: متاحة للدراسة الآن، ويستمر المشروع في تحسين الإصدارات القادمة.", "storage-note"));
   body.append(el("p", "رقم الإصدار يخص مراجعة المشروع أو ترجمته، وليس طبعة الناشر الأصلية. طلب الملفات يخضع لتوافرها وحقوق استخدامها.", "help-text"), link("سجل التحديثات", "#updates", "back-link"));
   article.append(coverImage(book, false), body);
   const history = el("section", null, "section");
@@ -72,7 +92,7 @@ async function start() {
       content.replaceChildren(box);
       document.title = `الكتاب غير موجود | ${site.title}`;
     } else {
-      showBook(book, data);
+      showBook(book, data, site);
       document.title = `${book.title_ar} | ${site.title}`;
       scrollHistory();
     }

@@ -2,7 +2,6 @@ import {
   BASE, loadSite, loadCatalog, applyBranding, bookURL, coverImage,
   el, link, badges, catalogWarnings
 } from "./common.js";
-import { initComments } from "./comments.js";
 import {
   visibleBooks, categorySummaries, selectFeaturedBooks, bookCountLabel
 } from "./home-data.js";
@@ -104,5 +103,4 @@ async function start() {
   }
 }
 
-initComments();
 start();

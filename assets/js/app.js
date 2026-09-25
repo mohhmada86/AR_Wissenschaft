@@ -1,6 +1,6 @@
 import {
   BASE, loadSite, loadCatalog, applyBranding, bookURL, coverImage,
-  el, link, catalogWarnings
+  el, link, badges, catalogWarnings
 } from "./common.js";
 import { initComments } from "./comments.js";
 import {
@@ -25,7 +25,7 @@ function renderCategory(summary) {
   anchor.append(
     el("strong", summary.name),
     el("span", bookCountLabel(summary.books.length), "category-count"),
-    el("span", "عرض كتب هذا المجال ←", "category-action")
+    el("span", "←", "category-action")
   );
   return anchor;
 }
@@ -34,6 +34,8 @@ function renderFeaturedBook(book) {
   const card = el("article", null, "featured-card");
   card.dataset.bookId = book.id;
   const imageLink = link(null, bookURL(book.id), "featured-cover-link");
+  imageLink.tabIndex = -1;
+  imageLink.setAttribute("aria-hidden", "true");
   imageLink.append(coverImage(book));
 
   const body = el("div", null, "featured-body");
@@ -46,6 +48,7 @@ function renderFeaturedBook(book) {
     el("p", book.category, "eyebrow"),
     heading,
     author,
+    badges(book),
     link("تفاصيل الكتاب", bookURL(book.id), "button")
   );
   card.append(imageLink, body);
@@ -75,7 +78,7 @@ async function start() {
   try {
     const [site, data] = await Promise.all([loadSite(), loadCatalog()]);
     applyBranding(site);
-    document.title = site.title;
+    document.title = `${site.title} | اقرأ، قارن، تعلّم`;
 
     const books = visibleBooks(data.books);
     const summaries = categorySummaries(books);
@@ -91,8 +94,8 @@ async function start() {
     if (featured.length) featuredGrid.replaceChildren(...featured.map(renderFeaturedBook));
     else featuredGrid.replaceChildren(el("p", "ستظهر الكتب المختارة هنا عند نشرها.", "notice"));
   } catch {
-    document.getElementById("book-stat").textContent = "0";
-    document.getElementById("category-stat").textContent = "0";
+    document.getElementById("book-stat").textContent = "—";
+    document.getElementById("category-stat").textContent = "—";
     loadingError(categoryGrid, start);
     loadingError(featuredGrid, start);
   } finally {

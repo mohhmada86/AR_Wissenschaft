@@ -1,5 +1,5 @@
 import {
-  STATUS, BASE, loadSite, loadCatalog, applyBranding, selectBooks,
+  READER_STATUS, BASE, loadSite, loadCatalog, applyBranding, selectBooks,
   renderCard, el, notice, catalogWarnings
 } from "./common.js";
 
@@ -20,7 +20,7 @@ function option(value, label) {
 }
 
 function requestedCategory() {
-  return new URLSearchParams(location.search).get("category")?.trim() || "";
+  return new URLSearchParams(location.search).get("category") || "";
 }
 
 function updateCategoryURL() {
@@ -98,7 +98,7 @@ async function start() {
     const statuses = new Set(visible.map(book => book.status));
     controls.status.replaceChildren(
       option("", "كل الحالات"),
-      ...Object.entries(STATUS).filter(([key]) => statuses.has(key)).map(([key, label]) => option(key, label))
+      ...Object.entries(READER_STATUS).filter(([key]) => statuses.has(key)).map(([key, label]) => option(key, label))
     );
 
     catalogWarnings(document.getElementById("warnings"), data);

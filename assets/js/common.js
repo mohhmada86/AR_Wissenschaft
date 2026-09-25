@@ -8,14 +8,17 @@ export const STATUS = Object.freeze({
   paused: "متوقف مؤقتًا",
   coming_soon: "قريبًا"
 });
+// صياغة واجهة القارئ فقط؛ تبقى مفاتيح البيانات وتسميات أداة الصيانة كما هي.
+export const READER_STATUS = Object.freeze({ ...STATUS, review: "نسخة قراءة ومراجعة" });
 export const UPDATE_TYPES = Object.freeze({
   release: "إصدار", correction: "تصحيح", progress: "تقدم المراجعة",
   status: "تغيير الحالة", note: "ملاحظة"
 });
 export const DEFAULT_SITE = Object.freeze({
-  title: "مشروع القراءة والمراجعة الجماعية",
-  intro: "اختر كتابًا، واقرأ النسخة الحالية، وشارك بملاحظاتك وتصحيحاتك.",
-  about: "مساحة للقراءة الجماعية ومراجعة الكتب في مختلف التخصصات.",
+  title: "العلم بالعربي",
+  intro: "ابدأ العلم بلغتك، ثم وسّع عالمك بلغات أخرى.",
+  about: "قراءة علمية بالعربية وتعلّم إلى جانب المصدر الأصلي.",
+  contact_email: "",
   github_url: "", site_url: ""
 });
 export const ID_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -42,6 +45,13 @@ export function bookURL(id, history = false) {
 export function reviewURL(id) {
   const url = new URL("review.html", BASE);
   url.searchParams.set("book", id);
+  return url.href;
+}
+
+export function requestURL(type, id = "") {
+  const url = new URL("contact.html", BASE);
+  url.searchParams.set("type", type);
+  if (id) url.searchParams.set("book", id);
   return url.href;
 }
 
@@ -268,7 +278,7 @@ export function externalLink(text, href, className = "") {
   return anchor;
 }
 
-export function readingAction(value, label = "اقرأ وشارك في المراجعة", className = "button primary") {
+export function readingAction(value, label = "اقرأ الكتاب", className = "button primary") {
   const url = driveURL(value);
   return url ? externalLink(label, url, className) : el("span", "الرابط غير متاح حاليًا", "unavailable");
 }
@@ -288,7 +298,7 @@ export function coverImage(book, lazy = true) {
 
 export function badges(book) {
   const row = el("div", null, "badges");
-  row.append(el("span", STATUS[book.status], `badge status-${book.status}`));
+  row.append(el("span", READER_STATUS[book.status], `badge status-${book.status}`));
   if (book.demo) row.append(el("span", "بيانات تجريبية", "badge demo-badge"));
   return row;
 }
@@ -334,29 +344,22 @@ export function metadata(book, updates, updatesAvailable) {
 export function renderCard(book, updates, updatesAvailable) {
   const card = el("article", null, "book-card");
   card.dataset.bookId = book.id;
-  const top = el("div", null, "card-top");
-  const title = el("div", null, "card-heading");
+  const cover = link(null, bookURL(book.id), "book-cover-link");
+  cover.tabIndex = -1;
+  cover.setAttribute("aria-hidden", "true");
+  cover.append(coverImage(book));
+  const body = el("div", null, "card-body");
   const heading = el("h3");
   heading.append(link(book.title_ar, bookURL(book.id)));
   heading.dir = "auto";
-  title.append(el("p", book.category, "eyebrow"), heading);
-  if (book.title_en) title.append(isolated(book.title_en, "ltr", "p"));
-  top.append(coverImage(book), title);
-  card.append(top, badges(book), metadata(book, updates, updatesAvailable));
-  const progress = progressBlock(book);
-  if (progress) card.append(progress);
-  const description = el("p", book.description, "description clamp");
-  description.dir = "auto";
-  card.append(description);
-  const actions = el("div", null, "card-actions");
-  actions.append(link("فتح صفحة الكتاب", bookURL(book.id), "button primary"));
-  const secondary = el("div", null, "inline-links");
-  secondary.append(
-    readingAction(book.drive_url, "فتح نسخة القراءة", "history-file"),
-    link("سجل التحديثات", bookURL(book.id, true))
-  );
-  actions.append(secondary);
-  card.append(actions);
+  body.append(el("p", book.category, "eyebrow"), heading);
+  if (book.title_en) {
+    const original = isolated(book.title_en, "ltr", "p");
+    original.className = "original-title";
+    body.append(original);
+  }
+  body.append(isolated(book.author, "auto", "p"), badges(book), link("فتح صفحة الكتاب", bookURL(book.id), "button"));
+  card.append(cover, body);
   return card;
 }
 
@@ -388,7 +391,7 @@ export function notice(container, message, className = "notice") {
 export function errorState(container, error, retry) {
   const box = el("div", null, "notice error");
   box.setAttribute("role", "alert");
-  box.append(el("h2", "تعذر تحميل الكتب"), el("p", error.message));
+  box.append(el("h2", "تعذر تحميل الكتب"), el("p", "تحقق من الاتصال ثم أعد المحاولة."));
   const button = el("button", "إعادة المحاولة", "button");
   button.type = "button";
   button.addEventListener("click", retry);
@@ -400,12 +403,7 @@ export function catalogWarnings(container, data) {
   container.replaceChildren();
   if (!data.updatesAvailable) container.append(el("p", "سجل التحديثات غير متاح حاليًا. تُعرض تواريخ بيانات الكتب مؤقتًا؛ أعد تحميل الصفحة للمحاولة مجددًا.", "notice warning"));
   if (data.errors.length) {
-    const details = el("details", null, "notice warning");
-    details.append(el("summary", "تم تجاهل سجلات غير صالحة. عرض تفاصيل التصحيح"));
-    const list = el("ul");
-    data.errors.forEach(message => { const item = el("li", message); item.dir = "auto"; list.append(item); });
-    details.append(list);
-    container.append(details);
+    container.append(el("p", "بعض الكتب غير متاحة للعرض الآن. يمكنك تصفح الكتب المتاحة أو المحاولة لاحقًا.", "notice warning"));
   }
 }
 
@@ -413,6 +411,11 @@ export function applyBranding(site) {
   document.querySelectorAll("[data-site-title]").forEach(node => { node.textContent = site.title; });
   document.querySelectorAll("[data-site-intro]").forEach(node => { node.textContent = site.intro; });
   document.querySelectorAll("[data-site-about]").forEach(node => { node.textContent = site.about; });
+  document.querySelectorAll(".brand").forEach(node => {
+    node.setAttribute("aria-label", `${site.title} — الرئيسية`);
+    const image = node.querySelector("img");
+    if (image) image.alt = site.title;
+  });
   document.querySelectorAll("[data-github]").forEach(node => {
     node.replaceChildren();
     const url = safeHTTPS(site.github_url);
@@ -423,6 +426,9 @@ export function applyBranding(site) {
     let tag = document.querySelector('meta[property="og:url"]');
     if (!tag) { tag = el("meta"); tag.setAttribute("property", "og:url"); document.head.append(tag); }
     tag.content = site.site_url;
+    let imageTag = document.querySelector('meta[property="og:image"]');
+    if (!imageTag) { imageTag = el("meta"); imageTag.setAttribute("property", "og:image"); document.head.append(imageTag); }
+    imageTag.content = new URL("assets/brand/logo-original.png", site.site_url).href;
   }
 }
 

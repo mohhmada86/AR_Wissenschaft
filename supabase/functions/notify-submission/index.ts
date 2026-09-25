@@ -107,6 +107,24 @@ function feedbackEmail(record) {
   };
 }
 
+function contactEmail(record) {
+  const labels = { translation: "ترجمة", download: "نسخة قراءة", source: "ملفات تحرير", general: "استفسار عام" };
+  const fields = [
+    ["نوع الطلب", labels[record.request_type] || "طلب"],
+    ["الاسم", text(record.name, 60)], ["البريد الخاص", text(record.email, 254)],
+    ["الكتاب", text(record.book_title, 500)], ["معرّف الكتاب", text(record.book_id, 160)],
+    ["المادة", text(record.material_title, 500)], ["المؤلف", text(record.author, 200)],
+    ["اللغة الأصلية", text(record.original_language, 80)], ["المجال", text(record.subject_area, 160)],
+    ["الرابط (تحقق منه قبل فتحه)", text(record.source_url, 2000)],
+    ["الطلب", text(record.message, 3000)], ["ملاحظات", text(record.notes, 1000)]
+  ];
+  return {
+    subject: "طلب جديد — " + fields[0][1],
+    html: '<div dir="rtl" lang="ar"><h1>طلب تواصل جديد</h1>' + fields.map(([label, value]) => line(label, value)).join("") + '<p>راجع جدول contact_requests. هذه البيانات خاصة بالإدارة.</p></div>',
+    plain: fields.map(([label, value]) => label + ": " + (value || "—")).join("\n\n")
+  };
+}
+
 Deno.serve(async request => {
   if (request.method !== "POST") {
     return jsonResponse({ error: "method_not_allowed" }, 405);
@@ -133,7 +151,7 @@ Deno.serve(async request => {
     return jsonResponse({ error: "invalid_json" }, 400);
   }
 
-  const allowedTable = payload.table === "general_comments" || payload.table === "book_feedback";
+  const allowedTable = ["general_comments", "book_feedback", "contact_requests"].includes(payload.table);
   const validRecord = payload.record && typeof payload.record === "object" && !Array.isArray(payload.record);
   if (payload.type !== "INSERT" || payload.schema !== "public" || !allowedTable || !validRecord) {
     return jsonResponse({ error: "unsupported_event" }, 400);
@@ -141,7 +159,7 @@ Deno.serve(async request => {
 
   const email = payload.table === "general_comments"
     ? generalEmail(payload.record)
-    : feedbackEmail(payload.record);
+    : payload.table === "book_feedback" ? feedbackEmail(payload.record) : contactEmail(payload.record);
 
   const response = await fetch("https://api.resend.com/emails", {
     method: "POST",

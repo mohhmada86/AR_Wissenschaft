@@ -162,25 +162,23 @@ async function submitFeedback(event) {
       formStatus.classList.add("success");
     } else {
       const saved = saveLocalFeedback(record);
-      form.reset();
-      updateEmailRequirement();
-      lastSubmissionAt = Date.now();
+      if (saved) {
+        form.reset();
+        updateEmailRequirement();
+        lastSubmissionAt = Date.now();
+      }
       formStatus.textContent = saved
-        ? "حُفظت الملاحظة على هذا الجهاز فقط. فعّل التخزين المشترك لإرسالها إلى الفريق."
-        : "تعذر حفظ الملاحظة في هذا المتصفح.";
+        ? "حُفظت الملاحظة على هذا الجهاز فقط، ولم تصل إلى الفريق. يمكنك استخدام تعليقات رابط الكتاب إذا كان يسمح بذلك."
+        : "تعذر حفظ الملاحظة في هذا المتصفح. بقيت بياناتك في النموذج؛ انسخها للاحتفاظ بها.";
       formStatus.classList.add(saved ? "success" : "failure");
     }
   } catch {
-    mode = "local";
     const saved = saveLocalFeedback(record);
-    storageNote.textContent = "تعذر الاتصال بالاستقبال المشترك. حُفظت الملاحظة على هذا الجهاز فقط.";
+    storageNote.textContent = "تعذر تأكيد الاتصال بالاستقبال المشترك. لا تُرسل الملاحظات المحفوظة محليًا تلقائيًا.";
     storageNote.classList.add("warning");
-    form.reset();
-    updateEmailRequirement();
-    lastSubmissionAt = Date.now();
     formStatus.textContent = saved
-      ? "لم تصل الملاحظة إلى الفريق، لكنها محفوظة على هذا الجهاز."
-      : "تعذر إرسال الملاحظة أو حفظها.";
+      ? "تعذر تأكيد الوصول؛ حُفظت نسخة على هذا الجهاز وبقي النموذج للمحاولة لاحقًا. تحقق قبل تكرار الإرسال."
+      : "تعذر تأكيد إرسال الملاحظة أو حفظها. بقيت بياناتك في النموذج؛ انسخها للاحتفاظ بها.";
     formStatus.classList.add("failure");
   } finally {
     submitButton.disabled = false;
@@ -199,7 +197,7 @@ async function start() {
     applyBranding(site);
     const params = new URLSearchParams(location.search);
     const id = params.get("book") || params.get("id");
-    currentBook = data.books.find(book => book.id === id) || null;
+    currentBook = data.books.find(book => book.id === id && !book.demo) || null;
     if (!currentBook) {
       selectedBook.replaceChildren(
         el("h2", "تعذر تحديد الكتاب"),

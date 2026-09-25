@@ -2,11 +2,21 @@ import { COMMENTS_CONFIG } from "../../data/comments-config.js";
 
 const TABLES = Object.freeze({
   generalComments: "general_comments",
-  bookFeedback: "book_feedback"
+  bookFeedback: "book_feedback",
+  contactRequests: "contact_requests"
 });
 
 function configuredURL() {
   if (!COMMENTS_CONFIG.supabaseUrl || !COMMENTS_CONFIG.supabaseAnonKey) return null;
+  // Fail closed if an administrator accidentally pastes a secret key.
+  const key = COMMENTS_CONFIG.supabaseAnonKey;
+  if (key.startsWith("sb_secret_")) return null;
+  if (!key.startsWith("sb_publishable_")) {
+    try {
+      const payload = JSON.parse(atob(key.split(".")[1].replace(/-/g, "+").replace(/_/g, "/")));
+      if (payload.role !== "anon") return null;
+    } catch { return null; }
+  }
   try {
     const url = new URL(COMMENTS_CONFIG.supabaseUrl);
     if (url.protocol !== "https:" || url.username || url.password || url.search || url.hash) return null;
@@ -30,13 +40,22 @@ export function tableEndpoint(table) {
 export function publicHeaders(extra = {}) {
   return {
     apikey: COMMENTS_CONFIG.supabaseAnonKey,
-    Authorization: "Bearer " + COMMENTS_CONFIG.supabaseAnonKey,
+    ...(COMMENTS_CONFIG.supabaseAnonKey.startsWith("sb_publishable_") ? {} : {
+      Authorization: "Bearer " + COMMENTS_CONFIG.supabaseAnonKey
+    }),
     ...extra
   };
 }
 
+async function request(url, options) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 15000);
+  try { return await fetch(url, { ...options, signal: controller.signal }); }
+  finally { clearTimeout(timer); }
+}
+
 export async function insertPublicRow(table, record) {
-  const response = await fetch(tableEndpoint(table), {
+  const response = await request(tableEndpoint(table), {
     method: "POST",
     headers: publicHeaders({
       "Content-Type": "application/json",
@@ -53,7 +72,7 @@ export async function loadApprovedGeneralComments(limit = 100) {
   url.searchParams.set("approved", "eq.true");
   url.searchParams.set("order", "created_at.desc");
   url.searchParams.set("limit", String(limit));
-  const response = await fetch(url, {
+  const response = await request(url, {
     headers: publicHeaders({ Accept: "application/json" })
   });
   if (!response.ok) throw new Error("تعذر تحميل التعليقات العامة.");

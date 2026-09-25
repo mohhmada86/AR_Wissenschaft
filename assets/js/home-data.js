@@ -42,7 +42,11 @@ export function selectFeaturedBooks(books, site, summaries) {
       .forEach(id => add(books.find(book => book.id === id)));
   }
 
-  for (const summary of summaries) {
+  // Prefer represented subjects with a real cover, then the stable major-subject order.
+  const featuredSubjects = [...summaries].sort((a, b) =>
+    Number(b.books.some(realCover)) - Number(a.books.some(realCover))
+  );
+  for (const summary of featuredSubjects) {
     if (selected.length >= MAX_FEATURED_BOOKS) break;
     if (representedCategories.has(summary.name)) continue;
     add(summary.books.find(realCover) || summary.books[0]);

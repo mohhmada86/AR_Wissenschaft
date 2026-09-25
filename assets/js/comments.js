@@ -168,11 +168,7 @@ async function submit(event) {
       formStatus.classList.add("success");
     }
   } catch {
-    setLocalMode("تعذر الاتصال بالتعليقات العامة؛ حُفظ تعليقك على هذا الجهاز فقط.");
-    saveSubmittedCommentLocally(name, comment);
-    form.reset();
-    lastSubmissionAt = Date.now();
-    formStatus.textContent = "لم يصل التعليق إلى المراجعة العامة، لكنه محفوظ على هذا الجهاز.";
+    formStatus.textContent = "تعذر تأكيد وصول التعليق. بقي النص في النموذج؛ تحقق من الاتصال وحاول لاحقًا. قد يكون قد وصل إذا انقطع الاتصال بعد الإرسال.";
     formStatus.classList.add("failure");
   } finally {
     submitButton.disabled = false;
@@ -200,6 +196,8 @@ export async function initComments() {
     await loadSharedComments();
     renderComments();
   } catch {
-    setLocalMode("تعذر الاتصال بالتعليقات العامة؛ تُحفظ التعليقات على هذا الجهاز حاليًا.");
+    list.setAttribute("aria-busy", "false");
+    list.replaceChildren(el("p", "تعذر تحميل التعليقات العامة. أعد تحميل الصفحة للمحاولة مجددًا.", "notice"));
+    moreButton.hidden = true;
   }
 }

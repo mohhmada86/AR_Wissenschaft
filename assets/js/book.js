@@ -1,7 +1,7 @@
 import {
   loadSite, loadCatalog, applyBranding, coverImage, badges, metadata, progressBlock,
   relatedUpdates, renderEvent, readingAction, el, isolated, link, localURL,
-  notice, errorState, catalogWarnings, scrollHistory, reviewURL
+  notice, errorState, catalogWarnings, scrollHistory, reviewURL, requestURL
 } from "./common.js";
 
 const content = document.getElementById("book-content");
@@ -25,16 +25,17 @@ function showBook(book, data) {
   const actions = el("div", null, "actions");
   actions.append(
     readingAction(book.drive_url),
-    link("أرسل ملاحظة على هذا الكتاب", reviewURL(book.id), "button review-button"),
-    link("سجل التحديثات", "#updates", "button")
+    link("أرسل ملاحظة", reviewURL(book.id), "button review-button")
   );
   body.append(
     actions,
-    el("p", "يمكنك إرسال تصحيح محدد مع رقم الصفحة من نموذج المراجعة. رقم الإصدار يخص مراجعة المشروع أو ترجمته، وليس طبعة الناشر الأصلية.", "help-text")
+    el("p", "اقرأ بالعربية لفهم الفكرة، وقارن بالمصدر الأصلي إن كان متاحًا لديك لتعلّم المصطلحات وتوسيع فهمك.", "help-text")
   );
-  const idLine = el("p", "معرّف الكتاب: ", "help-text");
-  idLine.append(isolated(book.id, "ltr"));
-  body.append(idLine);
+  const requests = el("div", null, "detail-requests");
+  requests.append(link("اطلب نسخة للتحميل", requestURL("download", book.id), "section-link"), link("اطلب ملفات التحرير", requestURL("source", book.id), "section-link"));
+  body.append(requests);
+  if (book.status === "review") body.append(el("p", "هذه نسخة قراءة ومراجعة قبل النشر النهائي: متاحة للدراسة الآن، وملاحظاتك الدقيقة تساعد في تحسين الإصدار القادم.", "storage-note"));
+  body.append(el("p", "رقم الإصدار يخص مراجعة المشروع أو ترجمته، وليس طبعة الناشر الأصلية. طلب الملفات يخضع لتوافرها وحقوق استخدامها.", "help-text"), link("سجل التحديثات", "#updates", "back-link"));
   article.append(coverImage(book, false), body);
   const history = el("section", null, "section");
   history.id = "updates";
@@ -64,7 +65,7 @@ async function start() {
     const id = new URLSearchParams(location.search).get("id");
     const data = await loadCatalog();
     catalogWarnings(document.getElementById("warnings"), data);
-    const book = data.books.find(item => item.id === id);
+    const book = data.books.find(item => item.id === id && !item.demo);
     if (!book) {
       const box = el("section", null, "section notice");
       box.append(el("h1", "الكتاب غير موجود"), el("p", "قد يكون الرابط غير صحيح أو لم يعد الكتاب ظاهرًا في الفهرس."), link("العودة إلى الصفحة الرئيسية", localURL("index.html"), "button"));

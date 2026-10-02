@@ -671,7 +671,7 @@
     "enabled": true,
     "demo": false
   },
-{
+  {
     "id": "noback-advanced-web-application-architecture",
     "title_ar": "معمارية تطبيقات الويب المتقدمة",
     "title_en": "",
@@ -751,7 +751,7 @@
     "enabled": true,
     "demo": false
   },
-{
+  {
     "id": "aoex-art-electronics-x-chapters-part-1",
     "title_ar": "فن الإلكترونيات: فصول X - الجزء الأول",
     "title_en": "The Art of Electronics: The X Chapters - Part 1",
@@ -831,7 +831,7 @@
     "enabled": true,
     "demo": false
   },
-{
+  {
     "id": "hayes-learning-art-electronics-part-1",
     "title_ar": "تعلّم فن الإلكترونيات: دورة مختبرية عملية - الجزء الأول",
     "title_en": "Learning the Art of Electronics: A Hands-On Lab Course - Part 1",
@@ -863,7 +863,7 @@
     "enabled": true,
     "demo": false
   },
-{
+  {
     "id": "brown-chemistry-central-science-15si-part-1",
     "title_ar": "الكيمياء: العلم المركزي - الطبعة العالمية الخامسة عشرة بوحدات SI - الجزء الأول",
     "title_en": "Chemistry: The Central Science, 15th Global Edition in SI Units - Part 1",
@@ -911,7 +911,7 @@
     "enabled": true,
     "demo": false
   },
-{
+  {
     "id": "oppenheim-schafer-dtsp2-part-1",
     "title_ar": "معالجة الإشارات في الزمن المتقطع - الطبعة الثانية - الجزء الأول",
     "title_en": "Discrete-Time Signal Processing, 2nd Edition - Part 1",
@@ -959,7 +959,7 @@
     "enabled": true,
     "demo": false
   },
-{
+  {
     "id": "howe-sodini-microelectronics-integrated-approach-part-1",
     "title_ar": "الإلكترونيات الدقيقة: منهج متكامل - الجزء الأول",
     "title_en": "Microelectronics: An Integrated Approach - Part 1",
@@ -1007,7 +1007,7 @@
     "enabled": true,
     "demo": false
   },
-{
+  {
     "id": "pozar-microwave-engineering-4",
     "title_ar": "هندسة الموجات الميكروية - الطبعة الرابعة",
     "title_en": "Microwave Engineering, 4th Edition",
@@ -1055,7 +1055,7 @@
     "enabled": true,
     "demo": false
   },
-{
+  {
     "id": "razavi-fundamentals-microelectronics-2-part-1",
     "title_ar": "أساسيات الإلكترونيات الدقيقة - الطبعة الثانية - الجزء الأول",
     "title_en": "Fundamentals of Microelectronics, 2nd Edition - Part 1",
@@ -1087,7 +1087,7 @@
     "enabled": true,
     "demo": false
   },
-{
+  {
     "id": "serway-jewett-pse9-part-1-mechanics",
     "title_ar": "الفيزياء للعلماء والمهندسين مع الفيزياء الحديثة - الطبعة التاسعة - الجزء الأول: الميكانيكا",
     "title_en": "Physics for Scientists and Engineers with Modern Physics, 9th Edition - Part 1: Mechanics",
@@ -1183,7 +1183,7 @@
     "enabled": true,
     "demo": false
   },
-{
+  {
     "id": "zumdahl-chemistry-10-part-1",
     "title_ar": "الكيمياء - الطبعة العاشرة - الجزء الأول",
     "title_en": "Chemistry, 10th Edition - Part 1",
@@ -1228,6 +1228,310 @@
     "last_updated": "2026-09-24",
     "description": "الجزء الثالث من تقسيم الموقع لكتاب «الكيمياء» في طبعته العاشرة. يغطي الفصول 16–22: اتزانات الذوبانية والأيونات المعقدة، التلقائية والإنتروبيا والطاقة الحرة، الكيمياء الكهربائية، الكيمياء النووية، عناصر المجموعات الرئيسية، الفلزات الانتقالية وكيمياء التناسق، والجزيئات العضوية والحيوية، إضافة إلى الملاحق والإجابات المختارة والفهرس.",
     "drive_url": "https://drive.google.com/file/d/1dXTre0Lw1SDlwxlKePN_yGMGyj317fsT/view?usp=drivesdk",
+    "enabled": true,
+    "demo": false
+  },
+  {
+    "id": "halliday-resnick-walker-fundamentals-physics-extended-part-1",
+    "title_ar": "أساسيات الفيزياء - النسخة الموسعة - الجزء الأول",
+    "title_en": "Fundamentals of Physics - Extended Edition - Part 1",
+    "author": "Halliday؛ Resnick؛ Jearl Walker",
+    "category": "فيزياء",
+    "cover": "assets/covers/placeholder.svg",
+    "status": "review",
+    "version": "v1.0",
+    "progress": null,
+    "last_updated": "2026-10-02",
+    "description": "الجزء الأول من تقسيم الموقع لكتاب «أساسيات الفيزياء» في النسخة الموسعة. يشمل الفصول 1–20، ويبدأ بالقياس والحركة والمتجهات والقوى والطاقة والزخم والدوران والاتزان والجاذبية والموائع، ثم ينتقل إلى الاهتزازات والموجات والحرارة والنظرية الحركية للغازات، وينتهي بالإنتروبيا والقانون الثاني للديناميكا الحرارية.",
+    "drive_url": "https://drive.google.com/file/d/1FEbbZPvXQvkDGQ4KlgKK6h-PYgtdz4lq/view",
+    "enabled": true,
+    "demo": false
+  },
+  {
+    "id": "halliday-resnick-walker-fundamentals-physics-extended-part-2",
+    "title_ar": "أساسيات الفيزياء - النسخة الموسعة - الجزء الثاني",
+    "title_en": "Fundamentals of Physics - Extended Edition - Part 2",
+    "author": "Halliday؛ Resnick؛ Jearl Walker",
+    "category": "فيزياء",
+    "cover": "assets/covers/placeholder.svg",
+    "status": "review",
+    "version": "v1.0",
+    "progress": null,
+    "last_updated": "2026-10-02",
+    "description": "الجزء الثاني من تقسيم الموقع لكتاب «أساسيات الفيزياء» في النسخة الموسعة. يشمل الفصول 21–44، بدءًا من قانون كولوم والمجالات والجهد الكهربائي والسعة والتيار والدوائر والمغناطيسية والحث ومعادلات ماكسويل والموجات الكهرومغناطيسية، ثم البصريات والنسبية والفوتونات وموجات المادة وميكانيكا الكم والذرات والمواد الصلبة والفيزياء النووية، وصولًا إلى الكواركات واللبتونات والانفجار العظيم، مع الملاحق والإجابات والفهرس.",
+    "drive_url": "https://drive.google.com/file/d/1nevX-ozoVDvHPOXeAGuvHB_TYZ8oMesN/view",
+    "enabled": true,
+    "demo": false
+  },
+  {
+    "id": "alberts-molecular-biology-cell-7-part-1",
+    "title_ar": "البيولوجيا الجزيئية للخلية - الطبعة السابعة - الجزء الأول",
+    "title_en": "Molecular Biology of the Cell, Seventh Edition - Part 1",
+    "author": "Bruce Alberts؛ Rebecca Heald؛ Alexander Johnson؛ David Morgan؛ Martin Raff؛ Keith Roberts؛ Peter Walter",
+    "category": "أحياء",
+    "cover": "assets/covers/placeholder.svg",
+    "status": "review",
+    "version": "v1.0",
+    "progress": null,
+    "last_updated": "2026-10-02",
+    "drive_url": "https://drive.google.com/file/d/11s_oSMXchmg7lRgs7FIZTC3RSkNYKgnl/view",
+    "enabled": true,
+    "demo": false,
+    "description": "الجزء الأول من تقسيم الموقع لكتاب «البيولوجيا الجزيئية للخلية» في طبعته السابعة. يبدأ من الصفحات التمهيدية ومقدمة الكتاب ويشمل الفصول 1–4: الخلايا والجينومات وتنوع الحياة، كيمياء الخلية والطاقة الحيوية، البروتينات، ثم DNA والكروموسومات والجينومات."
+  },
+  {
+    "id": "alberts-molecular-biology-cell-7-part-2",
+    "title_ar": "البيولوجيا الجزيئية للخلية - الطبعة السابعة - الجزء الثاني",
+    "title_en": "Molecular Biology of the Cell, Seventh Edition - Part 2",
+    "author": "Bruce Alberts؛ Rebecca Heald؛ Alexander Johnson؛ David Morgan؛ Martin Raff؛ Keith Roberts؛ Peter Walter",
+    "category": "أحياء",
+    "cover": "assets/covers/placeholder.svg",
+    "status": "review",
+    "version": "v1.0",
+    "progress": null,
+    "last_updated": "2026-10-02",
+    "drive_url": "https://drive.google.com/file/d/1ef1Qi4fM7z4x3-3SwkqTHHPodQ4TsEdC/view",
+    "enabled": true,
+    "demo": false,
+    "description": "الجزء الثاني من تقسيم الموقع لكتاب «البيولوجيا الجزيئية للخلية» في طبعته السابعة، ويشمل الفصول 5–9: تضاعف DNA وإصلاحه وإعادة تركيبه، انتقال المعلومات من DNA إلى البروتين، التحكم في التعبير الجيني، تحليل الخلايا والجزيئات والأنظمة، ثم تصوير الخلايا وجزيئاتها."
+  },
+  {
+    "id": "alberts-molecular-biology-cell-7-part-3",
+    "title_ar": "البيولوجيا الجزيئية للخلية - الطبعة السابعة - الجزء الثالث",
+    "title_en": "Molecular Biology of the Cell, Seventh Edition - Part 3",
+    "author": "Bruce Alberts؛ Rebecca Heald؛ Alexander Johnson؛ David Morgan؛ Martin Raff؛ Keith Roberts؛ Peter Walter",
+    "category": "أحياء",
+    "cover": "assets/covers/placeholder.svg",
+    "status": "review",
+    "version": "v1.0",
+    "progress": null,
+    "last_updated": "2026-10-02",
+    "drive_url": "https://drive.google.com/file/d/13E4ArNzBRvOIuuVu1hKxZKxPAdFRNu-g/view",
+    "enabled": true,
+    "demo": false,
+    "description": "الجزء الثالث من تقسيم الموقع لكتاب «البيولوجيا الجزيئية للخلية» في طبعته السابعة، ويشمل الفصول 10–18: بنية الأغشية، نقل الجزيئات الصغيرة والخواص الكهربائية للأغشية، التنظيم داخل الخلية وفرز البروتينات، النقل الغشائي داخل الخلية، تحويل الطاقة في الميتوكندريا والبلاستيدات الخضراء، الإشارات الخلوية، الهيكل الخلوي، دورة الخلية، ثم موت الخلية."
+  },
+  {
+    "id": "alberts-molecular-biology-cell-7-part-4",
+    "title_ar": "البيولوجيا الجزيئية للخلية - الطبعة السابعة - الجزء الرابع",
+    "title_en": "Molecular Biology of the Cell, Seventh Edition - Part 4",
+    "author": "Bruce Alberts؛ Rebecca Heald؛ Alexander Johnson؛ David Morgan؛ Martin Raff؛ Keith Roberts؛ Peter Walter",
+    "category": "أحياء",
+    "cover": "assets/covers/placeholder.svg",
+    "status": "review",
+    "version": "v1.0",
+    "progress": null,
+    "last_updated": "2026-10-02",
+    "drive_url": "https://drive.google.com/file/d/1c59HR4Vd1DiuD9OqAd5UcsUHRDyyk004/view",
+    "enabled": true,
+    "demo": false,
+    "description": "الجزء الرابع والأخير من تقسيم الموقع لكتاب «البيولوجيا الجزيئية للخلية» في طبعته السابعة. يبدأ بالفصل 19 ويستمر حتى نهاية الكتاب، ويغطي الوصلات الخلوية والمصفوفة خارج الخلية، والسرطان، وتطور الكائنات متعددة الخلايا، والخلايا الجذعية واتزان الأنسجة وتجددها، والعوامل الممرضة والعدوى، والجهازين المناعي الفطري والتكيفي، ثم المواد الختامية للكتاب."
+  },
+  {
+    "id": "oppenheim-willsky-nawab-signals-systems-2",
+    "title_ar": "الإشارات والأنظمة - الطبعة الثانية",
+    "title_en": "Signals and Systems, Second Edition",
+    "author": "Alan V. Oppenheim؛ Alan S. Willsky؛ S. Hamid Nawab",
+    "category": "هندسة كهربائية",
+    "cover": "assets/covers/placeholder.svg",
+    "status": "review",
+    "version": "v1.0",
+    "progress": null,
+    "last_updated": "2026-10-02",
+    "description": "كتاب جامعي متكامل في الإشارات والأنظمة يقدّم معالجة موحدة لأنظمة الزمن المستمر والزمن المتقطع. يغطي تمثيل الإشارات وخصائص الأنظمة، والأنظمة الخطية الثابتة مع الزمن والالتفاف، ومتسلسلات وتحويلات فورييه، وخصائص الإشارات والأنظمة في الزمن والتردد، وأخذ العينات، وأنظمة الاتصالات، ثم تحويل لابلاس وتحويل z وأنظمة التغذية الراجعة الخطية، مع مسائل موسعة وملحق للكسور الجزئية ومراجع وإجابات وفهرس.",
+    "drive_url": "https://drive.google.com/file/d/1j1-XwnOXAlrztHeN6D_LBTzPcaf-lqDl/view",
+    "enabled": true,
+    "demo": false
+  },
+  {
+    "id": "jena-quantum-physics-semiconductor-materials-devices-part-1",
+    "title_ar": "فيزياء الكم لمواد وأجهزة أشباه الموصلات - الجزء الأول",
+    "title_en": "Quantum Physics of Semiconductor Materials and Devices - Part 1",
+    "author": "Debdeep Jena",
+    "category": "إلكترونيات",
+    "cover": "assets/covers/placeholder.svg",
+    "status": "review",
+    "version": "v1.0",
+    "progress": null,
+    "last_updated": "2026-10-02",
+    "description": "الجزء الأول من تقسيم الموقع لكتاب «فيزياء الكم لمواد وأجهزة أشباه الموصلات» لديبديب جينا. يبدأ من مقدمة الكتاب ويشمل الفصول 1–16، فيبني الأساس من مبادئ أشباه الموصلات والفيزياء الكلاسيكية للإلكترون وميكانيكا الكم والإحصاء، ثم ينتقل إلى الإلكترونات في العالم الكمي والمصفوفات ونظرية الاضطراب، وبنية نطاقات الطاقة، ونظرية بلوخ، والبنى غير المتجانسة، وإحصاءات الحوامل ومخططات نطاقات الطاقة، وينتهي بانتقال الإلكترونات والخواص الحركية في فضاء k.",
+    "drive_url": "https://drive.google.com/file/d/1n_ydOCL-vfy8-UD8KgB8IrFgIkOAoPyK/view",
+    "enabled": true,
+    "demo": false
+  },
+  {
+    "id": "jena-quantum-physics-semiconductor-materials-devices-part-2",
+    "title_ar": "فيزياء الكم لمواد وأجهزة أشباه الموصلات - الجزء الثاني",
+    "title_en": "Quantum Physics of Semiconductor Materials and Devices - Part 2",
+    "author": "Debdeep Jena",
+    "category": "إلكترونيات",
+    "cover": "assets/covers/placeholder.svg",
+    "status": "review",
+    "version": "v1.0",
+    "progress": null,
+    "last_updated": "2026-10-02",
+    "description": "الجزء الثاني من تقسيم الموقع لكتاب «فيزياء الكم لمواد وأجهزة أشباه الموصلات». يبدأ بالفصل 17 ويستمر حتى نهاية الكتاب، ويغطي الإلكترونيات الكمومية في أشباه الموصلات، والدايودات والترانزستورات والنقل الباليستي، وقاعدة فيرمي الذهبية ومعادلة بولتزمان للنقل، وتفاعلات الفونونات والإلكترونات والتشتت والحركية وتشبع السرعة، والنفق والانهيار، والنقل المغناطيسي الكمي، ثم فوتونيات أشباه الموصلات ومعادلات ماكسويل وتفاعل الضوء مع المادة والخلايا الشمسية والكواشف الضوئية والليزر وLEDs، وينتهي بالفصل الختامي والملاحق والمراجع والفهرس.",
+    "drive_url": "https://drive.google.com/file/d/183FuvXG-P2BqveCco-bdinsd2UUVJ0Vt/view",
+    "enabled": true,
+    "demo": false
+  },
+  {
+    "id": "hecht-optics-5-global-part-1",
+    "title_ar": "البصريات - الطبعة الخامسة العالمية - الجزء الأول",
+    "title_en": "Optics, Fifth Edition, Global Edition - Part 1",
+    "author": "Eugene Hecht",
+    "category": "فيزياء",
+    "cover": "assets/covers/placeholder.svg",
+    "status": "review",
+    "version": "v1.0",
+    "progress": null,
+    "last_updated": "2026-10-02",
+    "description": "الجزء الأول من تقسيم الموقع لكتاب «البصريات» لإيوجين هيشت، الطبعة الخامسة العالمية. يبدأ من مقدمة الكتاب ويشمل الفصول 1–8: لمحة تاريخية عن البصريات، حركة الموجات، النظرية الكهرومغناطيسية والفوتونات والضوء، انتشار الضوء، البصريات الهندسية وتطبيقاتها المتقدمة، تراكب الموجات، ثم الاستقطاب.",
+    "drive_url": "https://drive.google.com/file/d/11F72MeOYclqyblFUTpc2VOzObKnUNv0n/view",
+    "enabled": true,
+    "demo": false
+  },
+  {
+    "id": "hecht-optics-5-global-part-2",
+    "title_ar": "البصريات - الطبعة الخامسة العالمية - الجزء الثاني",
+    "title_en": "Optics, Fifth Edition, Global Edition - Part 2",
+    "author": "Eugene Hecht",
+    "category": "فيزياء",
+    "cover": "assets/covers/placeholder.svg",
+    "status": "review",
+    "version": "v1.0",
+    "progress": null,
+    "last_updated": "2026-10-02",
+    "description": "الجزء الثاني من تقسيم الموقع لكتاب «البصريات» لإيوجين هيشت، الطبعة الخامسة العالمية. يبدأ بالفصل 9 ويستمر حتى نهاية الكتاب، ويغطي التداخل والحيود وبصريات فورييه ونظرية الترابط، ثم موضوعات البصريات الحديثة مثل الليزر والتصوير والهولوغرافيا والبصريات اللاخطية، ويتضمن الملاحق وحلول مسائل مختارة والببليوغرافيا والفهرس.",
+    "drive_url": "https://drive.google.com/file/d/1Uq8Id1bvlZ8emPlZR2Kl1rdlA8nXvpJX/view",
+    "enabled": true,
+    "demo": false
+  },
+  {
+    "id": "ashcroft-mermin-solid-state-physics",
+    "title_ar": "فيزياء الحالة الصلبة",
+    "title_en": "Solid State Physics",
+    "author": "Neil W. Ashcroft؛ N. David Mermin",
+    "category": "فيزياء",
+    "cover": "assets/covers/placeholder.svg",
+    "status": "review",
+    "version": "v1.0",
+    "progress": null,
+    "last_updated": "2026-10-02",
+    "description": "ترجمة عربية كاملة في جزء واحد لكتاب «فيزياء الحالة الصلبة» لأشكروفت وميرمن. يعرض الكتاب الأسس الكلاسيكية والكمومية لفيزياء المواد الصلبة، بدءًا من نظرية دروده وسومرفيلد للمعادن، وبنية البلورات والشبكة المتبادلة وحيود الأشعة السينية، ثم إلكترونات البلورات ونظرية النطاقات وأشباه الموصلات، والاهتزازات الشبكية والفونونات، والخواص العازلة والمغناطيسية، وصولًا إلى الموصلية الفائقة، مع مجموعة واسعة من الملاحق والفهرس.",
+    "drive_url": "https://drive.google.com/file/d/1l6NKnNdYE1HJONPl4Zn8NkvxVM7CfVB9/view",
+    "enabled": true,
+    "demo": false
+  },
+  {
+    "id": "sorrentino-bianchi-microwave-rf-engineering",
+    "title_ar": "هندسة الموجات الميكروية والترددات الراديوية",
+    "title_en": "Microwave and RF Engineering",
+    "author": "Roberto Sorrentino؛ Giovanni Bianchi",
+    "category": "هندسة كهربائية",
+    "cover": "assets/covers/placeholder.svg",
+    "status": "review",
+    "version": "v1.0",
+    "progress": null,
+    "last_updated": "2026-10-02",
+    "description": "ترجمة عربية كاملة في جزء واحد لكتاب «هندسة الموجات الميكروية والترددات الراديوية» لروبرتو سورينتينو وجيوفاني بيانكي. يغطي الكتاب أساسيات الكهرومغناطيسية وانتشار الموجات الموجّهة وخطوط النقل ودوائر الميكروويف ومخطط سميث والرنانات ومطابقة الممانعة والمكونات السلبية والمرشحات، ثم تصميم المكونات الفعالة والتحكمية والمضخمات والمذبذبات ومحولات التردد، وتقنيات دوائر MIC وMMIC وRFIC، ومعماريات الإرسال والاستقبال، وطرق التحليل العددي وCAD، وينتهي بأجهزة وتقنيات القياس والملاحق والفهرس.",
+    "drive_url": "https://drive.google.com/file/d/14TlprJEx80iy6cm8id5Xb8WB_11mZ-Rm/view",
+    "enabled": true,
+    "demo": false
+  },
+  {
+    "id": "cohen-tannoudji-diu-laloe-quantum-mechanics-vol-1",
+    "title_ar": "ميكانيكا الكم - المجلد الأول: المفاهيم الأساسية والأدوات والتطبيقات",
+    "title_en": "Quantum Mechanics, Volume I: Basic Concepts, Tools, and Applications",
+    "author": "Claude Cohen-Tannoudji؛ Bernard Diu؛ Franck Laloë",
+    "category": "فيزياء",
+    "cover": "assets/covers/placeholder.svg",
+    "status": "review",
+    "version": "v1.0",
+    "progress": null,
+    "last_updated": "2026-10-02",
+    "description": "الترجمة العربية للمجلد الأول من كتاب «ميكانيكا الكم» لكلود كوهين-تانوجي وبرنار ديو وفرانك لالو، الطبعة الثانية. يقدم هذا المجلد المفاهيم الأساسية والأدوات الرياضية والتطبيقات الأولية لميكانيكا الكم، بدءًا من موجات المادة والفوتونات والوصف الكمي للجسيم، ثم فضاء الحالات وترميز ديراك والمؤثرات والقيم الذاتية، ومسلمات ميكانيكا الكم، وأنظمة اللف المغزلي 1/2 والأنظمة ثنائية المستوى، والمذبذب التوافقي، والعزم الزاوي، وصولًا إلى الجسيم في جهد مركزي وذرة الهيدروجين، مع المكملات والتمارين المرتبطة بكل فصل.",
+    "drive_url": "https://drive.google.com/file/d/1FFE8cOp_J8kGDVG6BjTIJ9nEDhCVmuCh/view",
+    "enabled": true,
+    "demo": false
+  },
+  {
+    "id": "cohen-tannoudji-diu-laloe-quantum-mechanics-vol-2",
+    "title_ar": "ميكانيكا الكم - المجلد الثاني: العزم الزاوي واللف المغزلي وطرق التقريب",
+    "title_en": "Quantum Mechanics, Volume II: Angular Momentum, Spin, and Approximation Methods",
+    "author": "Claude Cohen-Tannoudji؛ Bernard Diu؛ Franck Laloë",
+    "category": "فيزياء",
+    "cover": "assets/covers/placeholder.svg",
+    "status": "review",
+    "version": "v1.0",
+    "progress": null,
+    "last_updated": "2026-10-02",
+    "description": "الترجمة العربية للمجلد الثاني من كتاب «ميكانيكا الكم» لكلود كوهين-تانوجي وبرنار ديو وفرانك لالو، الطبعة الثانية. يواصل هذا المجلد تطوير النظرية على مستوى أكثر تقدمًا، ويغطي نظرية التشتت، ولف الإلكترون، وجمع العزوم الزاوية، ونظرية الاضطراب المستقلة عن الزمن، والبنية الدقيقة وفائقة الدقة لذرة الهيدروجين، وطرق التقريب للمسائل المعتمدة على الزمن، ثم أنظمة الجسيمات المتماثلة، مع المكملات والتطبيقات والتمارين، إضافة إلى ملاحق في متسلسلات وتحويلات فورييه ودالة ديراك وصياغتي لاغرانج وهاملتون في الميكانيكا الكلاسيكية، ثم المراجع والفهرس.",
+    "drive_url": "https://drive.google.com/file/d/1mW_tyGKpWIYj6LnAE9SX40OOwGBpESTZ/view",
+    "enabled": true,
+    "demo": false
+  },
+  {
+    "id": "cohen-tannoudji-diu-laloe-quantum-mechanics-vol-3",
+    "title_ar": "ميكانيكا الكم - المجلد الثالث: الفرميونات والبوزونات والفوتونات والارتباطات والتشابك",
+    "title_en": "Quantum Mechanics, Volume III: Fermions, Bosons, Photons, Correlations, and Entanglement",
+    "author": "Claude Cohen-Tannoudji؛ Bernard Diu؛ Franck Laloë",
+    "category": "فيزياء",
+    "cover": "assets/covers/placeholder.svg",
+    "status": "review",
+    "version": "v1.0",
+    "progress": null,
+    "last_updated": "2026-10-02",
+    "description": "الترجمة العربية للمجلد الثالث من كتاب «ميكانيكا الكم» لكلود كوهين-تانوجي وبرنار ديو وفرانك لالو. يتناول موضوعات أكثر تقدمًا في ميكانيكا الكم، بدءًا من مؤثرات الخلق والإفناء للجسيمات المتماثلة، ونظرية المجال ومؤثرات الحقل، وحالات الاقتران للفرميونات والبوزونات ونظرية BCS، ثم مراجعة الكهروديناميكا الكلاسيكية وتكميم الإشعاع الكهرومغناطيسي، وامتصاص الفوتونات وإصدارها وتشتتها بواسطة الذرات، وصولًا إلى التشابك الكمي والقياسات ومتباينات بيل. ويتضمن أيضًا ملاحق في تكامل فاينمان على المسارات، ومضاعِفات لاغرانج، والميكانيكا الإحصائية الكمومية، وتحويل ويغنر، ثم المراجع والفهرس.",
+    "drive_url": "https://drive.google.com/file/d/1InOVwOg2VcHUGoNw9ExwoP1pQBYrnRGD/view",
+    "enabled": true,
+    "demo": false
+  },
+  {
+    "id": "rashid-microelectronic-circuits-2-part-1",
+    "title_ar": "دوائر الإلكترونيات الدقيقة: التحليل والتصميم - الطبعة الثانية - الجزء الأول",
+    "title_en": "Microelectronic Circuits: Analysis and Design, Second Edition - Part 1",
+    "author": "Muhammad H. Rashid",
+    "category": "إلكترونيات",
+    "cover": "assets/covers/placeholder.svg",
+    "status": "review",
+    "version": "v1.0",
+    "progress": null,
+    "last_updated": "2026-10-02",
+    "description": "الجزء الأول من تقسيم الموقع لكتاب «دوائر الإلكترونيات الدقيقة: التحليل والتصميم» لمحمد هـ. رشيد، الطبعة الثانية. يشمل المقدمة والفصول 1–6، ويغطي مقدمة الإلكترونيات والتصميم، وخصائص المضخمات واستجابتها الترددية، والمضخمات التشغيلية وتطبيقاتها، ودايودات أشباه الموصلات وتطبيقاتها، ثم أساسيات أشباه الموصلات وخصائص وصلة pn.",
+    "drive_url": "",
+    "enabled": true,
+    "demo": false
+  },
+  {
+    "id": "rashid-microelectronic-circuits-2-part-2",
+    "title_ar": "دوائر الإلكترونيات الدقيقة: التحليل والتصميم - الطبعة الثانية - الجزء الثاني",
+    "title_en": "Microelectronic Circuits: Analysis and Design, Second Edition - Part 2",
+    "author": "Muhammad H. Rashid",
+    "category": "إلكترونيات",
+    "cover": "assets/covers/placeholder.svg",
+    "status": "review",
+    "version": "v1.0",
+    "progress": null,
+    "last_updated": "2026-10-02",
+    "description": "الجزء الثاني من تقسيم الموقع لكتاب «دوائر الإلكترونيات الدقيقة: التحليل والتصميم». يشمل الفصول 7–11، ويركز على ترانزستورات MOSFET ومضخماتها، والترانزستورات ثنائية القطبية BJT ومضخماتها، والمضخمات التفاضلية، ومضخمات التغذية الراجعة، ثم مضخمات القدرة وتحليلها وتصميمها.",
+    "drive_url": "",
+    "enabled": true,
+    "demo": false
+  },
+  {
+    "id": "rashid-microelectronic-circuits-2-part-3",
+    "title_ar": "دوائر الإلكترونيات الدقيقة: التحليل والتصميم - الطبعة الثانية - الجزء الثالث",
+    "title_en": "Microelectronic Circuits: Analysis and Design, Second Edition - Part 3",
+    "author": "Muhammad H. Rashid",
+    "category": "إلكترونيات",
+    "cover": "assets/covers/placeholder.svg",
+    "status": "review",
+    "version": "v1.0",
+    "progress": null,
+    "last_updated": "2026-10-02",
+    "description": "الجزء الثالث والأخير من تقسيم الموقع لكتاب «دوائر الإلكترونيات الدقيقة: التحليل والتصميم». يشمل الفصول 12–16 حتى نهاية الكتاب، ويغطي المرشحات الفعالة، والمذبذبات، والمضخمات التشغيلية العملية، والإلكترونيات الرقمية، والدوائر التناظرية المتكاملة وتطبيقاتها، ثم الملاحق الخاصة بـ OrCAD ومراجعة الدوائر الأساسية ونماذج BJT والمكونات السلبية ومسائل التصميم، إضافة إلى إجابات مختارة والفهرس.",
+    "drive_url": "",
     "enabled": true,
     "demo": false
   }

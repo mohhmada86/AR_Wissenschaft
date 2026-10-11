@@ -1,0 +1,157 @@
+{
+  "note": "Synthetic QA samples; no additions to books.json. Compact display lines retain full text in SVG metadata and card/detail text.",
+  "results": [
+    {
+      "id": "long-arabic",
+      "ok": true,
+      "bytes": 152163,
+      "sha256": "6c5797646e60c59a6e5d486ce60a7437d2bfaf8a3c43d50c36f9de881ae1f31d",
+      "derivatives": {
+        "long-arabic.webp": "8ce7ecb4446eada92f5af1c67a5859b6d03f9feb22ec102298cf5a15900b3fc6",
+        "long-arabic-360.webp": "c43453ed07e19c72d638d7d791cea6eb95a8237e27a6b4326789b3a402bb8538"
+      },
+      "layout": {
+        "title_bottom": 310,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": true,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    {
+      "id": "long-english",
+      "ok": true,
+      "bytes": 147411,
+      "sha256": "f0ce22c444fe551cff46e8b27f33de04a408fe24eee8467c3b6bd5f123fac25f",
+      "derivatives": {
+        "long-english.webp": "62d5bcc318159dfd716704597aca7681326e35d67153d17db3b1d9ca6d0442a6",
+        "long-english-360.webp": "5bd7658a74136f971668a7558eceda56fd55a6adddccf6c28258b873263232db"
+      },
+      "layout": {
+        "title_bottom": 334,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": true,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 22
+      }
+    },
+    {
+      "id": "many-authors",
+      "ok": true,
+      "bytes": 129289,
+      "sha256": "bf1258689f46acb59c2130bdc9bdaf63b33564fc7daf1e168d4efb0be352a45b",
+      "derivatives": {
+        "many-authors.webp": "684e1b07e583449ef89b289bb70d9ee6c93b105e3b7d19057f3dbe3d24aefeb1",
+        "many-authors-360.webp": "47b02917e11941d1cbeeba01608ea4960e5afc76bac80572f3188a54df931b55"
+      },
+      "layout": {
+        "title_bottom": 255,
+        "author_top": 760,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    {
+      "id": "arabic-only",
+      "ok": true,
+      "bytes": 57026,
+      "sha256": "cfcf048a45625f79ee78413c641380609dab52272e2b15582be453ee3428ac2d",
+      "derivatives": {
+        "arabic-only.webp": "d8d6353b3e9d785f7b4a174def7de9c7110d5d77ac099db852dd7c054f4397bf",
+        "arabic-only-360.webp": "3897f6cae546783f1499aa4f026024b19d9e2a620b373eb2417c49c555269a28"
+      },
+      "layout": {
+        "title_bottom": 211,
+        "author_top": 812,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 39
+      }
+    },
+    {
+      "id": "english-only",
+      "ok": true,
+      "bytes": 67146,
+      "sha256": "0186ada302905347a5ffedd53fa3baa456acd7f4115a9ac3b35691eeaaa9e6c0",
+      "derivatives": {
+        "english-only.webp": "dbf883b04c9fb7fd02da366e842a4e2c62fee285d7e28a68e2a09585a4796405",
+        "english-only-360.webp": "93449d6a10a5b9c5c59f67aaf168181de290627b651452141da1a7a0764bb539"
+      },
+      "layout": {
+        "title_bottom": 182,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    {
+      "id": "mixed-symbols",
+      "ok": true,
+      "bytes": 95122,
+      "sha256": "4d1a6178169f22a7f9d92da5a1a48869a7da054b7977df4524e2ab6c3501249e",
+      "derivatives": {
+        "mixed-symbols.webp": "8b2ec28e2148943b51980ff952966467fac6e3c27d925930543cedf96401e310",
+        "mixed-symbols-360.webp": "d1ad184aad865a73fb4e07480693d27f5d409def620d4e57a4b860b705dad663"
+      },
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    {
+      "id": "missing-metadata",
+      "ok": true,
+      "bytes": 39008,
+      "sha256": "0e5bc6e019440441c465273c477f148ccc25e6106ebe045eda4887bc0c02e988",
+      "derivatives": {
+        "missing-metadata.webp": "107f5c32f7b6723e7dba1736b9cd62638241dba0857d6ecaeff42480728d0982",
+        "missing-metadata-360.webp": "3724dd81ca15f6c46b8d4d946154b861d9a6504cd291491a9b92f4a9a216e4a7"
+      },
+      "layout": {
+        "title_bottom": 161,
+        "author_top": 847,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 39
+      }
+    },
+    {
+      "id": "unbroken-title",
+      "ok": true,
+      "bytes": 149228,
+      "sha256": "e76caefe9cd0a4b00866a021f5da261822b54c7fbb462cd408972ba562e8cc98",
+      "derivatives": {
+        "unbroken-title.webp": "1c131217146b1cda99da0f112981209789ac84c08d85827141282794f3b4ddf6",
+        "unbroken-title-360.webp": "971ac6a161accd873f1f30ad548ffff49695796e30f5f5a52e7d3cddef15bf3a"
+      },
+      "layout": {
+        "title_bottom": 226,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": true,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 22
+      }
+    }
+  ]
+}

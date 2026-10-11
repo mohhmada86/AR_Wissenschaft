@@ -1,0 +1,3857 @@
+{
+  "version": "1.0.0",
+  "renderer": "7b254f739875d7dec4833456e7426da0015f76a331de6654b1f82cb0350ea764",
+  "fonts": "f0d9e1bfa4e07cf09a7f85899181a3dd2e81960440ddc5a8823dd600cd5bd8dd",
+  "books": {
+    "aasen-olsson-nuclear-reactors-fusion-engineering-2009": {
+      "path": "assets/covers/generated/aasen-olsson-nuclear-reactors-fusion-engineering-2009.webp",
+      "svg_path": "assets/covers/generated/aasen-olsson-nuclear-reactors-fusion-engineering-2009.svg",
+      "small_path": "assets/covers/generated/aasen-olsson-nuclear-reactors-fusion-engineering-2009-360.webp",
+      "derivatives": {
+        "aasen-olsson-nuclear-reactors-fusion-engineering-2009.webp": "243dd13db68c87e149eab6f83b439cb4fd42fe7ea8a423a57250bbf24ee39882",
+        "aasen-olsson-nuclear-reactors-fusion-engineering-2009-360.webp": "faead7ff662be072bfd5f2d062d715ad65c96b1eec74443ca03c58023a10f4bc"
+      },
+      "signature": "39d8c52c23547cd3",
+      "hash": "3d25ac9db0da352074a45d1b413a90f7c8ee4713af157963401f416471b965e4",
+      "asset_sha256": "401de19cc22ca94f119e327a50154fe41c74099102c6fe82db4e27ff6def153e",
+      "bytes": 114387,
+      "subject": "physics",
+      "palette": 1,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "agarwal-lang-foundations-analog-digital-electronic-circuits-part-1": {
+      "path": "assets/covers/generated/agarwal-lang-foundations-analog-digital-electronic-circuits-part-1.webp",
+      "svg_path": "assets/covers/generated/agarwal-lang-foundations-analog-digital-electronic-circuits-part-1.svg",
+      "small_path": "assets/covers/generated/agarwal-lang-foundations-analog-digital-electronic-circuits-part-1-360.webp",
+      "derivatives": {
+        "agarwal-lang-foundations-analog-digital-electronic-circuits-part-1.webp": "06ab5fe2c80e8069ac09cc430afbe313a8c9384404a7d844c0d7dee8fc578641",
+        "agarwal-lang-foundations-analog-digital-electronic-circuits-part-1-360.webp": "61bb4bc1cbdc12ba4294de599461431ece01c2069aa17e1793783d778847e27f"
+      },
+      "signature": "57be30e45f2c9c4f",
+      "hash": "ac12a209596720a7b08fe2ac2aa7e0eeafc39588d12026f5a5459a435a41475f",
+      "asset_sha256": "a139f515776e5390b9c8ecc07fd1cd14d02cb3ca4bf6f64f4c50da4605c5506a",
+      "bytes": 131146,
+      "subject": "electronics",
+      "palette": 2,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "agarwal-lang-foundations-analog-digital-electronic-circuits-part-2": {
+      "path": "assets/covers/generated/agarwal-lang-foundations-analog-digital-electronic-circuits-part-2.webp",
+      "svg_path": "assets/covers/generated/agarwal-lang-foundations-analog-digital-electronic-circuits-part-2.svg",
+      "small_path": "assets/covers/generated/agarwal-lang-foundations-analog-digital-electronic-circuits-part-2-360.webp",
+      "derivatives": {
+        "agarwal-lang-foundations-analog-digital-electronic-circuits-part-2.webp": "c474e9a357e6e7ebbc40f5a2d1cf005070dbed77efc07af4c40633eae82e4975",
+        "agarwal-lang-foundations-analog-digital-electronic-circuits-part-2-360.webp": "201ae6fdab9bad40f2fd781ac27dce3b8b1100f711ff352062db8ba5e8a1b4c1"
+      },
+      "signature": "17e773166c2bf937",
+      "hash": "fb08793a56eb174346bf8d8b3669b370c9bd7b918faca91864250c40f5b518a8",
+      "asset_sha256": "f7721bc7d10eddfc4bcb103945b828aec45d61919a61627dbe72d38c78d135a1",
+      "bytes": 132279,
+      "subject": "electronics",
+      "palette": 1,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "alberts-essential-cell-biology-6-part-1": {
+      "path": "assets/covers/generated/alberts-essential-cell-biology-6-part-1.webp",
+      "svg_path": "assets/covers/generated/alberts-essential-cell-biology-6-part-1.svg",
+      "small_path": "assets/covers/generated/alberts-essential-cell-biology-6-part-1-360.webp",
+      "derivatives": {
+        "alberts-essential-cell-biology-6-part-1.webp": "8d8c3c5f530ef7d7c4dcc36ef2de7355337c26d253c4a207ffdf20cac9c98c44",
+        "alberts-essential-cell-biology-6-part-1-360.webp": "c6361d4d3b6ff95a21b7608295413ed2c23616b56ac6e2c97431099bd6b264f5"
+      },
+      "signature": "7c75b5c9b51dae18",
+      "hash": "4d068b30b917415e5e9e424f9a454abf5831110d4ea39355a44d931df92ac58f",
+      "asset_sha256": "cdd2d3d0348157b24a8798161eff296ab874cdc202020e58ebd77b7eccd66a83",
+      "bytes": 200322,
+      "subject": "biology",
+      "palette": 1,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 695,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "alberts-essential-cell-biology-6-part-2": {
+      "path": "assets/covers/generated/alberts-essential-cell-biology-6-part-2.webp",
+      "svg_path": "assets/covers/generated/alberts-essential-cell-biology-6-part-2.svg",
+      "small_path": "assets/covers/generated/alberts-essential-cell-biology-6-part-2-360.webp",
+      "derivatives": {
+        "alberts-essential-cell-biology-6-part-2.webp": "ad6da0cef6d20acd7dac6573c10ab026b90e7b52290a9c5c60ae4a4e0490988a",
+        "alberts-essential-cell-biology-6-part-2-360.webp": "1cf821564e66cf7d4439b80633ea71944fe01c1cc0a6e8252c0daa460c7ff8cb"
+      },
+      "signature": "07d0389097a0664f",
+      "hash": "094df535ba7dcdbe58eb0fa00ae38e22298bb4f9fff346c052529ef8fd2cc730",
+      "asset_sha256": "a408a706c19d2f0a375d9684fe098338a10e484ea59d20ad92611e902a451c3f",
+      "bytes": 201937,
+      "subject": "biology",
+      "palette": 1,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 695,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "alberts-molecular-biology-cell-7-part-1": {
+      "path": "assets/covers/generated/alberts-molecular-biology-cell-7-part-1.webp",
+      "svg_path": "assets/covers/generated/alberts-molecular-biology-cell-7-part-1.svg",
+      "small_path": "assets/covers/generated/alberts-molecular-biology-cell-7-part-1-360.webp",
+      "derivatives": {
+        "alberts-molecular-biology-cell-7-part-1.webp": "f917488021a7e65401a8fcf78b036bc92c4db5f5d08b3da056dfcffb34a71d20",
+        "alberts-molecular-biology-cell-7-part-1-360.webp": "1b9add9ad32d29edae435ce3c38cece5f26dc17367658827973406f02c527052"
+      },
+      "signature": "a93846575de88218",
+      "hash": "1b739cb8dd73406b945b843c2124188d13783765140bc41952a68563152d2277",
+      "asset_sha256": "fc73bd09c438fb525a521c1fba15fbf04604c4749b9e068513c9caefc6113f3a",
+      "bytes": 201938,
+      "subject": "biology",
+      "palette": 2,
+      "composition": 3,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 695,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "alberts-molecular-biology-cell-7-part-2": {
+      "path": "assets/covers/generated/alberts-molecular-biology-cell-7-part-2.webp",
+      "svg_path": "assets/covers/generated/alberts-molecular-biology-cell-7-part-2.svg",
+      "small_path": "assets/covers/generated/alberts-molecular-biology-cell-7-part-2-360.webp",
+      "derivatives": {
+        "alberts-molecular-biology-cell-7-part-2.webp": "053a58113932149d996fb64888a899b8e5cf6e384a5608a4ea6c1e9220d4d91e",
+        "alberts-molecular-biology-cell-7-part-2-360.webp": "db99559384b53af7fea5a67c8754486c753748d2400fb6c548ef8ef13dd88257"
+      },
+      "signature": "ecaf8bc6c8ccea5b",
+      "hash": "907ffb41827fbc9fde8b26495af78c278e268c1480080627c7b17dee5fa9dbbd",
+      "asset_sha256": "340a5e648e830da30323581471507c6e056510ef5ab9cd38ad33976398435422",
+      "bytes": 203133,
+      "subject": "biology",
+      "palette": 1,
+      "composition": 3,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 695,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "alberts-molecular-biology-cell-7-part-3": {
+      "path": "assets/covers/generated/alberts-molecular-biology-cell-7-part-3.webp",
+      "svg_path": "assets/covers/generated/alberts-molecular-biology-cell-7-part-3.svg",
+      "small_path": "assets/covers/generated/alberts-molecular-biology-cell-7-part-3-360.webp",
+      "derivatives": {
+        "alberts-molecular-biology-cell-7-part-3.webp": "04b79dbe6e1b7307473694dd290f86854eb02938c0993c25bc94c67e057d212a",
+        "alberts-molecular-biology-cell-7-part-3-360.webp": "cd623277bbd0a60233e20cadf4ef11863ddd224498c812ea63b9b709a6ccc47b"
+      },
+      "signature": "6d540c9caad06671",
+      "hash": "3e2d2d3b9af34e7c7f99f0ddfb09cff5197a9f88cd859830b060f3b630573de8",
+      "asset_sha256": "7b51bbad40e687880295b05dc576a34dd473e285f9acbbb61198d0012aded278",
+      "bytes": 202966,
+      "subject": "biology",
+      "palette": 1,
+      "composition": 3,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 695,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "alberts-molecular-biology-cell-7-part-4": {
+      "path": "assets/covers/generated/alberts-molecular-biology-cell-7-part-4.webp",
+      "svg_path": "assets/covers/generated/alberts-molecular-biology-cell-7-part-4.svg",
+      "small_path": "assets/covers/generated/alberts-molecular-biology-cell-7-part-4-360.webp",
+      "derivatives": {
+        "alberts-molecular-biology-cell-7-part-4.webp": "86b00b11a31fb27b0654fe27ad20eb48ddce17e18b4f84de89265e343a6fff51",
+        "alberts-molecular-biology-cell-7-part-4-360.webp": "955627c304851bec9bd2534baf957dde1c88e477c7de0c79ce0c45170d617759"
+      },
+      "signature": "31a42107993c9e82",
+      "hash": "c72e64f524183df80322b3f1f70415c94780cb5661b9a67211ad00a8f4843e65",
+      "asset_sha256": "708e4c83124f05b012aee3139693841c7653e5387b0e1eb5c7d4ae1da16919f2",
+      "bytes": 202095,
+      "subject": "biology",
+      "palette": 0,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 695,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "aoe3-art-electronics-third-edition-part-1": {
+      "path": "assets/covers/generated/aoe3-art-electronics-third-edition-part-1.webp",
+      "svg_path": "assets/covers/generated/aoe3-art-electronics-third-edition-part-1.svg",
+      "small_path": "assets/covers/generated/aoe3-art-electronics-third-edition-part-1-360.webp",
+      "derivatives": {
+        "aoe3-art-electronics-third-edition-part-1.webp": "ee3bece0097e9c25ff21b7a461f654c472593b115eb3e299d01f7d8eb9c43c3e",
+        "aoe3-art-electronics-third-edition-part-1-360.webp": "0f68aa87e63cb95bd97ad800a858285941727ca780a512aad81d82ffbcbba303"
+      },
+      "signature": "37ce671b83c38196",
+      "hash": "69646b2795a9b0d2bc23eb856db9c5c0ed0f097d1d3c9d49ac8e23148fa8e968",
+      "asset_sha256": "f49c524d14896e4467d879245baf5d06f0b598f2a5c39740a780d01bac4f2a0c",
+      "bytes": 104525,
+      "subject": "electronics",
+      "palette": 2,
+      "composition": 1,
+      "layout": {
+        "title_bottom": 290,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "aoe3-art-electronics-third-edition-part-2": {
+      "path": "assets/covers/generated/aoe3-art-electronics-third-edition-part-2.webp",
+      "svg_path": "assets/covers/generated/aoe3-art-electronics-third-edition-part-2.svg",
+      "small_path": "assets/covers/generated/aoe3-art-electronics-third-edition-part-2-360.webp",
+      "derivatives": {
+        "aoe3-art-electronics-third-edition-part-2.webp": "e61cea7512107329b37ea5a05a5ec70ddabb2bc5a7d155e29629b4e9e288a6d6",
+        "aoe3-art-electronics-third-edition-part-2-360.webp": "3005862dbcf37635073a334d5a53f3b472cc0866ca8d4b339757190c6dfa65cb"
+      },
+      "signature": "b0f4c9dc098d713f",
+      "hash": "b663692aee71700103911257afb4b762feae2ec77526a68636ff87f0db3995ed",
+      "asset_sha256": "b04aa74ff100f24144c23294822d2d6ffc4a459c6ad31d4293fa360d93761154",
+      "bytes": 106235,
+      "subject": "electronics",
+      "palette": 1,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 290,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "aoe3-art-electronics-third-edition-part-3": {
+      "path": "assets/covers/generated/aoe3-art-electronics-third-edition-part-3.webp",
+      "svg_path": "assets/covers/generated/aoe3-art-electronics-third-edition-part-3.svg",
+      "small_path": "assets/covers/generated/aoe3-art-electronics-third-edition-part-3-360.webp",
+      "derivatives": {
+        "aoe3-art-electronics-third-edition-part-3.webp": "428831c3d47a631fa3304015b4a5429f5129510457e2354e8e59f85887613613",
+        "aoe3-art-electronics-third-edition-part-3-360.webp": "fc0010a6852e3b4b73f72a4922cb391d483b37f36415bd1c046cd3ed4c300f2c"
+      },
+      "signature": "3e152272a5bdcff9",
+      "hash": "72f1ef11144d3dde45b197fcaa05c6c5077c91e493842b7e75746821f2058ca5",
+      "asset_sha256": "c37510e7152cbec0cbb625b7620edb91509ec24216980d8b996a03a403d6c05d",
+      "bytes": 106132,
+      "subject": "electronics",
+      "palette": 2,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 290,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "aoex-art-electronics-x-chapters-part-1": {
+      "path": "assets/covers/generated/aoex-art-electronics-x-chapters-part-1.webp",
+      "svg_path": "assets/covers/generated/aoex-art-electronics-x-chapters-part-1.svg",
+      "small_path": "assets/covers/generated/aoex-art-electronics-x-chapters-part-1-360.webp",
+      "derivatives": {
+        "aoex-art-electronics-x-chapters-part-1.webp": "5e1d3d37bfa6b01b56a92ff7c8468344df7d0a06a09b33795305c79ddfcf2232",
+        "aoex-art-electronics-x-chapters-part-1-360.webp": "985fe68108069f7c615f56c4397cceff7d9eb1439ef74abeacfe93c256341201"
+      },
+      "signature": "3f823f589b2697f7",
+      "hash": "de44644f9edaef32dddd700e1254d3e61da8a14372514dc98ac7ad7b654679cf",
+      "asset_sha256": "63324b3af989b2ed7cb910517449ccf7232169ed44569beb9bc47b6c9fd94d00",
+      "bytes": 104825,
+      "subject": "electronics",
+      "palette": 0,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 290,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "aoex-art-electronics-x-chapters-part-2": {
+      "path": "assets/covers/generated/aoex-art-electronics-x-chapters-part-2.webp",
+      "svg_path": "assets/covers/generated/aoex-art-electronics-x-chapters-part-2.svg",
+      "small_path": "assets/covers/generated/aoex-art-electronics-x-chapters-part-2-360.webp",
+      "derivatives": {
+        "aoex-art-electronics-x-chapters-part-2.webp": "3093bb13d65d027bff9b02d2f72e27770baf61ed6ad635881fc1c0ae20a71ce8",
+        "aoex-art-electronics-x-chapters-part-2-360.webp": "d8aea9d5fbea3ef46d0e8ade69827f64df2ebfb9aefecda3b038b516b7dadb99"
+      },
+      "signature": "81ddebc224fa14e3",
+      "hash": "7481aefc36f723c608b462a6ff1544b8f4b368f1208975cd26f139228e4a5b02",
+      "asset_sha256": "1e844b77fa845f1a3154828396b05f539ce2d8560b3f5d21896773a0792f3fd4",
+      "bytes": 105854,
+      "subject": "electronics",
+      "palette": 2,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 290,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "ashcroft-mermin-solid-state-physics": {
+      "path": "assets/covers/generated/ashcroft-mermin-solid-state-physics.webp",
+      "svg_path": "assets/covers/generated/ashcroft-mermin-solid-state-physics.svg",
+      "small_path": "assets/covers/generated/ashcroft-mermin-solid-state-physics-360.webp",
+      "derivatives": {
+        "ashcroft-mermin-solid-state-physics.webp": "d2461e5483858fd85b815da9569659769df548b95cf078e6ad0df9554d84967c",
+        "ashcroft-mermin-solid-state-physics-360.webp": "593db64472ebb3010a6fa0182306045de7528ca8d08b882a42568dd8208f70d5"
+      },
+      "signature": "9726e3aab6503b91",
+      "hash": "e409d86049bc83b24319f95414cae385ab75aa88ae66f37c082924647a56956b",
+      "asset_sha256": "7da5f3baf3215e170c745345fd7fdc9a24d739af1f2ad3bec82977da565fa9c5",
+      "bytes": 89929,
+      "subject": "physics",
+      "palette": 2,
+      "composition": 3,
+      "layout": {
+        "title_bottom": 205,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "atkins-jones-chemical-principles-quest-insight-5-part-1": {
+      "path": "assets/covers/generated/atkins-jones-chemical-principles-quest-insight-5-part-1.webp",
+      "svg_path": "assets/covers/generated/atkins-jones-chemical-principles-quest-insight-5-part-1.svg",
+      "small_path": "assets/covers/generated/atkins-jones-chemical-principles-quest-insight-5-part-1-360.webp",
+      "derivatives": {
+        "atkins-jones-chemical-principles-quest-insight-5-part-1.webp": "32ce323938a5b5907f1aaa92d9d78d3ee45621817426a3041c9db5bcea0742f2",
+        "atkins-jones-chemical-principles-quest-insight-5-part-1-360.webp": "38087b2357f42936820e23af90ecbc9ef8ef4d7d27f7a4473d5c5ce72a6337d1"
+      },
+      "signature": "34193d5a332fa5cb",
+      "hash": "3266c16c930493256fd4ef8e36f500028804073c129c074140545ffb8c2ce383",
+      "asset_sha256": "d5b1b90d9cf18c86f9d3f1cb37759765a14c78318d9615662102a74b10b28958",
+      "bytes": 124128,
+      "subject": "chemistry",
+      "palette": 0,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "atkins-jones-chemical-principles-quest-insight-5-part-2": {
+      "path": "assets/covers/generated/atkins-jones-chemical-principles-quest-insight-5-part-2.webp",
+      "svg_path": "assets/covers/generated/atkins-jones-chemical-principles-quest-insight-5-part-2.svg",
+      "small_path": "assets/covers/generated/atkins-jones-chemical-principles-quest-insight-5-part-2-360.webp",
+      "derivatives": {
+        "atkins-jones-chemical-principles-quest-insight-5-part-2.webp": "e6931a02064796cff63ecdbed06f2da88b4df7e82c6313cad227003d3891ef48",
+        "atkins-jones-chemical-principles-quest-insight-5-part-2-360.webp": "48e3a474de4068e72640226e1b2a6b96d0b78fbfcb0ad3e4d1e40a3a77d233bc"
+      },
+      "signature": "bd91b2a0674c6bcf",
+      "hash": "958963d20afce16e669d1c565ff864fdcd52720cec47f253dc6ed3dce4ec3e6b",
+      "asset_sha256": "be2e0ccf0b2fd6a58a5ab76f200795f65c6b71ed64da93601bf122d7922506be",
+      "bytes": 128835,
+      "subject": "chemistry",
+      "palette": 1,
+      "composition": 3,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "begegnungen-a1-plus": {
+      "path": "assets/covers/generated/begegnungen-a1-plus.webp",
+      "svg_path": "assets/covers/generated/begegnungen-a1-plus.svg",
+      "small_path": "assets/covers/generated/begegnungen-a1-plus-360.webp",
+      "derivatives": {
+        "begegnungen-a1-plus.webp": "575ee0759c93d5760df13feda67b356a90affae140d7c110e126eceb1937440d",
+        "begegnungen-a1-plus-360.webp": "20e0c07d085977068a0f8a347fce674c8851089b388d575364aa284eee9ccf8e"
+      },
+      "signature": "1ab13c55b5333dbc",
+      "hash": "f42df30afd2b44e428224ddf9ea95838e61fb4a80981c62053cc6ab3347a0652",
+      "asset_sha256": "ae6fc159007ab9df208904ded4ad6abca21d2c76947521a8ef064c91fad7efab",
+      "bytes": 127820,
+      "subject": "languages",
+      "palette": 2,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 374,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "berestetskii-lifshitz-pitaevskii-quantum-electrodynamics-vol-4-2nd": {
+      "path": "assets/covers/generated/berestetskii-lifshitz-pitaevskii-quantum-electrodynamics-vol-4-2nd.webp",
+      "svg_path": "assets/covers/generated/berestetskii-lifshitz-pitaevskii-quantum-electrodynamics-vol-4-2nd.svg",
+      "small_path": "assets/covers/generated/berestetskii-lifshitz-pitaevskii-quantum-electrodynamics-vol-4-2nd-360.webp",
+      "derivatives": {
+        "berestetskii-lifshitz-pitaevskii-quantum-electrodynamics-vol-4-2nd.webp": "c01ca20562b28ee19da36471fece64711f7f268f5f27d09e967a8907f7ad17fe",
+        "berestetskii-lifshitz-pitaevskii-quantum-electrodynamics-vol-4-2nd-360.webp": "13465d86dc628f271e8f9361a8f40fd3d5248191f212d1b2bfcfb763160a3949"
+      },
+      "signature": "1b3f51d60f1834bd",
+      "hash": "5f0dad7f334aa82daf751b12dfa21059148681ef4c473dabb29e2a4e4ec643f8",
+      "asset_sha256": "5b9a164ccf4d5c038a63392ec255da2599f06c2c4e1a3ecc25c14697b80106c7",
+      "bytes": 146285,
+      "subject": "quantum",
+      "palette": 0,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 305,
+        "author_top": 749,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "brown-chemistry-central-science-15si-part-1": {
+      "path": "assets/covers/generated/brown-chemistry-central-science-15si-part-1.webp",
+      "svg_path": "assets/covers/generated/brown-chemistry-central-science-15si-part-1.svg",
+      "small_path": "assets/covers/generated/brown-chemistry-central-science-15si-part-1-360.webp",
+      "derivatives": {
+        "brown-chemistry-central-science-15si-part-1.webp": "4aa9b4607eea8e1c017a0fdfdd48f0204011245a25a61546d24e4d3c8e4102af",
+        "brown-chemistry-central-science-15si-part-1-360.webp": "47a5e9b15e4f4c05a83090a07b09f5890a1cf7aca0f33103eabb3485fa556a9a"
+      },
+      "signature": "6be14fb1dcd3ed48",
+      "hash": "1d01c2862e9a100256fe7b225a592e9d56c452ff96db32bdb4dab342d261a685",
+      "asset_sha256": "d9736fa93de79e6a631ec3a167a3a732c228571d7fc1ebf1783636784aa1ef9e",
+      "bytes": 159716,
+      "subject": "chemistry",
+      "palette": 1,
+      "composition": 3,
+      "layout": {
+        "title_bottom": 424,
+        "author_top": 760,
+        "art_height": 300,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "brown-chemistry-central-science-15si-part-2": {
+      "path": "assets/covers/generated/brown-chemistry-central-science-15si-part-2.webp",
+      "svg_path": "assets/covers/generated/brown-chemistry-central-science-15si-part-2.svg",
+      "small_path": "assets/covers/generated/brown-chemistry-central-science-15si-part-2-360.webp",
+      "derivatives": {
+        "brown-chemistry-central-science-15si-part-2.webp": "4ef5d59e47de61dfaa776b9a8ddadf6bb9489d310ad65fd4927649c035f4fbaa",
+        "brown-chemistry-central-science-15si-part-2-360.webp": "c885335a892ef52c6cdfe6c74cb5dead68ad3c09387f35fae35ec9dd148f0aec"
+      },
+      "signature": "59547de30fcf9fcc",
+      "hash": "4e651a63df0caa17875513880c49647c42bae22c8d2c22724cca81688063408f",
+      "asset_sha256": "9ee5eae607b7a4fbce24c01e41b2d381e316647aaa85a8acdfd24a63abbf3552",
+      "bytes": 160797,
+      "subject": "chemistry",
+      "palette": 0,
+      "composition": 3,
+      "layout": {
+        "title_bottom": 424,
+        "author_top": 760,
+        "art_height": 300,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "brown-chemistry-central-science-15si-part-3": {
+      "path": "assets/covers/generated/brown-chemistry-central-science-15si-part-3.webp",
+      "svg_path": "assets/covers/generated/brown-chemistry-central-science-15si-part-3.svg",
+      "small_path": "assets/covers/generated/brown-chemistry-central-science-15si-part-3-360.webp",
+      "derivatives": {
+        "brown-chemistry-central-science-15si-part-3.webp": "b86f6813c5390b41b1ee27101489ddf53f3dd62eae942cfb146db65a5f2d8f38",
+        "brown-chemistry-central-science-15si-part-3-360.webp": "ac4c61689e648bbca49d20f5ca5132f76c04f867ed2bde992efe2149a81b5bac"
+      },
+      "signature": "b68a5b9853709b47",
+      "hash": "cb9cd1e92adf86a02908b71e8295231bcd5b41cef8532ce39387b79029b17975",
+      "asset_sha256": "6169ce2836481aa42b2bc10aed0d200417940fc4422e3280eaa55aacbd2221ef",
+      "bytes": 157001,
+      "subject": "chemistry",
+      "palette": 0,
+      "composition": 3,
+      "layout": {
+        "title_bottom": 424,
+        "author_top": 760,
+        "art_height": 300,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "carr-rf-components-circuits": {
+      "path": "assets/covers/generated/carr-rf-components-circuits.webp",
+      "svg_path": "assets/covers/generated/carr-rf-components-circuits.svg",
+      "small_path": "assets/covers/generated/carr-rf-components-circuits-360.webp",
+      "derivatives": {
+        "carr-rf-components-circuits.webp": "dac561ea6989eeff1af5e6f4049ed763840d92cf18e168f810770ef6f9bb53c0",
+        "carr-rf-components-circuits-360.webp": "c8fed7cf46208b4d1e9780ad5b776620a0225825f6ec9b560b51c216e85d9475"
+      },
+      "signature": "cd793ee0c46c951d",
+      "hash": "aa4220f0fba3f28fef94b10e32831a9a11ccc56b81963b92ced7126575019fff",
+      "asset_sha256": "208a34889abaee290faa2666bcec7e87e696823c610eeb9ac1641ccd5ae6e3fa",
+      "bytes": 91813,
+      "subject": "electronics",
+      "palette": 0,
+      "composition": 1,
+      "layout": {
+        "title_bottom": 255,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "carr-secrets-rf-circuit-design": {
+      "path": "assets/covers/generated/carr-secrets-rf-circuit-design.webp",
+      "svg_path": "assets/covers/generated/carr-secrets-rf-circuit-design.svg",
+      "small_path": "assets/covers/generated/carr-secrets-rf-circuit-design-360.webp",
+      "derivatives": {
+        "carr-secrets-rf-circuit-design.webp": "d94d675406ae07cc0341284f528a78cdb1998f026df7008fa2ca96b23327abcd",
+        "carr-secrets-rf-circuit-design-360.webp": "8bf7fabea023724f75e4800dc306d23fdc828af6fae63b1353894d2a57db51ab"
+      },
+      "signature": "b40f48f1b500fb44",
+      "hash": "4b8dce6792ea5774e5e303a339d2679e8572599963524e043ec1a80ecba179ef",
+      "asset_sha256": "1e6c2dac1268502baa72d211d5cb5948f56e0dc4c98af2e17f2b6917a46a727d",
+      "bytes": 93740,
+      "subject": "electronics",
+      "palette": 1,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 255,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "cassirer-modern-physics-1972": {
+      "path": "assets/covers/generated/cassirer-modern-physics-1972.webp",
+      "svg_path": "assets/covers/generated/cassirer-modern-physics-1972.svg",
+      "small_path": "assets/covers/generated/cassirer-modern-physics-1972-360.webp",
+      "derivatives": {
+        "cassirer-modern-physics-1972.webp": "fea7f34c865d988b174fc9f2d90cab2ac099777f56902045ca0841b9cefa9122",
+        "cassirer-modern-physics-1972-360.webp": "a96e09989359248f1f97cf302bd14b0da3c49e238ed0beef7ef83eebf42b7b14"
+      },
+      "signature": "6c74570a70b80907",
+      "hash": "386eb0bdf412cc7cfa3a70b6b381c4221f6fd8dcbf17e3cce5e1d4aa37fe9286",
+      "asset_sha256": "71fcc4df6996b00ac3d5702a094b95e6c9197efea013afe89e80966cc529ebd3",
+      "bytes": 47950,
+      "subject": "humanities",
+      "palette": 0,
+      "composition": 3,
+      "layout": {
+        "title_bottom": 161,
+        "author_top": 812,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 39
+      }
+    },
+    "cheng-field-wave-electromagnetics-2": {
+      "path": "assets/covers/generated/cheng-field-wave-electromagnetics-2.webp",
+      "svg_path": "assets/covers/generated/cheng-field-wave-electromagnetics-2.svg",
+      "small_path": "assets/covers/generated/cheng-field-wave-electromagnetics-2-360.webp",
+      "derivatives": {
+        "cheng-field-wave-electromagnetics-2.webp": "2d5792c59083772ca4f51c74da0eb9b296bb8f0e281e505bc5d0774cf4f48192",
+        "cheng-field-wave-electromagnetics-2-360.webp": "6acf6d2e26f445e3af7b2d2bdeee1b10d89cf06343d29ee7799d9507b5813a67"
+      },
+      "signature": "5932c95568c27f9c",
+      "hash": "8d2bc2f4ef42b3d2b49982f3c6ba96aad2e3e93fd77cba16ddb896ae29a6b00a",
+      "asset_sha256": "506866f88b560e2cd967519bdc54c9bf759fd3456fda3ff70a779bbec04b81e6",
+      "bytes": 110038,
+      "subject": "engineering",
+      "palette": 2,
+      "composition": 1,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "cohen-tannoudji-diu-laloe-quantum-mechanics-vol-1": {
+      "path": "assets/covers/generated/cohen-tannoudji-diu-laloe-quantum-mechanics-vol-1.webp",
+      "svg_path": "assets/covers/generated/cohen-tannoudji-diu-laloe-quantum-mechanics-vol-1.svg",
+      "small_path": "assets/covers/generated/cohen-tannoudji-diu-laloe-quantum-mechanics-vol-1-360.webp",
+      "derivatives": {
+        "cohen-tannoudji-diu-laloe-quantum-mechanics-vol-1.webp": "6a7a35acb45130c7482426bb58e6e8ade356d26dc4ff438f97b3168ba5940278",
+        "cohen-tannoudji-diu-laloe-quantum-mechanics-vol-1-360.webp": "fe6453871681956423e873e86866ce95b9ae065e39d511480fd18493adff857f"
+      },
+      "signature": "bd215c8c4cb19d1f",
+      "hash": "9772e5fda40ae3246d5c86bb78316726d823050f46e1058287cf3814c4844c58",
+      "asset_sha256": "bbd32ce8e4aab7951162625e8a183187532b59e0e3dc1005a19e2a8774b4fff6",
+      "bytes": 172072,
+      "subject": "quantum",
+      "palette": 1,
+      "composition": 1,
+      "layout": {
+        "title_bottom": 374,
+        "author_top": 752,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "cohen-tannoudji-diu-laloe-quantum-mechanics-vol-2": {
+      "path": "assets/covers/generated/cohen-tannoudji-diu-laloe-quantum-mechanics-vol-2.webp",
+      "svg_path": "assets/covers/generated/cohen-tannoudji-diu-laloe-quantum-mechanics-vol-2.svg",
+      "small_path": "assets/covers/generated/cohen-tannoudji-diu-laloe-quantum-mechanics-vol-2-360.webp",
+      "derivatives": {
+        "cohen-tannoudji-diu-laloe-quantum-mechanics-vol-2.webp": "bed9f007ac35b14b0022c7d9773705df9b64ec59456fb282b1e92169f0a1014f",
+        "cohen-tannoudji-diu-laloe-quantum-mechanics-vol-2-360.webp": "a70050c04914afa1dfbf07c54a061c67a1e02cb556f22ddcf25b54853c5a1797"
+      },
+      "signature": "ffdea5d128803908",
+      "hash": "b79540a005ea888332e4a61aef769843a0ccbc9cc924bbb5645fa2f25cb18e73",
+      "asset_sha256": "293cab88fac50d4f347bfeae556a128c8599854e852b46224f0ceb92a952368d",
+      "bytes": 176351,
+      "subject": "quantum",
+      "palette": 0,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 424,
+        "author_top": 752,
+        "art_height": 292,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "cohen-tannoudji-diu-laloe-quantum-mechanics-vol-3": {
+      "path": "assets/covers/generated/cohen-tannoudji-diu-laloe-quantum-mechanics-vol-3.webp",
+      "svg_path": "assets/covers/generated/cohen-tannoudji-diu-laloe-quantum-mechanics-vol-3.svg",
+      "small_path": "assets/covers/generated/cohen-tannoudji-diu-laloe-quantum-mechanics-vol-3-360.webp",
+      "derivatives": {
+        "cohen-tannoudji-diu-laloe-quantum-mechanics-vol-3.webp": "4287131ebd680ead4d39f106e03c5eb994bf09feedc41e5c00c18b3f85380758",
+        "cohen-tannoudji-diu-laloe-quantum-mechanics-vol-3-360.webp": "01bf485ff60e82cfbabc479a00241d04b69aadb164b6adb9c0feac40e57b27c8"
+      },
+      "signature": "17f39f3472c4dbbb",
+      "hash": "5c3a9159328f8dc7d97192d7d59cd7401b33d624bd0cf221f601cacf74c43173",
+      "asset_sha256": "ed6736c0cb24a38d434c5508f7b0d0a8fe21c1e28e6d66d881116e181515076d",
+      "bytes": 190723,
+      "subject": "quantum",
+      "palette": 0,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 424,
+        "author_top": 752,
+        "art_height": 292,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "cormen-algorithms-unlocked": {
+      "path": "assets/covers/generated/cormen-algorithms-unlocked.webp",
+      "svg_path": "assets/covers/generated/cormen-algorithms-unlocked.svg",
+      "small_path": "assets/covers/generated/cormen-algorithms-unlocked-360.webp",
+      "derivatives": {
+        "cormen-algorithms-unlocked.webp": "98feb718d7b8bd92dcd3189e6f071ce70e5685a7a1d5adcfc1bfa6620dee637b",
+        "cormen-algorithms-unlocked-360.webp": "fa222a9870e9143ef9d4788d63212db2bc220f5d7c5e8947400e26ef831cec2e"
+      },
+      "signature": "443b66cb39ff268a",
+      "hash": "35993a4b27a1c049a3e01d7ca6aa160ad247729fcf9c23e355e0f089150cff66",
+      "asset_sha256": "2cd4630d92ebf6e636bf9fa22cd87e492167e59782d96274b3c62583b11dd9ce",
+      "bytes": 89579,
+      "subject": "computing",
+      "palette": 0,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 205,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "decher-schlenoff-multilayer-thin-films": {
+      "path": "assets/covers/generated/decher-schlenoff-multilayer-thin-films.webp",
+      "svg_path": "assets/covers/generated/decher-schlenoff-multilayer-thin-films.svg",
+      "small_path": "assets/covers/generated/decher-schlenoff-multilayer-thin-films-360.webp",
+      "derivatives": {
+        "decher-schlenoff-multilayer-thin-films.webp": "5a67f2a9f19242c803a8189ff54aefe9d045b12d883820b443e957dc51edddd9",
+        "decher-schlenoff-multilayer-thin-films-360.webp": "3bf46a8c5976c271748c472674de47910b17bb78b174d9678bd85e80e152899a"
+      },
+      "signature": "eaf23fac55ecf389",
+      "hash": "0a420b35c5b9e8e2095b172554d069f37e065e4b6c1db80300f5c2c69ab86a64",
+      "asset_sha256": "ffafdc83e1b2e6edf13dcbdb27021f21aa1b12d8306290c764fe1574f4bae515",
+      "bytes": 111086,
+      "subject": "engineering",
+      "palette": 1,
+      "composition": 1,
+      "layout": {
+        "title_bottom": 355,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "deutsch-intensiv-berufliches-deutsch-b2": {
+      "path": "assets/covers/generated/deutsch-intensiv-berufliches-deutsch-b2.webp",
+      "svg_path": "assets/covers/generated/deutsch-intensiv-berufliches-deutsch-b2.svg",
+      "small_path": "assets/covers/generated/deutsch-intensiv-berufliches-deutsch-b2-360.webp",
+      "derivatives": {
+        "deutsch-intensiv-berufliches-deutsch-b2.webp": "bc1a6fcfda29eb369155fb5a9a0cc9993743cbf059d57f48b8de1198bcb9b6d7",
+        "deutsch-intensiv-berufliches-deutsch-b2-360.webp": "60a1caff13415757e13f6e37ffbea9e96f244337ddf5da574cbe6a520986bb7c"
+      },
+      "signature": "d4cdfee859631ca7",
+      "hash": "4f805d5cd1e394afa520e8803cbd971d669ef3668e961f9a9ba65c232e3c4fcd",
+      "asset_sha256": "a6f69ec1df60cedd740f578008839599e85bf95d60a1e603004be6c70473757a",
+      "bytes": 141520,
+      "subject": "languages",
+      "palette": 1,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 374,
+        "author_top": 787,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "deutsch-intensiv-hoeren-sprechen-a1": {
+      "path": "assets/covers/generated/deutsch-intensiv-hoeren-sprechen-a1.webp",
+      "svg_path": "assets/covers/generated/deutsch-intensiv-hoeren-sprechen-a1.svg",
+      "small_path": "assets/covers/generated/deutsch-intensiv-hoeren-sprechen-a1-360.webp",
+      "derivatives": {
+        "deutsch-intensiv-hoeren-sprechen-a1.webp": "925f31108ec6875896480761e720ec97cd376e42b930a254f8ca1a2d783f6243",
+        "deutsch-intensiv-hoeren-sprechen-a1-360.webp": "78eb281b4f715b2ba6b1e023254aa342fe64da0441e6d1bfb8a455b717b74a26"
+      },
+      "signature": "83787a46f00c46b1",
+      "hash": "af8cf2665990126b727c8d8c59ad3cc16569c20c5ba1ac1de4d9a78e426cb762",
+      "asset_sha256": "9a5c8959fbf8af1a81764b4b6f4f318c3a875c2602e7fd92ca073a843dc3fd23",
+      "bytes": 82987,
+      "subject": "languages",
+      "palette": 1,
+      "composition": 3,
+      "layout": {
+        "title_bottom": 290,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "dey-ghosh-programming-in-c-2": {
+      "path": "assets/covers/generated/dey-ghosh-programming-in-c-2.webp",
+      "svg_path": "assets/covers/generated/dey-ghosh-programming-in-c-2.svg",
+      "small_path": "assets/covers/generated/dey-ghosh-programming-in-c-2-360.webp",
+      "derivatives": {
+        "dey-ghosh-programming-in-c-2.webp": "1ea2990e26d580d904eae6111ac9bc0cdfd03140eb7e050b4f2ba533ad5adeaf",
+        "dey-ghosh-programming-in-c-2-360.webp": "7916d756daf758dad30c82a72dfe98dc7be54b0d14cb217ce351af3059812eaf"
+      },
+      "signature": "04c5b14f8c61f00a",
+      "hash": "9e508e999ecca1a08b92924f09c556b0be6049079d68eb340aaba81d86e82d50",
+      "asset_sha256": "64c12aa4d4034f4e736fd5f6b0d831992511e7da77ad31f0a49b6633043b5efe",
+      "bytes": 90134,
+      "subject": "computing",
+      "palette": 1,
+      "composition": 1,
+      "layout": {
+        "title_bottom": 255,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "flanagan-javascript-definitive-guide-7": {
+      "path": "assets/covers/generated/flanagan-javascript-definitive-guide-7.webp",
+      "svg_path": "assets/covers/generated/flanagan-javascript-definitive-guide-7.svg",
+      "small_path": "assets/covers/generated/flanagan-javascript-definitive-guide-7-360.webp",
+      "derivatives": {
+        "flanagan-javascript-definitive-guide-7.webp": "8b8eab797ce573c81a238fb5a6f884af19892d05d6fc7415d6379888827dfb3f",
+        "flanagan-javascript-definitive-guide-7-360.webp": "5269f6718424583919ffeaed115c22fb2ff907be93e72b50d278a372cbd373ca"
+      },
+      "signature": "0c99188cc0a651a1",
+      "hash": "ec1f47f75c1b9efe47ad9b49c5fc20078f8280565cac1fb4faa3567f9776c2d7",
+      "asset_sha256": "2a0fcd671c45319b3e0d9ce456b5a47f2f326c5fcc0c82c97d5e65d6c649ef45",
+      "bytes": 106743,
+      "subject": "computing",
+      "palette": 0,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 290,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "flp-nme-vol-1": {
+      "path": "assets/covers/generated/flp-nme-vol-1.webp",
+      "svg_path": "assets/covers/generated/flp-nme-vol-1.svg",
+      "small_path": "assets/covers/generated/flp-nme-vol-1-360.webp",
+      "derivatives": {
+        "flp-nme-vol-1.webp": "2465b3c36305dea1a70aec5b01659e0737c4b424b9de1ca3c6bf46528ec31754",
+        "flp-nme-vol-1-360.webp": "2e37dc6244a8296e733a584120d0f14bba5192ac17b23faf286cf0c42d8fb01d"
+      },
+      "signature": "be1f836da3322d8c",
+      "hash": "b2e3dd0991f91d3a220a6532717b620a1e4067fae5ccdd5fabde701540ced59f",
+      "asset_sha256": "ea48fef39562f8248832d532f85389de778e3ae1ba0b15b61baa599c4aa01741",
+      "bytes": 145194,
+      "subject": "physics",
+      "palette": 1,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 290,
+        "author_top": 752,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "flp-nme-vol-2": {
+      "path": "assets/covers/generated/flp-nme-vol-2.webp",
+      "svg_path": "assets/covers/generated/flp-nme-vol-2.svg",
+      "small_path": "assets/covers/generated/flp-nme-vol-2-360.webp",
+      "derivatives": {
+        "flp-nme-vol-2.webp": "a0ee71c37240deb381ccb4636935d6d12014dba156301c23902edbc92cfa2380",
+        "flp-nme-vol-2-360.webp": "1d87e7ba1140289aee1603c4fa968c45ee5e3e096261ffcb7cd018471d2cce00"
+      },
+      "signature": "9772e37ffa08f526",
+      "hash": "4b8af6abab4dbbdcd9a955902f009b71ca30993069a614c37b2d03e904a02f83",
+      "asset_sha256": "fe179ea53e1bc0dc9cc5fb930a3fc29f08c8c50193a4ec81c1d57f6b8656cb6a",
+      "bytes": 136414,
+      "subject": "physics",
+      "palette": 1,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 290,
+        "author_top": 752,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "flp-nme-vol-3": {
+      "path": "assets/covers/generated/flp-nme-vol-3.webp",
+      "svg_path": "assets/covers/generated/flp-nme-vol-3.svg",
+      "small_path": "assets/covers/generated/flp-nme-vol-3-360.webp",
+      "derivatives": {
+        "flp-nme-vol-3.webp": "a54f52cf59a3cf1ce4143c379a1efb77164f399aea41ea5adf39cc2c1074ff47",
+        "flp-nme-vol-3-360.webp": "f0c888ac5cd313efa8a3d2289c7d68d157aa6f30c79ba657889b64fd1253de46"
+      },
+      "signature": "b3e4c12cde77b05b",
+      "hash": "008f808c6aefffcd69b49a5351ca387e453145c5fc1cbbac798f9d4ab65b14c1",
+      "asset_sha256": "7e7f34526403964e71c820bdc66ab4cce88fe335674f2fedb99b61c1167e251b",
+      "bytes": 136137,
+      "subject": "physics",
+      "palette": 2,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 290,
+        "author_top": 752,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "gekeler-mathematical-methods-mechanics": {
+      "path": "assets/covers/generated/gekeler-mathematical-methods-mechanics.webp",
+      "svg_path": "assets/covers/generated/gekeler-mathematical-methods-mechanics.svg",
+      "small_path": "assets/covers/generated/gekeler-mathematical-methods-mechanics-360.webp",
+      "derivatives": {
+        "gekeler-mathematical-methods-mechanics.webp": "0ebfb97a22fb056a6cc546e410ce9fd0cd1cf3a1c3630a0421962b737dd769fe",
+        "gekeler-mathematical-methods-mechanics-360.webp": "119bf8aed74ec9d508fd15f8905d4137bcc723287c01a13298dbeee158fe9161"
+      },
+      "signature": "0b5d82b816bdcec3",
+      "hash": "ceb1a802d604a74354050cd72709785253bbb06c79fc9cbf322318b902690d91",
+      "asset_sha256": "5c1878f6e84e41176d8295dff956bab7cd0cec8b18784bdbef4821e083ebb96d",
+      "bytes": 107479,
+      "subject": "mathematics",
+      "palette": 2,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 374,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "georgi-physics-of-waves": {
+      "path": "assets/covers/generated/georgi-physics-of-waves.webp",
+      "svg_path": "assets/covers/generated/georgi-physics-of-waves.svg",
+      "small_path": "assets/covers/generated/georgi-physics-of-waves-360.webp",
+      "derivatives": {
+        "georgi-physics-of-waves.webp": "4003ecc69dcdb9efd6551b51be17c2274744cc527dde5fa5ef511cdeddf3b245",
+        "georgi-physics-of-waves-360.webp": "2e3859dac43df08947dd93c3d235bf3cd515fcad7c09cc481b8b2ac2c8b07e29"
+      },
+      "signature": "e42c5791d1c5041e",
+      "hash": "1b90f33f65e11ea3f0c95ff5c5e327b0b56c96f33f984c85684a9dc89847cdad",
+      "asset_sha256": "851c81f82a3d1a58feb0114f0cdf4783034bab33c2438584870a09c8fd764ae4",
+      "bytes": 59674,
+      "subject": "physics",
+      "palette": 2,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 161,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 39
+      }
+    },
+    "gonzalez-microwave-transistor-amplifiers-2": {
+      "path": "assets/covers/generated/gonzalez-microwave-transistor-amplifiers-2.webp",
+      "svg_path": "assets/covers/generated/gonzalez-microwave-transistor-amplifiers-2.svg",
+      "small_path": "assets/covers/generated/gonzalez-microwave-transistor-amplifiers-2-360.webp",
+      "derivatives": {
+        "gonzalez-microwave-transistor-amplifiers-2.webp": "e1aae6e37a0aa8625c4b1095c50c049e1f4e19a5616434e973b33ee65b25085b",
+        "gonzalez-microwave-transistor-amplifiers-2-360.webp": "a8ef40ea8c7ff1a67c924ceeaa30487e4b2a244fe23b2753e820844b19f28a53"
+      },
+      "signature": "a45029ab89e39f68",
+      "hash": "d444ac91c7b836d16098519004e8cc9beff0203e324d5e63e32164328a7f20e9",
+      "asset_sha256": "f1902d51b99dbf00aa300011f7edf43e38a62d404b87425b2c77b82939e95ac4",
+      "bytes": 141527,
+      "subject": "electronics",
+      "palette": 1,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 390,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "gonzalez-woods-digital-image-processing-4-global-part-1": {
+      "path": "assets/covers/generated/gonzalez-woods-digital-image-processing-4-global-part-1.webp",
+      "svg_path": "assets/covers/generated/gonzalez-woods-digital-image-processing-4-global-part-1.svg",
+      "small_path": "assets/covers/generated/gonzalez-woods-digital-image-processing-4-global-part-1-360.webp",
+      "derivatives": {
+        "gonzalez-woods-digital-image-processing-4-global-part-1.webp": "403760dd7dfb64f8a834959d00d43d0bbf58cb91a114beda80649e733d832649",
+        "gonzalez-woods-digital-image-processing-4-global-part-1-360.webp": "a36a0b1dbabd44b7d058e610d0d68d92b22c05fb61b727d5b75637af81b5aa67"
+      },
+      "signature": "3f0ea32ea61c803b",
+      "hash": "4a8decaa00413764e99558d9fa6f23eb90e22683c6ddb31b3c0effa28ea80c98",
+      "asset_sha256": "d2aa4a9f707180bc5ab8d5856f75998444e994b0cb08058e358863e7c4345db1",
+      "bytes": 120780,
+      "subject": "engineering",
+      "palette": 2,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "gonzalez-woods-digital-image-processing-4-global-part-2": {
+      "path": "assets/covers/generated/gonzalez-woods-digital-image-processing-4-global-part-2.webp",
+      "svg_path": "assets/covers/generated/gonzalez-woods-digital-image-processing-4-global-part-2.svg",
+      "small_path": "assets/covers/generated/gonzalez-woods-digital-image-processing-4-global-part-2-360.webp",
+      "derivatives": {
+        "gonzalez-woods-digital-image-processing-4-global-part-2.webp": "035344a7a9a6bc78131bc424a3e9030c000e3c58ed38aa9d1edbf7a2833076b3",
+        "gonzalez-woods-digital-image-processing-4-global-part-2-360.webp": "8ddca852246fab71870ee1eb3083f2cb262736b51c42aad0bb991d5582149721"
+      },
+      "signature": "d764c2d1da8fca42",
+      "hash": "98b873f6ed93c375ba389481d90d7d4d6c781f32802f6066955e842dcdaceeb4",
+      "asset_sha256": "fd69c8f853ac197d37d66526469ae2d4537704c12b06b5aa9673113052a04e65",
+      "bytes": 121867,
+      "subject": "engineering",
+      "palette": 0,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "griffiths-introduction-quantum-mechanics-1995": {
+      "path": "assets/covers/generated/griffiths-introduction-quantum-mechanics-1995.webp",
+      "svg_path": "assets/covers/generated/griffiths-introduction-quantum-mechanics-1995.svg",
+      "small_path": "assets/covers/generated/griffiths-introduction-quantum-mechanics-1995-360.webp",
+      "derivatives": {
+        "griffiths-introduction-quantum-mechanics-1995.webp": "22a805320ffd456925b8572dfeeac5421cfa2259a3bbf619da011485e8f3beda",
+        "griffiths-introduction-quantum-mechanics-1995-360.webp": "242a23976564559b945b97f9df9eb3dbebb9ad5b005ed16f06afb8c529c7edae"
+      },
+      "signature": "679db1f5102d1d70",
+      "hash": "1192797bc85c0cb0319552a0111f15057aaf4f352298c82b36efe94d043ce373",
+      "asset_sha256": "fb759cff5bafa35e1f13a17e01819f06c1cbdc2367945922d505341f3722ee80",
+      "bytes": 103407,
+      "subject": "quantum",
+      "palette": 0,
+      "composition": 3,
+      "layout": {
+        "title_bottom": 205,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "guttag-computation-programming-python-2": {
+      "path": "assets/covers/generated/guttag-computation-programming-python-2.webp",
+      "svg_path": "assets/covers/generated/guttag-computation-programming-python-2.svg",
+      "small_path": "assets/covers/generated/guttag-computation-programming-python-2-360.webp",
+      "derivatives": {
+        "guttag-computation-programming-python-2.webp": "a8168309b5cac5e226a85318dfe5a30e804149415dc76cb616ece473f2189af6",
+        "guttag-computation-programming-python-2-360.webp": "926914313b86553408b3b3aeb33c9f9334e1016dfec6b3d4aff4ba72e006f13d"
+      },
+      "signature": "639f548094726275",
+      "hash": "3dafb183cec7914a8ce0ac590fdc77d3ec225454530c35bd11c1e1f6b6ccd42a",
+      "asset_sha256": "301514e2fb40b8b42394acfd428642cbd89c4d73c6c9fae3a21ebba28823a6d8",
+      "bytes": 171936,
+      "subject": "computing",
+      "palette": 2,
+      "composition": 3,
+      "layout": {
+        "title_bottom": 459,
+        "author_top": 779,
+        "art_height": 284,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "halliday-resnick-walker-fundamentals-physics-extended-part-1": {
+      "path": "assets/covers/generated/halliday-resnick-walker-fundamentals-physics-extended-part-1.webp",
+      "svg_path": "assets/covers/generated/halliday-resnick-walker-fundamentals-physics-extended-part-1.svg",
+      "small_path": "assets/covers/generated/halliday-resnick-walker-fundamentals-physics-extended-part-1-360.webp",
+      "derivatives": {
+        "halliday-resnick-walker-fundamentals-physics-extended-part-1.webp": "a7bd34f1cb2fec726927fa5c39a265e20358a0f6f64ae1fcddcd7f89df688817",
+        "halliday-resnick-walker-fundamentals-physics-extended-part-1-360.webp": "c9150a41d9cfa21a43d1b5e1fbe498010dfaa90fa1457410e6fe01c534317c40"
+      },
+      "signature": "19e9a5e827e36b9f",
+      "hash": "6d45ad5e7c53de31001d4e0cca164a99a4d7d9027728a1120ee6c3bd641e5435",
+      "asset_sha256": "4f86561af811443634e61196433509f07c03cde3f1bde7f9f826ef25efe1d312",
+      "bytes": 113193,
+      "subject": "physics",
+      "palette": 0,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "halliday-resnick-walker-fundamentals-physics-extended-part-2": {
+      "path": "assets/covers/generated/halliday-resnick-walker-fundamentals-physics-extended-part-2.webp",
+      "svg_path": "assets/covers/generated/halliday-resnick-walker-fundamentals-physics-extended-part-2.svg",
+      "small_path": "assets/covers/generated/halliday-resnick-walker-fundamentals-physics-extended-part-2-360.webp",
+      "derivatives": {
+        "halliday-resnick-walker-fundamentals-physics-extended-part-2.webp": "b33907e6862a858a4d44c7759cc70ae45f9807be9635e374a39e4a0d29fac9c2",
+        "halliday-resnick-walker-fundamentals-physics-extended-part-2-360.webp": "c3a53b22029c20aed31639cd47ba5b252833cac122eea28149fc652cc9da3819"
+      },
+      "signature": "045fe945d18ba69c",
+      "hash": "14892abc73cd364617bd388086d8253fe53fc0717b2699779afbc4c03387e657",
+      "asset_sha256": "d580f6661debc1514b7e1938c78181231527dbe7e9f99e93f4b0fb138ce56b35",
+      "bytes": 123565,
+      "subject": "physics",
+      "palette": 0,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "haverbeke-eloquent-javascript-4": {
+      "path": "assets/covers/generated/haverbeke-eloquent-javascript-4.webp",
+      "svg_path": "assets/covers/generated/haverbeke-eloquent-javascript-4.svg",
+      "small_path": "assets/covers/generated/haverbeke-eloquent-javascript-4-360.webp",
+      "derivatives": {
+        "haverbeke-eloquent-javascript-4.webp": "f5054d54e23b16590a51880283c449ea1a384c0d2ab07b8be129d13743429f10",
+        "haverbeke-eloquent-javascript-4-360.webp": "7597dbbda7a75a079895d0a277d3ad62bd93f9499059abc4595d574aa85567aa"
+      },
+      "signature": "d8b21614fe9b9887",
+      "hash": "1fc81eaa9c1776e9e72d179b372718441e282891989668dee665df001e742d0a",
+      "asset_sha256": "b43e5d0d3a283f180ac9b7685c779803d38e8d65b01619a49200ebf7f62a63b9",
+      "bytes": 97326,
+      "subject": "computing",
+      "palette": 1,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 255,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "hayes-learning-art-electronics-part-1": {
+      "path": "assets/covers/generated/hayes-learning-art-electronics-part-1.webp",
+      "svg_path": "assets/covers/generated/hayes-learning-art-electronics-part-1.svg",
+      "small_path": "assets/covers/generated/hayes-learning-art-electronics-part-1-360.webp",
+      "derivatives": {
+        "hayes-learning-art-electronics-part-1.webp": "4083ccd9979ff1680cc07b1f1e978c7ee96bbf19d6792ebb2510788e4a394939",
+        "hayes-learning-art-electronics-part-1-360.webp": "2cc3324980ba19647a9f0d0d58f1b17acee00a67d0ddb8d9a1ef746fda7c80b2"
+      },
+      "signature": "427c577c569debfb",
+      "hash": "2e2631d97d6383b41f3e27ca23d4ffb429096d874f763a736a384fc65a669d8c",
+      "asset_sha256": "5fbd0b514b247b01424cb628fa05bcab9dda5e9a82b038cf5f3b317262bd6c41",
+      "bytes": 121554,
+      "subject": "electronics",
+      "palette": 2,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "hayes-learning-art-electronics-part-2": {
+      "path": "assets/covers/generated/hayes-learning-art-electronics-part-2.webp",
+      "svg_path": "assets/covers/generated/hayes-learning-art-electronics-part-2.svg",
+      "small_path": "assets/covers/generated/hayes-learning-art-electronics-part-2-360.webp",
+      "derivatives": {
+        "hayes-learning-art-electronics-part-2.webp": "c6735bb3d455151504526762a8b68953bcaeb4f0d80f65eb1649a1eff70850e5",
+        "hayes-learning-art-electronics-part-2-360.webp": "ea0a65d852be378d1b754a1840701776f92cb6839cfcf1d638edd9966258438a"
+      },
+      "signature": "e15fb426594c16ff",
+      "hash": "e6d504735eba12a90544f32b4d131bf7ca33b432d96d3055d26a808f0b62a962",
+      "asset_sha256": "38d55ef280c1c68832dfce8ded539b19a13c696f099d2a0ccdd476d61aa4f57b",
+      "bytes": 122663,
+      "subject": "electronics",
+      "palette": 1,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "head-first-design-patterns-2-part-1": {
+      "path": "assets/covers/generated/head-first-design-patterns-2-part-1.webp",
+      "svg_path": "assets/covers/generated/head-first-design-patterns-2-part-1.svg",
+      "small_path": "assets/covers/generated/head-first-design-patterns-2-part-1-360.webp",
+      "derivatives": {
+        "head-first-design-patterns-2-part-1.webp": "10f8c6925ac6966258b0d65e6f7da078bf77cc3e66722ddc2859aaa80068b832",
+        "head-first-design-patterns-2-part-1-360.webp": "f7731eae5f0acfbd51f2d5f79db446b036263ac78befe4981c7a9357a02c1980"
+      },
+      "signature": "18fe0aa1be1ef558",
+      "hash": "7ab77a7dfb745ee6951937b2710ea483d49a76a94864a463b1d86fbbd82a9ac4",
+      "asset_sha256": "54a99bf545ccf47b0a227fc770d1337416842de356b49533620efe2d70473ee9",
+      "bytes": 130013,
+      "subject": "computing",
+      "palette": 2,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 787,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "head-first-design-patterns-2-part-2": {
+      "path": "assets/covers/generated/head-first-design-patterns-2-part-2.webp",
+      "svg_path": "assets/covers/generated/head-first-design-patterns-2-part-2.svg",
+      "small_path": "assets/covers/generated/head-first-design-patterns-2-part-2-360.webp",
+      "derivatives": {
+        "head-first-design-patterns-2-part-2.webp": "481585ddd9f49023169d6e7936a3edb9ae07a3d984043ee1a4f7e3f49cc32fcd",
+        "head-first-design-patterns-2-part-2-360.webp": "61f210b66c7d4aeaa2fb505a47b45bcd79e2b52011e4d84e2b6c1741ec6fa289"
+      },
+      "signature": "192491220ca24791",
+      "hash": "3b6da4f0fe4535b89a5134a1f402f1c2de8d70c2645170a5f025e3c1043336ff",
+      "asset_sha256": "ef7c748617c11017274dc1bbcab6d351b66f290877071ae23a1e19c66df2ddeb",
+      "bytes": 130877,
+      "subject": "computing",
+      "palette": 1,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 787,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "hecht-optics-5-global-part-1": {
+      "path": "assets/covers/generated/hecht-optics-5-global-part-1.webp",
+      "svg_path": "assets/covers/generated/hecht-optics-5-global-part-1.svg",
+      "small_path": "assets/covers/generated/hecht-optics-5-global-part-1-360.webp",
+      "derivatives": {
+        "hecht-optics-5-global-part-1.webp": "22fd0cef60c823a3e5c97d60e7afbcc300141b124421a3f158ccdecbf36f7fd3",
+        "hecht-optics-5-global-part-1-360.webp": "91e8df2f4c346c24a7fd4a670fce74132fbe4d1631176f1aedffeab5b1406467"
+      },
+      "signature": "f1494d79b4e6d7de",
+      "hash": "b25d42a3bd216c29bc606964be71ba129f79f185a7a304e581cfd6dae2096f19",
+      "asset_sha256": "32087e1b00af3c6fde5dd95f79a0b2ac27f456874e8ec7ca11266044f08be3f6",
+      "bytes": 92068,
+      "subject": "physics",
+      "palette": 2,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "hecht-optics-5-global-part-2": {
+      "path": "assets/covers/generated/hecht-optics-5-global-part-2.webp",
+      "svg_path": "assets/covers/generated/hecht-optics-5-global-part-2.svg",
+      "small_path": "assets/covers/generated/hecht-optics-5-global-part-2-360.webp",
+      "derivatives": {
+        "hecht-optics-5-global-part-2.webp": "f0f1c04b3d458c429d2c1e94213a544782476012b86e92c278a037583c5df2dc",
+        "hecht-optics-5-global-part-2-360.webp": "4e119adfe40c322c41ef34c0841ac5ca9ec112a49eadfba479466ebce64e7146"
+      },
+      "signature": "2ec92b14c22f8c21",
+      "hash": "86e2eafdd0984e2c505016cc3b68c61d8d09d9df2cdc3c328a620f47ad971f81",
+      "asset_sha256": "963261adeed3509da2cd115b4d4048895c86a42deaa1b8a2e9bfb51567a41119",
+      "bytes": 102398,
+      "subject": "physics",
+      "palette": 2,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "howe-sodini-microelectronics-integrated-approach-part-1": {
+      "path": "assets/covers/generated/howe-sodini-microelectronics-integrated-approach-part-1.webp",
+      "svg_path": "assets/covers/generated/howe-sodini-microelectronics-integrated-approach-part-1.svg",
+      "small_path": "assets/covers/generated/howe-sodini-microelectronics-integrated-approach-part-1-360.webp",
+      "derivatives": {
+        "howe-sodini-microelectronics-integrated-approach-part-1.webp": "1642318660fa618220f2bef5960d6596e488df6ebf5b436e410440c95363764a",
+        "howe-sodini-microelectronics-integrated-approach-part-1-360.webp": "8ebd5ed8010856934c4ee5075a0350e98c845f0c24866b891781113d85eefe7c"
+      },
+      "signature": "ebfe47580f780895",
+      "hash": "d91195ca7863437ffa2b800302695351600877ca738200f47c8b461002a4875a",
+      "asset_sha256": "3d3c20c699992e8d108df0386686ce1181b1b3ef49e9af1041f0dd5524a0855c",
+      "bytes": 107532,
+      "subject": "electronics",
+      "palette": 2,
+      "composition": 1,
+      "layout": {
+        "title_bottom": 290,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "howe-sodini-microelectronics-integrated-approach-part-2": {
+      "path": "assets/covers/generated/howe-sodini-microelectronics-integrated-approach-part-2.webp",
+      "svg_path": "assets/covers/generated/howe-sodini-microelectronics-integrated-approach-part-2.svg",
+      "small_path": "assets/covers/generated/howe-sodini-microelectronics-integrated-approach-part-2-360.webp",
+      "derivatives": {
+        "howe-sodini-microelectronics-integrated-approach-part-2.webp": "0d5660783167d149d04838a5cf5f6c7ec2f622493350845c0c0a0a6fe15e8ba6",
+        "howe-sodini-microelectronics-integrated-approach-part-2-360.webp": "ec4ceefbe1033d0335353f2e0096b08def478768afb982caa7cb8a51b5f42b5f"
+      },
+      "signature": "4f940a6f537bb958",
+      "hash": "2449f86722d666017a79eec8aa185fede2d2ca3533591f1d17d1e5b86968786c",
+      "asset_sha256": "68556db7c520591a265505db8bd9e8f744eb3a80f7668e452f291bbf6a0e759e",
+      "bytes": 108830,
+      "subject": "electronics",
+      "palette": 0,
+      "composition": 1,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "jena-quantum-physics-semiconductor-materials-devices-part-1": {
+      "path": "assets/covers/generated/jena-quantum-physics-semiconductor-materials-devices-part-1.webp",
+      "svg_path": "assets/covers/generated/jena-quantum-physics-semiconductor-materials-devices-part-1.svg",
+      "small_path": "assets/covers/generated/jena-quantum-physics-semiconductor-materials-devices-part-1-360.webp",
+      "derivatives": {
+        "jena-quantum-physics-semiconductor-materials-devices-part-1.webp": "6bc3846e96f9e67901d8293670699293642aeb6b185dedaf36fb979d84dde10d",
+        "jena-quantum-physics-semiconductor-materials-devices-part-1-360.webp": "120b9cd0fbe327cd199a69fd4e1800956d269fc6d699e18795a2bedb2508fda3"
+      },
+      "signature": "1d0496ed14050e92",
+      "hash": "b32345b343a8e17c6db909d718925becd305c03b5262568c7b6c87c3a9e040d8",
+      "asset_sha256": "db9f24f75e3b7fef1d3b5470f1efb9d30b9e77fd9c4e14272397932be14741d1",
+      "bytes": 118482,
+      "subject": "electronics",
+      "palette": 0,
+      "composition": 1,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "jena-quantum-physics-semiconductor-materials-devices-part-2": {
+      "path": "assets/covers/generated/jena-quantum-physics-semiconductor-materials-devices-part-2.webp",
+      "svg_path": "assets/covers/generated/jena-quantum-physics-semiconductor-materials-devices-part-2.svg",
+      "small_path": "assets/covers/generated/jena-quantum-physics-semiconductor-materials-devices-part-2-360.webp",
+      "derivatives": {
+        "jena-quantum-physics-semiconductor-materials-devices-part-2.webp": "5eb8882c967b9eeb5fd18a573d2987c29fde95bd9378cae36a9ad0074cd49428",
+        "jena-quantum-physics-semiconductor-materials-devices-part-2-360.webp": "eb800ec9c4839671050fed8548a8eb80539af3b256288f4e574e22aeb0314942"
+      },
+      "signature": "aa99e6fbe8f8b85a",
+      "hash": "791a4e8040667664359a6ef2c6daa9f08db68cc46a34a7e60e63dd410923c2ad",
+      "asset_sha256": "5d44b55e0fee9668d6ac9a93643ddb505f6bc4f3a92820455f8594eec9e1b566",
+      "bytes": 119518,
+      "subject": "electronics",
+      "palette": 1,
+      "composition": 1,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "kicad-like-a-pro-advanced-projects-recipes": {
+      "path": "assets/covers/generated/kicad-like-a-pro-advanced-projects-recipes.webp",
+      "svg_path": "assets/covers/generated/kicad-like-a-pro-advanced-projects-recipes.svg",
+      "small_path": "assets/covers/generated/kicad-like-a-pro-advanced-projects-recipes-360.webp",
+      "derivatives": {
+        "kicad-like-a-pro-advanced-projects-recipes.webp": "ba9fc44d8a5b642c5a217f1b88eb1e4313f11386611f02992162e39f96ef9c0f",
+        "kicad-like-a-pro-advanced-projects-recipes-360.webp": "f28802bf711063b5cf86ab23f2a9590e3f01a2185d9e52864750171f4a6585b7"
+      },
+      "signature": "8ef62237c0c1e886",
+      "hash": "3cc347d1c7e42a79b6c1ee718c84b92bb6c681c476c50138bdce41d8160a0fd3",
+      "asset_sha256": "f0fc35048479dcd0e92f846749d151c650384f4ca05e5461506407db1d00edc1",
+      "bytes": 101220,
+      "subject": "electronics",
+      "palette": 0,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "kicad-like-a-pro-fundamentals-projects": {
+      "path": "assets/covers/generated/kicad-like-a-pro-fundamentals-projects.webp",
+      "svg_path": "assets/covers/generated/kicad-like-a-pro-fundamentals-projects.svg",
+      "small_path": "assets/covers/generated/kicad-like-a-pro-fundamentals-projects-360.webp",
+      "derivatives": {
+        "kicad-like-a-pro-fundamentals-projects.webp": "ba340bb6863c08eefe6e7e7cf4e6ed713b62ed1ae8a00a2248832736877c4e50",
+        "kicad-like-a-pro-fundamentals-projects-360.webp": "a4a8118644e7fa3b700c39105af82fd75f25cebef8590a014e547ca51cd93d24"
+      },
+      "signature": "6f8b83fe065a75a7",
+      "hash": "a36ece582eae4204e44a4ce5cb46bea741fb07c5c58ded0375f2ec76ee4e392a",
+      "asset_sha256": "fe6301cfa7bb67c15515bfdac17715cfa9785f29a7178088ca6149dd5faa4276",
+      "bytes": 92890,
+      "subject": "electronics",
+      "palette": 0,
+      "composition": 1,
+      "layout": {
+        "title_bottom": 290,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "kleppmann-designing-data-intensive-applications-early-release": {
+      "path": "assets/covers/generated/kleppmann-designing-data-intensive-applications-early-release.webp",
+      "svg_path": "assets/covers/generated/kleppmann-designing-data-intensive-applications-early-release.svg",
+      "small_path": "assets/covers/generated/kleppmann-designing-data-intensive-applications-early-release-360.webp",
+      "derivatives": {
+        "kleppmann-designing-data-intensive-applications-early-release.webp": "68063e9f24984d1759dcbb64bbd4c6251a66100ceaff7e5a7a25bc148c0c8405",
+        "kleppmann-designing-data-intensive-applications-early-release-360.webp": "45a15d7b640b2de5e6df5feb5c5a1e742262d85f96e2f6c4675b1a1832771d53"
+      },
+      "signature": "ac0a4057217b7668",
+      "hash": "85b132dd6e9fb689b0c01b31f6547f0d92c3e89a80ab1c6d20f9769d2797ce2f",
+      "asset_sha256": "43ebb44078acd4499cc706706fd705470045e85833ef54e9b6d1e94c10f42b2e",
+      "bytes": 122543,
+      "subject": "computing",
+      "palette": 1,
+      "composition": 3,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "kleppner-kolenkow-introduction-mechanics-2": {
+      "path": "assets/covers/generated/kleppner-kolenkow-introduction-mechanics-2.webp",
+      "svg_path": "assets/covers/generated/kleppner-kolenkow-introduction-mechanics-2.svg",
+      "small_path": "assets/covers/generated/kleppner-kolenkow-introduction-mechanics-2-360.webp",
+      "derivatives": {
+        "kleppner-kolenkow-introduction-mechanics-2.webp": "4f509629b52309ce76cc52c9f1aac493efa0fd6e0fae33252c1afe688e2f0cd9",
+        "kleppner-kolenkow-introduction-mechanics-2-360.webp": "6c29f635394002522c8d1d005176f4a05c585ca54b247a978076a4765ea34dee"
+      },
+      "signature": "c98b68f4eb38378f",
+      "hash": "94c052570e5236370de4bbae579ef6ae6d9b83f55b8eb9debda6af479481c918",
+      "asset_sha256": "e63ca38d1a065ab4b6e97e9295010597806ccd5cdc286e43d57d96fe7e90e0b3",
+      "bytes": 94680,
+      "subject": "physics",
+      "palette": 2,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 211,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 39
+      }
+    },
+    "kochan-programming-in-c-4": {
+      "path": "assets/covers/generated/kochan-programming-in-c-4.webp",
+      "svg_path": "assets/covers/generated/kochan-programming-in-c-4.svg",
+      "small_path": "assets/covers/generated/kochan-programming-in-c-4-360.webp",
+      "derivatives": {
+        "kochan-programming-in-c-4.webp": "d10483664cb4818b2aec78db241135cca25468940a58c48cba29b199733e22ad",
+        "kochan-programming-in-c-4-360.webp": "9ce12c0a1d80c6fef133295ebcaacd918330ec97772ef74c781cd95e9aab7b1f"
+      },
+      "signature": "a720b81c5be4b71d",
+      "hash": "4fee7d571ada156aac7a7d6cc612fbdeb4f804a9e2844dc315aa748c1c82e724",
+      "asset_sha256": "d0f0bc472f8161536a88a6499cb081b1795e124fac69eadab80ba2f8998090b9",
+      "bytes": 99284,
+      "subject": "computing",
+      "palette": 2,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 255,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "krane-introductory-nuclear-physics": {
+      "path": "assets/covers/generated/krane-introductory-nuclear-physics.webp",
+      "svg_path": "assets/covers/generated/krane-introductory-nuclear-physics.svg",
+      "small_path": "assets/covers/generated/krane-introductory-nuclear-physics-360.webp",
+      "derivatives": {
+        "krane-introductory-nuclear-physics.webp": "df14878a90d62865cfe56feb3c021cb9044db80af24bc0c239155a1773f576dc",
+        "krane-introductory-nuclear-physics-360.webp": "317b98bb6eed74bbd85bb69e13113b07a19304cb46e4b4b1bd27860e474ca94b"
+      },
+      "signature": "b6abdd9018d2b3e1",
+      "hash": "85c0e00321f74e10515a74393e58004da936c282b0182eb6c0c97b45e2ff3f9a",
+      "asset_sha256": "516e3d548c791e3211f2c13ef7c358b4fa0d88a8abc8d06b46e777ba800fe597",
+      "bytes": 82442,
+      "subject": "physics",
+      "palette": 0,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 255,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "krane-modern-physics-4": {
+      "path": "assets/covers/generated/krane-modern-physics-4.webp",
+      "svg_path": "assets/covers/generated/krane-modern-physics-4.svg",
+      "small_path": "assets/covers/generated/krane-modern-physics-4-360.webp",
+      "derivatives": {
+        "krane-modern-physics-4.webp": "f86cb59db198827a50da81e7f9416f00472cb34cf14d80b54adfa42e7529f2b5",
+        "krane-modern-physics-4-360.webp": "b0e6a064483145dc32e287144c2bd409f03b1c754f484239b0902be5acb4dce4"
+      },
+      "signature": "6f2160c03f921a8d",
+      "hash": "4da198f2e73d75ecb259c70def1bbfe4c1f756b2ff9e47062f5679455e09c23b",
+      "asset_sha256": "788bf128a6820e02bf579cbe63a426418bcc60f4a03e3eaecc46e4a3536894df",
+      "bytes": 90570,
+      "subject": "physics",
+      "palette": 0,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 255,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "landau-lifshitz-classical-theory-fields-vol-2-4th": {
+      "path": "assets/covers/generated/landau-lifshitz-classical-theory-fields-vol-2-4th.webp",
+      "svg_path": "assets/covers/generated/landau-lifshitz-classical-theory-fields-vol-2-4th.svg",
+      "small_path": "assets/covers/generated/landau-lifshitz-classical-theory-fields-vol-2-4th-360.webp",
+      "derivatives": {
+        "landau-lifshitz-classical-theory-fields-vol-2-4th.webp": "6ef3e0edc9fbb570e2870029e686f2732b154b822c7d1ff2b98eea2ec4df1c05",
+        "landau-lifshitz-classical-theory-fields-vol-2-4th-360.webp": "b78cb91536b4be559ae7974a82ae233c85af57869e9f8ea51d24576e4d5c5ea8"
+      },
+      "signature": "54d3602452fa4cc7",
+      "hash": "65f9a06b7487869b67f12caa7851376f5b05a138a67a07e382545d4398a9d0c2",
+      "asset_sha256": "0fba903c7105496416002d8fa9a7f70f727874203e51e8e87ae8d2b9883049c9",
+      "bytes": 137316,
+      "subject": "physics",
+      "palette": 1,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 390,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "landau-lifshitz-electrodynamics-continuous-media-vol-8-2nd": {
+      "path": "assets/covers/generated/landau-lifshitz-electrodynamics-continuous-media-vol-8-2nd.webp",
+      "svg_path": "assets/covers/generated/landau-lifshitz-electrodynamics-continuous-media-vol-8-2nd.svg",
+      "small_path": "assets/covers/generated/landau-lifshitz-electrodynamics-continuous-media-vol-8-2nd-360.webp",
+      "derivatives": {
+        "landau-lifshitz-electrodynamics-continuous-media-vol-8-2nd.webp": "4376b0181a318d3a3252ce1ba813fa7d303c73fe4af4ec35279f59127961dd42",
+        "landau-lifshitz-electrodynamics-continuous-media-vol-8-2nd-360.webp": "d80e88dd7f33179c28c4fc6a6a29cf4b8cc704eaf0b78929b1636fe48c8ead55"
+      },
+      "signature": "10e62b194a61e484",
+      "hash": "3e49fbf513fb414ef8f8dbcb2522ba2ab33c199cadefe0701d5660c6cc514e55",
+      "asset_sha256": "0538fe4d328fb68370a67c2de5469da17336e846aef3310bc4c19b7b03c5b83e",
+      "bytes": 139558,
+      "subject": "physics",
+      "palette": 0,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 390,
+        "author_top": 787,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "landau-lifshitz-fluid-mechanics-vol-6-2nd": {
+      "path": "assets/covers/generated/landau-lifshitz-fluid-mechanics-vol-6-2nd.webp",
+      "svg_path": "assets/covers/generated/landau-lifshitz-fluid-mechanics-vol-6-2nd.svg",
+      "small_path": "assets/covers/generated/landau-lifshitz-fluid-mechanics-vol-6-2nd-360.webp",
+      "derivatives": {
+        "landau-lifshitz-fluid-mechanics-vol-6-2nd.webp": "7309804acccfcf77d33ab530e9b466b610394184e6ea5a1f7130eabc58691492",
+        "landau-lifshitz-fluid-mechanics-vol-6-2nd-360.webp": "4a16de6b9da7cc8149c1702e53cefd671b1656de1f2ea0ded10b2b5aba5d7450"
+      },
+      "signature": "da02a0a67b37eb25",
+      "hash": "120bff4b94d13b45ac5b2ee204937a1e1d82b743d493da0f65f0c38a8208f9de",
+      "asset_sha256": "778cc2b21acc1248d66bac6ecf236fda9d4787a85467cf6ffd62543e138b2f2c",
+      "bytes": 82770,
+      "subject": "physics",
+      "palette": 2,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 211,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 39
+      }
+    },
+    "landau-lifshitz-mechanics-vol-1-3rd": {
+      "path": "assets/covers/generated/landau-lifshitz-mechanics-vol-1-3rd.webp",
+      "svg_path": "assets/covers/generated/landau-lifshitz-mechanics-vol-1-3rd.svg",
+      "small_path": "assets/covers/generated/landau-lifshitz-mechanics-vol-1-3rd-360.webp",
+      "derivatives": {
+        "landau-lifshitz-mechanics-vol-1-3rd.webp": "498670aa57c0961ab74c0b9d26833bc3ac042de8e51cfcb2d3e460829c5cb934",
+        "landau-lifshitz-mechanics-vol-1-3rd-360.webp": "c74e39aa0a63c19425fca936680d806863edbce052fad32c2ca8450a5f3f885c"
+      },
+      "signature": "48888db75cec5358",
+      "hash": "5e6e4c2c8573702238c8ef45371bc5fc5337749f194ef00d4b79e9be61e2303d",
+      "asset_sha256": "8fd185eb3579fa6ccc4582d18b00b36c9c7d7a3a1b172d430b34c34def701cd5",
+      "bytes": 99936,
+      "subject": "physics",
+      "palette": 0,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 305,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "landau-lifshitz-quantum-mechanics-vol-3-3rd": {
+      "path": "assets/covers/generated/landau-lifshitz-quantum-mechanics-vol-3-3rd.webp",
+      "svg_path": "assets/covers/generated/landau-lifshitz-quantum-mechanics-vol-3-3rd.svg",
+      "small_path": "assets/covers/generated/landau-lifshitz-quantum-mechanics-vol-3-3rd-360.webp",
+      "derivatives": {
+        "landau-lifshitz-quantum-mechanics-vol-3-3rd.webp": "7055c3b62258d4d74df03b506d5fb4c3f87e0d99def0975d954b4c37d912229c",
+        "landau-lifshitz-quantum-mechanics-vol-3-3rd-360.webp": "d6c8d8d33ba1a1ebb01ed8c47d6ac9aca0209b6c09aceae82692f62bec888835"
+      },
+      "signature": "d359d11ab9558f55",
+      "hash": "4f2bb1db41f754c87cee7aa9ac63aa7aa6300ed09ad152765dc50b64daf5542b",
+      "asset_sha256": "a92b01f3724f8f0c28866482c17e4dd18d87455c9a5ada1f5c6502746a738fbc",
+      "bytes": 131487,
+      "subject": "quantum",
+      "palette": 0,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 355,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "landau-lifshitz-statistical-physics-part-1-vol-5-3rd": {
+      "path": "assets/covers/generated/landau-lifshitz-statistical-physics-part-1-vol-5-3rd.webp",
+      "svg_path": "assets/covers/generated/landau-lifshitz-statistical-physics-part-1-vol-5-3rd.svg",
+      "small_path": "assets/covers/generated/landau-lifshitz-statistical-physics-part-1-vol-5-3rd-360.webp",
+      "derivatives": {
+        "landau-lifshitz-statistical-physics-part-1-vol-5-3rd.webp": "f31684128eba0fc67564dfad7c13dd0a7c1254ce3d4c87a137d382afb1870700",
+        "landau-lifshitz-statistical-physics-part-1-vol-5-3rd-360.webp": "33014c12dc2ecfae5c40e466d0ca812f810c39607a4eb9686d537adf6762833e"
+      },
+      "signature": "8bb6411de68f27e8",
+      "hash": "6e09155e917deea86298949f5975d19f993b770aefb169ed5933af58db8362a9",
+      "asset_sha256": "488e9ef95da2483b7d78eb737d53e8f10111cda09d0c3608e73cb15efe15d47c",
+      "bytes": 104805,
+      "subject": "physics",
+      "palette": 1,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 311,
+        "author_top": 787,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 39
+      }
+    },
+    "landau-lifshitz-theory-elasticity-vol-7": {
+      "path": "assets/covers/generated/landau-lifshitz-theory-elasticity-vol-7.webp",
+      "svg_path": "assets/covers/generated/landau-lifshitz-theory-elasticity-vol-7.svg",
+      "small_path": "assets/covers/generated/landau-lifshitz-theory-elasticity-vol-7-360.webp",
+      "derivatives": {
+        "landau-lifshitz-theory-elasticity-vol-7.webp": "eb79732f799ccdaa396404982695175e038736baffa87bafc4dd3bc9197887dd",
+        "landau-lifshitz-theory-elasticity-vol-7-360.webp": "9b399b38636e67a301a01982323dd5b02e57ef1c4fb5c8cca610407a5f02cee5"
+      },
+      "signature": "2142a0e6b2d7b977",
+      "hash": "9b70ad62f09493057dc2859c775fcccfb951b5ec87acffa497800cbc7dea40b4",
+      "asset_sha256": "d1ccc3f1adc6fd953f32a6e30b79979407d5aa9f9c172c70eba9e59845cf93c5",
+      "bytes": 85740,
+      "subject": "physics",
+      "palette": 2,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 211,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 39
+      }
+    },
+    "learn-to-speak-chinese-brickman": {
+      "path": "assets/covers/generated/learn-to-speak-chinese-brickman.webp",
+      "svg_path": "assets/covers/generated/learn-to-speak-chinese-brickman.svg",
+      "small_path": "assets/covers/generated/learn-to-speak-chinese-brickman-360.webp",
+      "derivatives": {
+        "learn-to-speak-chinese-brickman.webp": "c016612f81832cf3d9dc2923e9f1e9640d3f792927c5e50bf426d0d7216b85a3",
+        "learn-to-speak-chinese-brickman-360.webp": "6464d1156d861f99cf32355454559acd6459957e81a820c2e84d86b91bfa1249"
+      },
+      "signature": "8cefe1039f0ee46c",
+      "hash": "537a5ebb10d42f32bf4c20309df120ae11aa86204425aecd372539505dfd229c",
+      "asset_sha256": "0b4c1cfc4432e6d9e9a700fdc8656b80ecb8a1ad39ee0bebbd32998b28e602ef",
+      "bytes": 153187,
+      "subject": "languages",
+      "palette": 1,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 414,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "liao-microwave-devices-circuits-3": {
+      "path": "assets/covers/generated/liao-microwave-devices-circuits-3.webp",
+      "svg_path": "assets/covers/generated/liao-microwave-devices-circuits-3.svg",
+      "small_path": "assets/covers/generated/liao-microwave-devices-circuits-3-360.webp",
+      "derivatives": {
+        "liao-microwave-devices-circuits-3.webp": "0de1ef8719d8aaa1ac99212bad21f248a26c64176b6ec14b8001ccbda196025a",
+        "liao-microwave-devices-circuits-3-360.webp": "d70cac162688bba41c94e15ff6916ecb0ce53e9d14bb33f0afaff017705942c1"
+      },
+      "signature": "f9018b4dd4624c90",
+      "hash": "f2220f4ebaad940380349c7eef14b7174d7b31600bf657010ba84b848e01b4f6",
+      "asset_sha256": "23fc818ab77e1d0b59863316c23f1e6d9babc102390909ecccf7705e2f9815ab",
+      "bytes": 109047,
+      "subject": "electronics",
+      "palette": 1,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 290,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "lifshitz-pitaevskii-physical-kinetics-vol-10": {
+      "path": "assets/covers/generated/lifshitz-pitaevskii-physical-kinetics-vol-10.webp",
+      "svg_path": "assets/covers/generated/lifshitz-pitaevskii-physical-kinetics-vol-10.svg",
+      "small_path": "assets/covers/generated/lifshitz-pitaevskii-physical-kinetics-vol-10-360.webp",
+      "derivatives": {
+        "lifshitz-pitaevskii-physical-kinetics-vol-10.webp": "bb53683a5d0f4fa353c2b4c79f0a12e1da0bec6146a3ea6182152b1f1a9575f6",
+        "lifshitz-pitaevskii-physical-kinetics-vol-10-360.webp": "0b350d1ff030f89b5dc8724174d9715f17b927aebca808977f7d6201616285e0"
+      },
+      "signature": "f0802741e3f5c93a",
+      "hash": "90936daf6d0d8d06d6cbddeaa1c3306dd07bdd67f39c4d16f8002697f7d46df1",
+      "asset_sha256": "1f15c8c2439eb9a869be4200ae2e0244ceda66f33181763193e2a4816c67aff6",
+      "bytes": 94579,
+      "subject": "physics",
+      "palette": 1,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 261,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 39
+      }
+    },
+    "lifshitz-pitaevskii-statistical-physics-part-2-vol-9": {
+      "path": "assets/covers/generated/lifshitz-pitaevskii-statistical-physics-part-2-vol-9.webp",
+      "svg_path": "assets/covers/generated/lifshitz-pitaevskii-statistical-physics-part-2-vol-9.svg",
+      "small_path": "assets/covers/generated/lifshitz-pitaevskii-statistical-physics-part-2-vol-9-360.webp",
+      "derivatives": {
+        "lifshitz-pitaevskii-statistical-physics-part-2-vol-9.webp": "7545250734f5b2aa43dfdf549dba65f1c493d04ea9da4ac432e982a80092ad34",
+        "lifshitz-pitaevskii-statistical-physics-part-2-vol-9-360.webp": "58b8076a3defd8e635c32641fb449d6f7b63b4ee8506672eb274c5d8a08583e3"
+      },
+      "signature": "87ee41cf986aa21c",
+      "hash": "f87b7e61f2b5d2856f03b432f715da72fc3ce4fe1379a4fd2afb6b54db4cd96b",
+      "asset_sha256": "b6340230ea49b53b895b7c572a4785e9f5c8aa3025df49a93059f642b9c2aee7",
+      "bytes": 130496,
+      "subject": "physics",
+      "palette": 0,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "lodish-molecular-cell-biology-5-part-1": {
+      "path": "assets/covers/generated/lodish-molecular-cell-biology-5-part-1.webp",
+      "svg_path": "assets/covers/generated/lodish-molecular-cell-biology-5-part-1.svg",
+      "small_path": "assets/covers/generated/lodish-molecular-cell-biology-5-part-1-360.webp",
+      "derivatives": {
+        "lodish-molecular-cell-biology-5-part-1.webp": "73b9f3c78a2a95197757936e9754900c753fac7b2cf6c5f5c205c18a09ad9796",
+        "lodish-molecular-cell-biology-5-part-1-360.webp": "86baf0ce53afa1cf1bff8d4cde93016987f799129324325e9db8b1692d1e879f"
+      },
+      "signature": "b5e7a85b95fbd5f2",
+      "hash": "982d1f146c7345afc22fd0e8b2cd4ccbe2b139755b830fb4a880a8cb1c68c4db",
+      "asset_sha256": "6303f62ceefa5afabcc17024df300d33586ce087a3834c538b39fe20e330e70c",
+      "bytes": 158672,
+      "subject": "biology",
+      "palette": 2,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 760,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "lodish-molecular-cell-biology-5-part-2": {
+      "path": "assets/covers/generated/lodish-molecular-cell-biology-5-part-2.webp",
+      "svg_path": "assets/covers/generated/lodish-molecular-cell-biology-5-part-2.svg",
+      "small_path": "assets/covers/generated/lodish-molecular-cell-biology-5-part-2-360.webp",
+      "derivatives": {
+        "lodish-molecular-cell-biology-5-part-2.webp": "95e0cb56097644c853750a3a3bb03b2cc1244a83a9e0b5edb4b7308101a2ddd0",
+        "lodish-molecular-cell-biology-5-part-2-360.webp": "6be0ee3ea6828fabb6fa478ca6616783b703538ae4d378e0fc70ea32441381ae"
+      },
+      "signature": "9e2351aa4d5fb515",
+      "hash": "25669a9188beeefd867d05acc94c7d79f39723cbfa911272e9d3292e9100f39b",
+      "asset_sha256": "5730d8f43f221be4158f8e98432414f561d91910342727a0df93c2a5b84ba438",
+      "bytes": 160128,
+      "subject": "biology",
+      "palette": 2,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 760,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "maccormick-nine-algorithms-changed-future": {
+      "path": "assets/covers/generated/maccormick-nine-algorithms-changed-future.webp",
+      "svg_path": "assets/covers/generated/maccormick-nine-algorithms-changed-future.svg",
+      "small_path": "assets/covers/generated/maccormick-nine-algorithms-changed-future-360.webp",
+      "derivatives": {
+        "maccormick-nine-algorithms-changed-future.webp": "e536db32bc86671860a570bad6f71aa9b093a0ef14e7ab480dcbd49a4332d616",
+        "maccormick-nine-algorithms-changed-future-360.webp": "b022ceaca0901decdbea09434ee2b592fc209e504edb3f0916302a5685c33704"
+      },
+      "signature": "caa71865910dac6e",
+      "hash": "f57252e81a7c2dc494d8cc90f2f0d5bcb164ac9afebd63a175df7d899824a111",
+      "asset_sha256": "463cc10f90c347bc9fdb81f01476040d59376e685bec362cea1a289092c07a10",
+      "bytes": 142020,
+      "subject": "computing",
+      "palette": 0,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 424,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "mahan-physical-vapor-deposition-thin-films": {
+      "path": "assets/covers/generated/mahan-physical-vapor-deposition-thin-films.webp",
+      "svg_path": "assets/covers/generated/mahan-physical-vapor-deposition-thin-films.svg",
+      "small_path": "assets/covers/generated/mahan-physical-vapor-deposition-thin-films-360.webp",
+      "derivatives": {
+        "mahan-physical-vapor-deposition-thin-films.webp": "d84948f90167a2a1181840f072fc6cd51cd5d5307ec6680bfed3ef3cf080b9cf",
+        "mahan-physical-vapor-deposition-thin-films-360.webp": "af13b8a6854db3abfdc2c3efc14346728d6ec84ff624316411ea43bafa7ba8bb"
+      },
+      "signature": "8a2f1f61ed80e5cc",
+      "hash": "30e3dbaaecfa24a5cc5965b9170b3e680362ca6dc657f8f07276fc5ca3675604",
+      "asset_sha256": "0e8948549f462ba0a4a00b30283a74e51afef25e24c41221d59ecce7a06f6f12",
+      "bytes": 96783,
+      "subject": "engineering",
+      "palette": 2,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 290,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "martins-semiconductor-device-physics": {
+      "path": "assets/covers/generated/martins-semiconductor-device-physics.webp",
+      "svg_path": "assets/covers/generated/martins-semiconductor-device-physics.svg",
+      "small_path": "assets/covers/generated/martins-semiconductor-device-physics-360.webp",
+      "derivatives": {
+        "martins-semiconductor-device-physics.webp": "eaa5246bbfa35586d11cac22c55960d904d119b382da6b863e7806eb66e816b3",
+        "martins-semiconductor-device-physics-360.webp": "94c31c3fc6ab709e01827c917982dbe94c4e9e4b20c752bc26216ed63463eadb"
+      },
+      "signature": "6735640649eda637",
+      "hash": "f327033636e74983ab1fdd1dc4c9b465bfc0843029ed2b444f8a47cc211cf274",
+      "asset_sha256": "f4489920547e1d7d9bb54ac86a6730074dd8a69154de1dcbfd5643b8c28ee9ba",
+      "bytes": 106407,
+      "subject": "electronics",
+      "palette": 0,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 290,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "miller-computer-basics-absolute-beginners-guide-10": {
+      "path": "assets/covers/generated/miller-computer-basics-absolute-beginners-guide-10.webp",
+      "svg_path": "assets/covers/generated/miller-computer-basics-absolute-beginners-guide-10.svg",
+      "small_path": "assets/covers/generated/miller-computer-basics-absolute-beginners-guide-10-360.webp",
+      "derivatives": {
+        "miller-computer-basics-absolute-beginners-guide-10.webp": "965199e09e01d1077c3e3920b1b2a26b89f92db399b78b1bb13f738932340e37",
+        "miller-computer-basics-absolute-beginners-guide-10-360.webp": "5107f2b353cf280cbfbd16ed149f0b5f598abb2b9517c3b392acb70f2da07033"
+      },
+      "signature": "6a97556aeb9e6765",
+      "hash": "b68b30570138d23924b7fc497698f008bd3dcb5def5a5803495fa0eaa31ccd19",
+      "asset_sha256": "87a95c830545b0ad44604f50191169b0cf063d50a7933eceeb21190852b0b6fd",
+      "bytes": 116567,
+      "subject": "computing",
+      "palette": 1,
+      "composition": 1,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "mit-8-02-electricity-magnetism": {
+      "path": "assets/covers/generated/mit-8-02-electricity-magnetism.webp",
+      "svg_path": "assets/covers/generated/mit-8-02-electricity-magnetism.svg",
+      "small_path": "assets/covers/generated/mit-8-02-electricity-magnetism-360.webp",
+      "derivatives": {
+        "mit-8-02-electricity-magnetism.webp": "0c31131dd97e66b7877a8ec7b1df2a7c381ec3e7116e69e40169fbbaedccea2e",
+        "mit-8-02-electricity-magnetism-360.webp": "58710a7a8af4d89d61ec673b71ae2241b33c9a692a55174f5544d58ceba661f6"
+      },
+      "signature": "347a51b2bec71b07",
+      "hash": "f221e4bfdf573ca83086572967bc6c7316538d14bb4017945f2563f1abf85890",
+      "asset_sha256": "7a0ba0fd42c5762bf3393b2dd060aeaeb99f90ee10068fc0b8a7e903d275f51c",
+      "bytes": 72812,
+      "subject": "physics",
+      "palette": 2,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 211,
+        "author_top": 812,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 39
+      }
+    },
+    "morgan-javascript-crash-course": {
+      "path": "assets/covers/generated/morgan-javascript-crash-course.webp",
+      "svg_path": "assets/covers/generated/morgan-javascript-crash-course.svg",
+      "small_path": "assets/covers/generated/morgan-javascript-crash-course-360.webp",
+      "derivatives": {
+        "morgan-javascript-crash-course.webp": "1045c0fd46ef30b2ba0dee9862527c68610a76aaea02ec0ff8cfb28e2cd6a689",
+        "morgan-javascript-crash-course-360.webp": "ef942e34929caa13af1670a2da46651739c79348eb069db83af5f05468c1cb54"
+      },
+      "signature": "566f5a6297ce4c8d",
+      "hash": "cf1e77621f869f6586e198ff48d2c67e99c50a92ffc46db6783a4100d33de80f",
+      "asset_sha256": "c49abb0d93d58d1f91abd695085eb57df64d56228f00e44f9e435eb1b80c19c0",
+      "bytes": 145133,
+      "subject": "computing",
+      "palette": 2,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 424,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "noback-advanced-web-application-architecture": {
+      "path": "assets/covers/generated/noback-advanced-web-application-architecture.webp",
+      "svg_path": "assets/covers/generated/noback-advanced-web-application-architecture.svg",
+      "small_path": "assets/covers/generated/noback-advanced-web-application-architecture-360.webp",
+      "derivatives": {
+        "noback-advanced-web-application-architecture.webp": "1e4b837964ce8cc9c07b9beb70431ad896ebe112f70ca4e69e6ce1aa75b9516a",
+        "noback-advanced-web-application-architecture-360.webp": "3999f437a34b110d6f791e398538e9194bfe9508f112ba7f375ec537a55bace5"
+      },
+      "signature": "4ae3b4d505622ff0",
+      "hash": "6a69a6deadffbcc318e5731ccf2448fe56a63e45f900e80ddabe3f834ab31392",
+      "asset_sha256": "ab77e6d38555b546da6ce08b181d167a8ef98791a69d7adcfcd7da136f672660",
+      "bytes": 80409,
+      "subject": "computing",
+      "palette": 2,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 211,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 39
+      }
+    },
+    "numerical-recipes-art-scientific-computing-3-part-1": {
+      "path": "assets/covers/generated/numerical-recipes-art-scientific-computing-3-part-1.webp",
+      "svg_path": "assets/covers/generated/numerical-recipes-art-scientific-computing-3-part-1.svg",
+      "small_path": "assets/covers/generated/numerical-recipes-art-scientific-computing-3-part-1-360.webp",
+      "derivatives": {
+        "numerical-recipes-art-scientific-computing-3-part-1.webp": "778185e7f1f137338e71bda33f495bef0c2bbd73134aec82c4cb46eb3d23e4a8",
+        "numerical-recipes-art-scientific-computing-3-part-1-360.webp": "8e6f1f3c65516715389d19f0b8f9a482c6cf17083328a159b90fa2e815acf638"
+      },
+      "signature": "618cec00c7902a49",
+      "hash": "051a0413ebefed96010f25dabe504e2d4e62461a0d163ae5ac8f7a97b2fe9bed",
+      "asset_sha256": "50e20af0bfd646690223aa4707042d1f346dab49216360bee63f6d1851c591df",
+      "bytes": 134981,
+      "subject": "mathematics",
+      "palette": 0,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 374,
+        "author_top": 787,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "numerical-recipes-art-scientific-computing-3-part-2": {
+      "path": "assets/covers/generated/numerical-recipes-art-scientific-computing-3-part-2.webp",
+      "svg_path": "assets/covers/generated/numerical-recipes-art-scientific-computing-3-part-2.svg",
+      "small_path": "assets/covers/generated/numerical-recipes-art-scientific-computing-3-part-2-360.webp",
+      "derivatives": {
+        "numerical-recipes-art-scientific-computing-3-part-2.webp": "6a88e23d0fd82e67b26fab2aaf0adb04c8dfbf9c91d5f93c0d1d9e2150e8f468",
+        "numerical-recipes-art-scientific-computing-3-part-2-360.webp": "c5adc3849336467561b2089ebf211ab3e0c70f9b5e2f42856f25a243ae32f793"
+      },
+      "signature": "f239af3aaae42f2d",
+      "hash": "b5959e9dd0b29ec878a766c36787f3ca9beed8e24a8dc936b92b066d6a15a120",
+      "asset_sha256": "5b65814eb5469112387c637a0d117e12ae0fc026acae4cb39c2d66c5baf73f71",
+      "bytes": 135676,
+      "subject": "mathematics",
+      "palette": 2,
+      "composition": 1,
+      "layout": {
+        "title_bottom": 374,
+        "author_top": 787,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "numerical-recipes-art-scientific-computing-3-part-3": {
+      "path": "assets/covers/generated/numerical-recipes-art-scientific-computing-3-part-3.webp",
+      "svg_path": "assets/covers/generated/numerical-recipes-art-scientific-computing-3-part-3.svg",
+      "small_path": "assets/covers/generated/numerical-recipes-art-scientific-computing-3-part-3-360.webp",
+      "derivatives": {
+        "numerical-recipes-art-scientific-computing-3-part-3.webp": "a64ccf857260fb7e7ebaabf27aa0798ec84f7b356b7b50737536d2fa859b6a83",
+        "numerical-recipes-art-scientific-computing-3-part-3-360.webp": "111372fb2f4f09498f8c793d7f9826dd55cf476793c975b695f832252fb4f34d"
+      },
+      "signature": "9b1b99d0a06f6987",
+      "hash": "06a5f0191860c6148a40f4589701e2658cfbf3abdb85d4f3902bc9340fdee02c",
+      "asset_sha256": "c9eb7a43958eb14543a890583561975aeb053527b962c5e49a5d62549e7ef78a",
+      "bytes": 135570,
+      "subject": "mathematics",
+      "palette": 2,
+      "composition": 1,
+      "layout": {
+        "title_bottom": 374,
+        "author_top": 787,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "openstax-calculus-vol-1": {
+      "path": "assets/covers/generated/openstax-calculus-vol-1.webp",
+      "svg_path": "assets/covers/generated/openstax-calculus-vol-1.svg",
+      "small_path": "assets/covers/generated/openstax-calculus-vol-1-360.webp",
+      "derivatives": {
+        "openstax-calculus-vol-1.webp": "5a0ed229d8e15dc3c0c3e9e218cde516a2a21e6cada925b6728183a2b5d562c1",
+        "openstax-calculus-vol-1-360.webp": "dee3bd36094ee89e9dd254fd971c44015babc445a0cea9512d1cd6a9dc92754d"
+      },
+      "signature": "b02307221978c81f",
+      "hash": "29998c99f1963799526e9206e5a71ddf6b9a620075f4d77de61ab62834c515c6",
+      "asset_sha256": "dfed644de8aecd4dcbfcc6f02d0fb07eeb8339ef515160774ca01555ac51edf7",
+      "bytes": 80543,
+      "subject": "mathematics",
+      "palette": 1,
+      "composition": 3,
+      "layout": {
+        "title_bottom": 255,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "openstax-calculus-vol-2": {
+      "path": "assets/covers/generated/openstax-calculus-vol-2.webp",
+      "svg_path": "assets/covers/generated/openstax-calculus-vol-2.svg",
+      "small_path": "assets/covers/generated/openstax-calculus-vol-2-360.webp",
+      "derivatives": {
+        "openstax-calculus-vol-2.webp": "588ffbef5ce32b1ab0b4b06603ac788cefd0aca50916220fa51c65d77824c25b",
+        "openstax-calculus-vol-2-360.webp": "a3987836d157b04ba08540b0730c2fac7bd1f199fd585e0f4b65d464b7dcff22"
+      },
+      "signature": "c8e4036b99e9eb0a",
+      "hash": "bbf48bd31b2ad53aefa3a9644904b8d423a90ad8891df49bafa66b041dd1f5d2",
+      "asset_sha256": "191cb4893420ceb66b63a8160aebad0dc810a44229bcc5d3c94f7575eae508ba",
+      "bytes": 81687,
+      "subject": "mathematics",
+      "palette": 0,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 255,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "openstax-calculus-vol-3": {
+      "path": "assets/covers/generated/openstax-calculus-vol-3.webp",
+      "svg_path": "assets/covers/generated/openstax-calculus-vol-3.svg",
+      "small_path": "assets/covers/generated/openstax-calculus-vol-3-360.webp",
+      "derivatives": {
+        "openstax-calculus-vol-3.webp": "6b5448d8e7ffd0cdd5edeaf779c18919c18b3138985e69ea88b09cfed26a6e37",
+        "openstax-calculus-vol-3-360.webp": "b1dcd2dfe6e5d5e3db346f1539a33a8d948662e7a9e3cae0b17f2a2200225db2"
+      },
+      "signature": "18d5f90e09a1405f",
+      "hash": "c629f9d5a5708bb02f95033b75d134d81f9ff290b88ca71f8e4450efd559c21d",
+      "asset_sha256": "34e75a1cb21393c04cd0c422757f94da3aae2ba38777a6b47daf444b4196f432",
+      "bytes": 82695,
+      "subject": "mathematics",
+      "palette": 1,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 255,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "openstax-high-school-physics-part-1": {
+      "path": "assets/covers/generated/openstax-high-school-physics-part-1.webp",
+      "svg_path": "assets/covers/generated/openstax-high-school-physics-part-1.svg",
+      "small_path": "assets/covers/generated/openstax-high-school-physics-part-1-360.webp",
+      "derivatives": {
+        "openstax-high-school-physics-part-1.webp": "f96af6c533702e4fce97d191f7f3ac86e1ebfb8adacaba2247114bde3b783d90",
+        "openstax-high-school-physics-part-1-360.webp": "5bf1ad6264498c9d0b3d5e90638fd4bf0e012df53055767cb5e982eae48d6a42"
+      },
+      "signature": "e896b0d083bc2d47",
+      "hash": "1220dfa3f5a08b1ccacfdef05ee41fe8dee588c8fea737fbf731906388834e4e",
+      "asset_sha256": "d5b1c8603e6ea12fcfa1cf894cd0006fc81381a81dc49e9f2cc7b150d022a51d",
+      "bytes": 162744,
+      "subject": "physics",
+      "palette": 2,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 424,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "openstax-high-school-physics-part-2": {
+      "path": "assets/covers/generated/openstax-high-school-physics-part-2.webp",
+      "svg_path": "assets/covers/generated/openstax-high-school-physics-part-2.svg",
+      "small_path": "assets/covers/generated/openstax-high-school-physics-part-2-360.webp",
+      "derivatives": {
+        "openstax-high-school-physics-part-2.webp": "55deab3be193554be0c3ecd315c7a2be21537f7f4e4568454a8baf77699e4b79",
+        "openstax-high-school-physics-part-2-360.webp": "d32d34a6758b02a99ad244bfbb1f6310931f55da7f0c5e806ed53bad4afe009d"
+      },
+      "signature": "6de19648abf171f3",
+      "hash": "7f401d61dbb220addbe22c7c6a8268b05b4ee5bc8fcf306c07ac9e2e9cef0473",
+      "asset_sha256": "98d84cc3c4dcb4637478e9df81d3794506354b1e2e2c841b3e5e99849f344448",
+      "bytes": 166379,
+      "subject": "physics",
+      "palette": 2,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 394,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "oppenheim-schafer-dtsp2-part-1": {
+      "path": "assets/covers/generated/oppenheim-schafer-dtsp2-part-1.webp",
+      "svg_path": "assets/covers/generated/oppenheim-schafer-dtsp2-part-1.svg",
+      "small_path": "assets/covers/generated/oppenheim-schafer-dtsp2-part-1-360.webp",
+      "derivatives": {
+        "oppenheim-schafer-dtsp2-part-1.webp": "8598cd55ea8b0ea1a8e8b738e1c93e3ba74237d0a88a5d406d706347b51a7a20",
+        "oppenheim-schafer-dtsp2-part-1-360.webp": "b5bfd844fed20777fe15152334840be90b5925de32263ea298abeb8268add8f9"
+      },
+      "signature": "141f6b6aefb1f04b",
+      "hash": "bcffd91db4ffaaa71e8904b5fe4fa0661b16f8b4e224dbe5b228c55cfbf6a993",
+      "asset_sha256": "84ff40eef43a041e44a9f00dc95694c21159bc3e5c34c6b3b0c09fd64b4395c8",
+      "bytes": 131182,
+      "subject": "engineering",
+      "palette": 1,
+      "composition": 1,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 787,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "oppenheim-schafer-dtsp2-part-2": {
+      "path": "assets/covers/generated/oppenheim-schafer-dtsp2-part-2.webp",
+      "svg_path": "assets/covers/generated/oppenheim-schafer-dtsp2-part-2.svg",
+      "small_path": "assets/covers/generated/oppenheim-schafer-dtsp2-part-2-360.webp",
+      "derivatives": {
+        "oppenheim-schafer-dtsp2-part-2.webp": "fc2c825edc608299564da66232d4358e41600f74576df45001db06c07142087d",
+        "oppenheim-schafer-dtsp2-part-2-360.webp": "6bb946dd356a4d3aebb8c039410ac83cf23c9258431e4cec26dedc179397acc3"
+      },
+      "signature": "f246a6e2b039f4c1",
+      "hash": "4122565c29d966ac482f37fe47b33595dc4a64a2fc858b03fdc281021c1fab7b",
+      "asset_sha256": "554c4313874aeda451f99d4e16ebd3ed87f2a6864211f6ad19ee020d52525cbd",
+      "bytes": 132296,
+      "subject": "engineering",
+      "palette": 1,
+      "composition": 1,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 787,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "oppenheim-willsky-nawab-signals-systems-2": {
+      "path": "assets/covers/generated/oppenheim-willsky-nawab-signals-systems-2.webp",
+      "svg_path": "assets/covers/generated/oppenheim-willsky-nawab-signals-systems-2.svg",
+      "small_path": "assets/covers/generated/oppenheim-willsky-nawab-signals-systems-2-360.webp",
+      "derivatives": {
+        "oppenheim-willsky-nawab-signals-systems-2.webp": "68d49b810ec25cd50b80e22a259aebd4e3c4e463455298411bc871d5d976d43f",
+        "oppenheim-willsky-nawab-signals-systems-2-360.webp": "76aa573f1e2b1d7ef5c2e1564ee21c9a73c029fc14d3cd9f0662a2b5fda4bd95"
+      },
+      "signature": "fe24bba8b0a03629",
+      "hash": "45db7b67dd0160dfe923b4243edfe54686e48ab1f94693126758e7c27ee9f2e3",
+      "asset_sha256": "bcc2878214a529f04d5ca558416b39b4c01714f1aa818a23372b8059e9be5571",
+      "bytes": 127687,
+      "subject": "engineering",
+      "palette": 2,
+      "composition": 1,
+      "layout": {
+        "title_bottom": 255,
+        "author_top": 752,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "oxford-ibdp-physics-course-companion-2023-part-1": {
+      "path": "assets/covers/generated/oxford-ibdp-physics-course-companion-2023-part-1.webp",
+      "svg_path": "assets/covers/generated/oxford-ibdp-physics-course-companion-2023-part-1.svg",
+      "small_path": "assets/covers/generated/oxford-ibdp-physics-course-companion-2023-part-1-360.webp",
+      "derivatives": {
+        "oxford-ibdp-physics-course-companion-2023-part-1.webp": "3fdf5d43eaa93b34a6ec168c9fd7a5fdd3d9c4bfaec7afecc638b62e0590722e",
+        "oxford-ibdp-physics-course-companion-2023-part-1-360.webp": "917a63b683cd4a2b3d7407da78f8874b104dcdcf6347017e321828127b5f819b"
+      },
+      "signature": "99b6736c3cb63283",
+      "hash": "7d0ea0f46c6e1febfcfe2edb49c1c055d8a428e53ffd97945d822b0ae4eba65f",
+      "asset_sha256": "004d57569f10bfa62bddc1cc754fe71752eb05e98fab79ea724c85c5dddcc41e",
+      "bytes": 145745,
+      "subject": "physics",
+      "palette": 0,
+      "composition": 3,
+      "layout": {
+        "title_bottom": 424,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "oxford-ibdp-physics-course-companion-2023-part-2": {
+      "path": "assets/covers/generated/oxford-ibdp-physics-course-companion-2023-part-2.webp",
+      "svg_path": "assets/covers/generated/oxford-ibdp-physics-course-companion-2023-part-2.svg",
+      "small_path": "assets/covers/generated/oxford-ibdp-physics-course-companion-2023-part-2-360.webp",
+      "derivatives": {
+        "oxford-ibdp-physics-course-companion-2023-part-2.webp": "98a2ef5f2dc3a3e52cfb2432292d1818cda5232fae85b3566c09b218a9e640ab",
+        "oxford-ibdp-physics-course-companion-2023-part-2-360.webp": "e2041aacd2a01a482ff372a63ef12bf4f32b84ea2132eeee22b1093222dc3df3"
+      },
+      "signature": "6b49059edf699d37",
+      "hash": "ed81dc4194450be26ae30d247060092df1526fda094cb2d31537df1ad740153f",
+      "asset_sha256": "233986433d42444770252bb9bc9dd0f0bb7973f4f0aa09d38b6867601bc08473",
+      "bytes": 146904,
+      "subject": "physics",
+      "palette": 2,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 424,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "pcs-fuer-dummies-3-gookin": {
+      "path": "assets/covers/generated/pcs-fuer-dummies-3-gookin.webp",
+      "svg_path": "assets/covers/generated/pcs-fuer-dummies-3-gookin.svg",
+      "small_path": "assets/covers/generated/pcs-fuer-dummies-3-gookin-360.webp",
+      "derivatives": {
+        "pcs-fuer-dummies-3-gookin.webp": "e962650f42ff3371ff40190fd0b7f33f3f65ddf8d48ecbd736f257c7f0a2958e",
+        "pcs-fuer-dummies-3-gookin-360.webp": "d137b91f70d7c792b4139ad3797327408e14f94a0c036c6a819aaf45a5437ae9"
+      },
+      "signature": "8c167bf90725f034",
+      "hash": "0071b92034c3427c4df17f5a4ea0d87728ab207b8d239cb1cd5439c5d3c2ac7c",
+      "asset_sha256": "9a0570af100dd9e76be0a3d8bf4b7d2ee8ca2d959a1df21f7e0bdf5170dcf091",
+      "bytes": 94410,
+      "subject": "computing",
+      "palette": 1,
+      "composition": 1,
+      "layout": {
+        "title_bottom": 255,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "philip-ball-how-life-works": {
+      "path": "assets/covers/generated/philip-ball-how-life-works.webp",
+      "svg_path": "assets/covers/generated/philip-ball-how-life-works.svg",
+      "small_path": "assets/covers/generated/philip-ball-how-life-works-360.webp",
+      "derivatives": {
+        "philip-ball-how-life-works.webp": "64a2ecdf547d20c1fb8b18553a9fc9fe048afd30c00a8f455fa60896dd7c09e7",
+        "philip-ball-how-life-works-360.webp": "329dac530b8ac1560d0c3c5826139e2367d5a7d1a2481eb92e1fd45e795ef5df"
+      },
+      "signature": "d712ba1198b930a0",
+      "hash": "461da2432852d7a133b575a2633cea5d3d8c426789e714a951dca1c936615a79",
+      "asset_sha256": "fb178ba67f36c9caf20b4f0595cc4f18a89567352ef213dac19d6f5d096e08f5",
+      "bytes": 114193,
+      "subject": "biology",
+      "palette": 0,
+      "composition": 3,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "pozar-microwave-engineering-4": {
+      "path": "assets/covers/generated/pozar-microwave-engineering-4.webp",
+      "svg_path": "assets/covers/generated/pozar-microwave-engineering-4.svg",
+      "small_path": "assets/covers/generated/pozar-microwave-engineering-4-360.webp",
+      "derivatives": {
+        "pozar-microwave-engineering-4.webp": "2c2102809cec10f8da51fb92f08fab4f6d7a877d94841c0c8bbc14fc52b2cce4",
+        "pozar-microwave-engineering-4-360.webp": "303b8cdeb6191da65cc40c6c76cb826bea88b6416a145be969cdf39a7c134a32"
+      },
+      "signature": "d42ec78198d6f376",
+      "hash": "f5a6565c55918730f0cdd30cb33d07bf2ad1301f03b6ac81006bfd54389d6f18",
+      "asset_sha256": "8eeddd36904ffa741eaaa87c83a663c6c0f449568f463e4fa6ba5bc908d23cd4",
+      "bytes": 96590,
+      "subject": "electronics",
+      "palette": 2,
+      "composition": 1,
+      "layout": {
+        "title_bottom": 255,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "prasad-electronic-structure-of-materials": {
+      "path": "assets/covers/generated/prasad-electronic-structure-of-materials.webp",
+      "svg_path": "assets/covers/generated/prasad-electronic-structure-of-materials.svg",
+      "small_path": "assets/covers/generated/prasad-electronic-structure-of-materials-360.webp",
+      "derivatives": {
+        "prasad-electronic-structure-of-materials.webp": "75088a450213f53c85cd77c0714bbdcac2341be44f05edb44d33630b06797e18",
+        "prasad-electronic-structure-of-materials-360.webp": "979082a0df3b17f10f3f1803f2ce6f73ab0b459b4dca25ef0afcc865fe840cf9"
+      },
+      "signature": "663e0b5442be6b97",
+      "hash": "e4177e9802a165e20f16bbf18fdc13f3159a7a8f24520fd96981c4009102f177",
+      "asset_sha256": "f98cd22162aa403d216ebb69c325c9e52da8f818fd5ab6d2eb1497ed2d3490d7",
+      "bytes": 89061,
+      "subject": "electronics",
+      "palette": 2,
+      "composition": 1,
+      "layout": {
+        "title_bottom": 205,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "programming-for-the-puzzled-devadas": {
+      "path": "assets/covers/generated/programming-for-the-puzzled-devadas.webp",
+      "svg_path": "assets/covers/generated/programming-for-the-puzzled-devadas.svg",
+      "small_path": "assets/covers/generated/programming-for-the-puzzled-devadas-360.webp",
+      "derivatives": {
+        "programming-for-the-puzzled-devadas.webp": "ad13d311d2d087f9dd564ec4af2944b7564017d138c827a3078c0c2d18d2ee88",
+        "programming-for-the-puzzled-devadas-360.webp": "e07c257457f12b57f7a14abdbb8d19221572671952c3a2c38aa6664db07b7250"
+      },
+      "signature": "e9190afba4031d48",
+      "hash": "39b7c06a0fb9307409a5e360d12e43ffd2fa8cf0f35c1bb9dc0f8cfbfc803402",
+      "asset_sha256": "72e8560a84123325d8f4ef8c83586c2ed61181188c40a3cc75ff2186435acf9c",
+      "bytes": 124636,
+      "subject": "computing",
+      "palette": 1,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "rashid-microelectronic-circuits-2-part-1": {
+      "path": "assets/covers/generated/rashid-microelectronic-circuits-2-part-1.webp",
+      "svg_path": "assets/covers/generated/rashid-microelectronic-circuits-2-part-1.svg",
+      "small_path": "assets/covers/generated/rashid-microelectronic-circuits-2-part-1-360.webp",
+      "derivatives": {
+        "rashid-microelectronic-circuits-2-part-1.webp": "e88d3e542306ea8b603051006a646ef29d38dc910a5d6e28f40132eae1735459",
+        "rashid-microelectronic-circuits-2-part-1-360.webp": "ad3e5f970a03c2e158ea3bd5368250180913a6e38fbc22fd6644696ae4a43402"
+      },
+      "signature": "9600b679e368e850",
+      "hash": "a5e36832067b8a3041720f1e03129106118edbaecf25e1c2d6b6811f8342e54b",
+      "asset_sha256": "bf99d46975f89be2d1085fb6effd3b6988c83e03466e6399c9034fc17726171d",
+      "bytes": 134949,
+      "subject": "electronics",
+      "palette": 2,
+      "composition": 1,
+      "layout": {
+        "title_bottom": 390,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "rashid-microelectronic-circuits-2-part-2": {
+      "path": "assets/covers/generated/rashid-microelectronic-circuits-2-part-2.webp",
+      "svg_path": "assets/covers/generated/rashid-microelectronic-circuits-2-part-2.svg",
+      "small_path": "assets/covers/generated/rashid-microelectronic-circuits-2-part-2-360.webp",
+      "derivatives": {
+        "rashid-microelectronic-circuits-2-part-2.webp": "dea02e922b14077729155c81929868c3bce995e850d3095357a1441d4fc4eb47",
+        "rashid-microelectronic-circuits-2-part-2-360.webp": "bdc7a669867963dd1084727fc451229337c185a966ad75213ec5254b5a70d00c"
+      },
+      "signature": "539c7a1b15a5ce44",
+      "hash": "2ef6e12640dac93aeca2bd9a49de6f43fb62edc1702cc75bb80fcb41483f8a89",
+      "asset_sha256": "b2a9e67412b6101a56d2b72e08959a2f2c8ea4393f81ade4f635da94f09647a7",
+      "bytes": 136173,
+      "subject": "electronics",
+      "palette": 0,
+      "composition": 1,
+      "layout": {
+        "title_bottom": 390,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "rashid-microelectronic-circuits-2-part-3": {
+      "path": "assets/covers/generated/rashid-microelectronic-circuits-2-part-3.webp",
+      "svg_path": "assets/covers/generated/rashid-microelectronic-circuits-2-part-3.svg",
+      "small_path": "assets/covers/generated/rashid-microelectronic-circuits-2-part-3-360.webp",
+      "derivatives": {
+        "rashid-microelectronic-circuits-2-part-3.webp": "20572fd8129456d63ecf350cb9972063abbd8e603ac132416c85464d13c827e5",
+        "rashid-microelectronic-circuits-2-part-3-360.webp": "e566ba67f149bed4070b19dbc33b4aa617ad98c9dcc67c72616b62c3e46bc94f"
+      },
+      "signature": "4af0e04b2d9fbb90",
+      "hash": "fd27bd84e3a7a3925cbe91964c34223308ad7c2f774863376180b5ae168f1753",
+      "asset_sha256": "6b24036966ca234e3fb96a33f796bb1c2e5d7522bcbf54c9e8cd4284a630d9f5",
+      "bytes": 135962,
+      "subject": "electronics",
+      "palette": 2,
+      "composition": 1,
+      "layout": {
+        "title_bottom": 390,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "razavi-fundamentals-microelectronics-2-part-1": {
+      "path": "assets/covers/generated/razavi-fundamentals-microelectronics-2-part-1.webp",
+      "svg_path": "assets/covers/generated/razavi-fundamentals-microelectronics-2-part-1.svg",
+      "small_path": "assets/covers/generated/razavi-fundamentals-microelectronics-2-part-1-360.webp",
+      "derivatives": {
+        "razavi-fundamentals-microelectronics-2-part-1.webp": "2797cf81748b1244bf97130831b8ca41b70ea1d7c918cce18a0a938c3fe38f2d",
+        "razavi-fundamentals-microelectronics-2-part-1-360.webp": "b67101250de41f87ff34c3b0cf28f64ed0856777ef9d0df982b5d9b8839a1f21"
+      },
+      "signature": "f97856a25b275455",
+      "hash": "cc8694c949b907e308263a51bce6c275f8e7ef445441918f422d55b67af609ec",
+      "asset_sha256": "5193d3eb9da25f7c99c54417ebcf5a72db3181a1502d045a91556a3c2dfdd7c4",
+      "bytes": 112637,
+      "subject": "electronics",
+      "palette": 1,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "razavi-fundamentals-microelectronics-2-part-2": {
+      "path": "assets/covers/generated/razavi-fundamentals-microelectronics-2-part-2.webp",
+      "svg_path": "assets/covers/generated/razavi-fundamentals-microelectronics-2-part-2.svg",
+      "small_path": "assets/covers/generated/razavi-fundamentals-microelectronics-2-part-2-360.webp",
+      "derivatives": {
+        "razavi-fundamentals-microelectronics-2-part-2.webp": "2f4dc1c7a4b92405dd41f30302e17ae966c061125cc82ecb8e5bd3538393ebd8",
+        "razavi-fundamentals-microelectronics-2-part-2-360.webp": "ec58cbae23232b1e0d58a2891f6c15837a79d5f146a620fb3c853647e8202a15"
+      },
+      "signature": "b8c21cbcf7a9c7b5",
+      "hash": "65120272a24e83f3fc94a2727977634303075866a01e4569258c70bbab61d554",
+      "asset_sha256": "944657f10345404b9c77259ab998d248594dcf58a3fb6ce852ff45c6834bbfa3",
+      "bytes": 113810,
+      "subject": "electronics",
+      "palette": 1,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "russell-norvig-artificial-intelligence-modern-approach-2-part-1": {
+      "path": "assets/covers/generated/russell-norvig-artificial-intelligence-modern-approach-2-part-1.webp",
+      "svg_path": "assets/covers/generated/russell-norvig-artificial-intelligence-modern-approach-2-part-1.svg",
+      "small_path": "assets/covers/generated/russell-norvig-artificial-intelligence-modern-approach-2-part-1-360.webp",
+      "derivatives": {
+        "russell-norvig-artificial-intelligence-modern-approach-2-part-1.webp": "88081a144041aec143bd93573c1c2ff0d5d629de478d14414753af1201d75363",
+        "russell-norvig-artificial-intelligence-modern-approach-2-part-1-360.webp": "1fdb49ad302b39084b46939338605a54a854c3efb3a57be54296b5a4e4dd8f46"
+      },
+      "signature": "d4bed02b3945e476",
+      "hash": "51c7f86e97c6c4a7702646f9db80988e11f46733b93854781ac682db6dbbf5c0",
+      "asset_sha256": "f2ed1f4c8a2bb6dd796645fd67d6d77e062e33cc602b5a991784fcaf3aa7087d",
+      "bytes": 155004,
+      "subject": "ai",
+      "palette": 2,
+      "composition": 1,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "russell-norvig-artificial-intelligence-modern-approach-2-part-2": {
+      "path": "assets/covers/generated/russell-norvig-artificial-intelligence-modern-approach-2-part-2.webp",
+      "svg_path": "assets/covers/generated/russell-norvig-artificial-intelligence-modern-approach-2-part-2.svg",
+      "small_path": "assets/covers/generated/russell-norvig-artificial-intelligence-modern-approach-2-part-2-360.webp",
+      "derivatives": {
+        "russell-norvig-artificial-intelligence-modern-approach-2-part-2.webp": "12f192fc66677511340df48f74ad545293ccc88d6f9807f8418537b8b954e514",
+        "russell-norvig-artificial-intelligence-modern-approach-2-part-2-360.webp": "dac2e60374e63ebd2c7fc6dbb2ce1102d205ce2781c9c9c40de6240dca6710fd"
+      },
+      "signature": "7b7aa4da03128785",
+      "hash": "9c506e4a4b4a97d3db85cc401b3e27921ca5728c4ea9a45fcfcd543afe9ddc6f",
+      "asset_sha256": "0a66cf26ac96182bb36b329fac53747562e96ad428328caddf67699d05fa8255",
+      "bytes": 159561,
+      "subject": "ai",
+      "palette": 2,
+      "composition": 1,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "ryu-rodrigo-scanning-probe-lithography": {
+      "path": "assets/covers/generated/ryu-rodrigo-scanning-probe-lithography.webp",
+      "svg_path": "assets/covers/generated/ryu-rodrigo-scanning-probe-lithography.svg",
+      "small_path": "assets/covers/generated/ryu-rodrigo-scanning-probe-lithography-360.webp",
+      "derivatives": {
+        "ryu-rodrigo-scanning-probe-lithography.webp": "6b05f7c3ab8e0c33f76574a3cd6837b9ca9d11665b93f68e852edf73e7c8bb45",
+        "ryu-rodrigo-scanning-probe-lithography-360.webp": "ebfa92219008468efb640712bc4078110dc9ed22c88a5305fc4694a9d6330c07"
+      },
+      "signature": "53842a09f18f74a2",
+      "hash": "955121236db74b50c3a4e47174b1485cee5c286670e95eed80e3548014ae32ab",
+      "asset_sha256": "d705993616d198573d94d816d65af6568cd3a666ae2e635fbe58ea430cd43e00",
+      "bytes": 127222,
+      "subject": "engineering",
+      "palette": 2,
+      "composition": 1,
+      "layout": {
+        "title_bottom": 374,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "serway-jewett-pse9-part-1-mechanics": {
+      "path": "assets/covers/generated/serway-jewett-pse9-part-1-mechanics.webp",
+      "svg_path": "assets/covers/generated/serway-jewett-pse9-part-1-mechanics.svg",
+      "small_path": "assets/covers/generated/serway-jewett-pse9-part-1-mechanics-360.webp",
+      "derivatives": {
+        "serway-jewett-pse9-part-1-mechanics.webp": "68a2ff75b9776aa6b379dd988f0c73422c2be47f6662718a61da68a7adad89db",
+        "serway-jewett-pse9-part-1-mechanics-360.webp": "39f462f6929f477e08a6eb79085cd3987aaa7a83ad892be1649e541f56213b05"
+      },
+      "signature": "d4c70dbb1fcf3130",
+      "hash": "648fc3ca5a773d796027c88a7f285ff7311eb7cb0f33d83f06ee60384fe37177",
+      "asset_sha256": "fbc61043dd511bf086a6cf79094c6789333455ffefb1756f58ad24e8d471deee",
+      "bytes": 174532,
+      "subject": "physics",
+      "palette": 0,
+      "composition": 3,
+      "layout": {
+        "title_bottom": 424,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "serway-jewett-pse9-part-2-oscillations-waves": {
+      "path": "assets/covers/generated/serway-jewett-pse9-part-2-oscillations-waves.webp",
+      "svg_path": "assets/covers/generated/serway-jewett-pse9-part-2-oscillations-waves.svg",
+      "small_path": "assets/covers/generated/serway-jewett-pse9-part-2-oscillations-waves-360.webp",
+      "derivatives": {
+        "serway-jewett-pse9-part-2-oscillations-waves.webp": "e911f972c05c1cf82c66c74f1e31a807bfd8d39dfca97defc8f358296f7b5769",
+        "serway-jewett-pse9-part-2-oscillations-waves-360.webp": "083fa9033918220e6b947303c9c768ece31d418139b54193b1d79f4a0a4b33d5"
+      },
+      "signature": "ee62641c56ea4217",
+      "hash": "f97fc3c8af34099ff60aacab577ee11bb4fca446c89a365a51a5e4ef8c71bd3f",
+      "asset_sha256": "b13830923cc2d637c783183d51fa9090424400b8be3d31a3d21110008b9b5a00",
+      "bytes": 199179,
+      "subject": "physics",
+      "palette": 2,
+      "composition": 1,
+      "layout": {
+        "title_bottom": 424,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "serway-jewett-pse9-part-3-thermodynamics": {
+      "path": "assets/covers/generated/serway-jewett-pse9-part-3-thermodynamics.webp",
+      "svg_path": "assets/covers/generated/serway-jewett-pse9-part-3-thermodynamics.svg",
+      "small_path": "assets/covers/generated/serway-jewett-pse9-part-3-thermodynamics-360.webp",
+      "derivatives": {
+        "serway-jewett-pse9-part-3-thermodynamics.webp": "20de8b1ef6bc33095f476d323314d1d484b88a6456b4a7d7d3212a606331075e",
+        "serway-jewett-pse9-part-3-thermodynamics-360.webp": "381e161aa2cf351b9443567767eb8f389ec27cbdfb163cd3856b4f3bb660f88d"
+      },
+      "signature": "f5ce5bf32f7fa60c",
+      "hash": "ad2eb2c7dd4219ddfc7c404601103f5bd8dc604f99c15e597bf4ec9aa9716182",
+      "asset_sha256": "8eff933a681c49816efa79662c0e7d19796351e3828ad9b647c292b6439f3b75",
+      "bytes": 173230,
+      "subject": "physics",
+      "palette": 0,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 409,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "serway-jewett-pse9-part-4-electricity-magnetism": {
+      "path": "assets/covers/generated/serway-jewett-pse9-part-4-electricity-magnetism.webp",
+      "svg_path": "assets/covers/generated/serway-jewett-pse9-part-4-electricity-magnetism.svg",
+      "small_path": "assets/covers/generated/serway-jewett-pse9-part-4-electricity-magnetism-360.webp",
+      "derivatives": {
+        "serway-jewett-pse9-part-4-electricity-magnetism.webp": "511d2cfb0411694e4358773e55b560f3ca38bd1a9d526dd6d07007feb6ae982a",
+        "serway-jewett-pse9-part-4-electricity-magnetism-360.webp": "2d92f8fa34f376dba2205e7168df8d212619d2b933a544f00a90c4d75ddf9ea8"
+      },
+      "signature": "cea81037879163f4",
+      "hash": "36e9af7a7ae8bd913846018fdf3663bd051b6b52f3785fc9435aefe896e4e660",
+      "asset_sha256": "5a6b68a0680a5e6bbe71d983db29b9993daec4dcb6b87127b482db8e0d4f5be3",
+      "bytes": 189184,
+      "subject": "physics",
+      "palette": 1,
+      "composition": 3,
+      "layout": {
+        "title_bottom": 409,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "serway-jewett-pse9-part-5-light-optics": {
+      "path": "assets/covers/generated/serway-jewett-pse9-part-5-light-optics.webp",
+      "svg_path": "assets/covers/generated/serway-jewett-pse9-part-5-light-optics.svg",
+      "small_path": "assets/covers/generated/serway-jewett-pse9-part-5-light-optics-360.webp",
+      "derivatives": {
+        "serway-jewett-pse9-part-5-light-optics.webp": "5dd5a80d4bc15173ab9774421d0a618a48ac2b0498e6343ec05dae48ecc91236",
+        "serway-jewett-pse9-part-5-light-optics-360.webp": "a96c18034cb4d5fe76158ce99d28f3670e85915c094dbfd0e1f3854edb418a6a"
+      },
+      "signature": "7c71a0c8c7a7cff7",
+      "hash": "5b5f4be7e3083104fa07aab716b7c502f63e9957bfcbde83411292ed8506ffac",
+      "asset_sha256": "3b6892ab6e65af5c1fc9cae2962b4ed5cf05931bafd438eb727cb1034542626b",
+      "bytes": 183002,
+      "subject": "physics",
+      "palette": 0,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 409,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "serway-jewett-pse9-part-6-modern-physics": {
+      "path": "assets/covers/generated/serway-jewett-pse9-part-6-modern-physics.webp",
+      "svg_path": "assets/covers/generated/serway-jewett-pse9-part-6-modern-physics.svg",
+      "small_path": "assets/covers/generated/serway-jewett-pse9-part-6-modern-physics-360.webp",
+      "derivatives": {
+        "serway-jewett-pse9-part-6-modern-physics.webp": "b2bae7fe279efdf3b919fbd8a45efccb43b87f81648bb2a75c529a46ce2de223",
+        "serway-jewett-pse9-part-6-modern-physics-360.webp": "4d661215c3dbd5fa897f47318d82c3718ac9b4b1c3d1eba83bf8863b32e28f33"
+      },
+      "signature": "b1c08917bd71dbfa",
+      "hash": "f79f7f6fc8b177929c91c43df8f104a9acc8ce57cca16cfab63f84bbd3cd6d53",
+      "asset_sha256": "e857b25d21f738a9a9d4ef41e4ba7d7bb02be119783442c3a89537079022811b",
+      "bytes": 181632,
+      "subject": "physics",
+      "palette": 0,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 409,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "shiffman-nature-of-code-javascript-part-1": {
+      "path": "assets/covers/generated/shiffman-nature-of-code-javascript-part-1.webp",
+      "svg_path": "assets/covers/generated/shiffman-nature-of-code-javascript-part-1.svg",
+      "small_path": "assets/covers/generated/shiffman-nature-of-code-javascript-part-1-360.webp",
+      "derivatives": {
+        "shiffman-nature-of-code-javascript-part-1.webp": "99acbda59a3474fad890334d4f0de6d5a3a7e290d88cca27dea6a9d968f421ae",
+        "shiffman-nature-of-code-javascript-part-1-360.webp": "616bf3fdc1f5f930c9bdb395e7c49ee5d5812641bfc285065d6046081b6faebf"
+      },
+      "signature": "405eb06585ad69cc",
+      "hash": "5a0faf6779384234ecba8a4befc7a47b6ebda07867ebcd86982c58ccffe48d24",
+      "asset_sha256": "ef071f2721e3e0252bc0f95275b9dd73146956849136317dafc9ec2a20368b43",
+      "bytes": 134815,
+      "subject": "computing",
+      "palette": 0,
+      "composition": 3,
+      "layout": {
+        "title_bottom": 374,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "shiffman-nature-of-code-javascript-part-2": {
+      "path": "assets/covers/generated/shiffman-nature-of-code-javascript-part-2.webp",
+      "svg_path": "assets/covers/generated/shiffman-nature-of-code-javascript-part-2.svg",
+      "small_path": "assets/covers/generated/shiffman-nature-of-code-javascript-part-2-360.webp",
+      "derivatives": {
+        "shiffman-nature-of-code-javascript-part-2.webp": "fac1de680400803d6f436d5c8b2be1477893ef6821eabbd0879b75774b4a36a6",
+        "shiffman-nature-of-code-javascript-part-2-360.webp": "31a9a9e461d10711b9cdf148782bfbd96d3c947c6beea7eeaff94cd590f118a1"
+      },
+      "signature": "43b443325dcca555",
+      "hash": "8a2d74d61fd7bbe26cc9c2595008d65ea687a74265837dd7b7f6276f991456e1",
+      "asset_sha256": "a396bae94e9bdc53f61f3afb3e1b2365b41fa63fd9306dade5056cc23bcecdff",
+      "bytes": 140997,
+      "subject": "computing",
+      "palette": 1,
+      "composition": 3,
+      "layout": {
+        "title_bottom": 424,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "sorrentino-bianchi-microwave-rf-engineering": {
+      "path": "assets/covers/generated/sorrentino-bianchi-microwave-rf-engineering.webp",
+      "svg_path": "assets/covers/generated/sorrentino-bianchi-microwave-rf-engineering.svg",
+      "small_path": "assets/covers/generated/sorrentino-bianchi-microwave-rf-engineering-360.webp",
+      "derivatives": {
+        "sorrentino-bianchi-microwave-rf-engineering.webp": "3e394b49ef8ecd6f37beca1144f2951f0e1157b24cf6e3363519d939d403f65d",
+        "sorrentino-bianchi-microwave-rf-engineering-360.webp": "f462af84397d05f4e8cd3b3871aec393cca3ec31ee038f73dceb7deeddbe5b78"
+      },
+      "signature": "47424701edb71704",
+      "hash": "fa36df02fec0b0b74df622f73ecd1bf3941f3608f22cb0616aa98a1f6c1c48e3",
+      "asset_sha256": "a705df4fe73f11433beb494bcde8d2173130d4fc7791be14d6b4385ad5b08280",
+      "bytes": 102973,
+      "subject": "electronics",
+      "palette": 2,
+      "composition": 3,
+      "layout": {
+        "title_bottom": 255,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "spahic-electrical-engineering-without-prior-knowledge": {
+      "path": "assets/covers/generated/spahic-electrical-engineering-without-prior-knowledge.webp",
+      "svg_path": "assets/covers/generated/spahic-electrical-engineering-without-prior-knowledge.svg",
+      "small_path": "assets/covers/generated/spahic-electrical-engineering-without-prior-knowledge-360.webp",
+      "derivatives": {
+        "spahic-electrical-engineering-without-prior-knowledge.webp": "4840945e3363aa862f2c93d94f754553987599ec275f5700bfac4d5825eb3628",
+        "spahic-electrical-engineering-without-prior-knowledge-360.webp": "a018cb337180bb6d8cc67593485417b33589cf057ec9687e538d63cff590aa90"
+      },
+      "signature": "6979c9ace58bbb61",
+      "hash": "e910552ddcad80a5cbd5ffe4e18f1962d3c34e90d64c98f8fe8457a3872ee720",
+      "asset_sha256": "b31c501cc5822cde03dcf6a53e9e46ace9857bf411397f962c653b129909a7e2",
+      "bytes": 141367,
+      "subject": "engineering",
+      "palette": 0,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 374,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "spektrum-deutsch-a1-plus": {
+      "path": "assets/covers/generated/spektrum-deutsch-a1-plus.webp",
+      "svg_path": "assets/covers/generated/spektrum-deutsch-a1-plus.svg",
+      "small_path": "assets/covers/generated/spektrum-deutsch-a1-plus-360.webp",
+      "derivatives": {
+        "spektrum-deutsch-a1-plus.webp": "9e852695e229024e7ac6103777b5bd3572d27836837fb8284f3da1e502ef21af",
+        "spektrum-deutsch-a1-plus-360.webp": "37c7ca253e628d6f8a907743069ccaa56be1e59d7345f2e190fc30922a9f3b4c"
+      },
+      "signature": "32436f29060d3e5c",
+      "hash": "7f36baafcb32e7a1c0838d8f306f2977885f5e94f6eff6beaf043becc78fc592",
+      "asset_sha256": "381427bebb78715a25ee3ca7488c3f753afae04c5d69f2ac2c21f4cf3cbd28c1",
+      "bytes": 75471,
+      "subject": "languages",
+      "palette": 0,
+      "composition": 1,
+      "layout": {
+        "title_bottom": 305,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "stacey-nuclear-reactor-physics-3-revised-part-1": {
+      "path": "assets/covers/generated/stacey-nuclear-reactor-physics-3-revised-part-1.webp",
+      "svg_path": "assets/covers/generated/stacey-nuclear-reactor-physics-3-revised-part-1.svg",
+      "small_path": "assets/covers/generated/stacey-nuclear-reactor-physics-3-revised-part-1-360.webp",
+      "derivatives": {
+        "stacey-nuclear-reactor-physics-3-revised-part-1.webp": "9db47abbd236d769ec546e8ef7e869992565d287fcfd6044ee84c99ddf3eee25",
+        "stacey-nuclear-reactor-physics-3-revised-part-1-360.webp": "70f05c57f10a6bcf8ee4e9ee041a11de7dd02f3bf9936f36cfcaad035b077e68"
+      },
+      "signature": "093c7569688cf6c4",
+      "hash": "8882147c17f7a5ff286b0802a645fa15684f0b019758984d804cbef5cf6a9d46",
+      "asset_sha256": "fce04e5820b874cc8c256b3ab26b17dae672e81d2fe63007ce6b70b5631f087b",
+      "bytes": 113995,
+      "subject": "physics",
+      "palette": 2,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "stacey-nuclear-reactor-physics-3-revised-part-2": {
+      "path": "assets/covers/generated/stacey-nuclear-reactor-physics-3-revised-part-2.webp",
+      "svg_path": "assets/covers/generated/stacey-nuclear-reactor-physics-3-revised-part-2.svg",
+      "small_path": "assets/covers/generated/stacey-nuclear-reactor-physics-3-revised-part-2-360.webp",
+      "derivatives": {
+        "stacey-nuclear-reactor-physics-3-revised-part-2.webp": "d4b6fe5c65571b7082348124ab0ba9640212b93ab36336d5accb9d1ecbaa00f4",
+        "stacey-nuclear-reactor-physics-3-revised-part-2-360.webp": "0271496068267d3bf945eacbcf423cc31634d3078e069baadf42c0fe7e956b9e"
+      },
+      "signature": "9bdb87d66193db5d",
+      "hash": "894669810cd9e1f61a7ee93f05779b07d7626e4a91b993d6700563505d5bbc98",
+      "asset_sha256": "27aa44a4e3103092b4f276387c0b2833e1587cca17d4737d38158123f5cb54e7",
+      "bytes": 124347,
+      "subject": "physics",
+      "palette": 2,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "strang-introduction-applied-mathematics-part-1": {
+      "path": "assets/covers/generated/strang-introduction-applied-mathematics-part-1.webp",
+      "svg_path": "assets/covers/generated/strang-introduction-applied-mathematics-part-1.svg",
+      "small_path": "assets/covers/generated/strang-introduction-applied-mathematics-part-1-360.webp",
+      "derivatives": {
+        "strang-introduction-applied-mathematics-part-1.webp": "f2721c80fab6e61f3f68694347a442c3db2120bc692afa94975bb3557808095e",
+        "strang-introduction-applied-mathematics-part-1-360.webp": "20adfb3000414bd7c6ef76a35e2997d42e840a5b84f47d57cc0915e921cef1cc"
+      },
+      "signature": "8153eb2275a1b293",
+      "hash": "2d21a81d1e5f9259bf3603b4a662f684307420ff50e4023339522e17cd80bb37",
+      "asset_sha256": "5e337a43ad271481266d115192d5079f58601b84c0a3362f3d1852e9590d4bf3",
+      "bytes": 100083,
+      "subject": "mathematics",
+      "palette": 1,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 290,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "strang-introduction-applied-mathematics-part-2": {
+      "path": "assets/covers/generated/strang-introduction-applied-mathematics-part-2.webp",
+      "svg_path": "assets/covers/generated/strang-introduction-applied-mathematics-part-2.svg",
+      "small_path": "assets/covers/generated/strang-introduction-applied-mathematics-part-2-360.webp",
+      "derivatives": {
+        "strang-introduction-applied-mathematics-part-2.webp": "c887dee08e47f88123a318f8059edad6492c5166e8179b49dca047d169624a8f",
+        "strang-introduction-applied-mathematics-part-2-360.webp": "c066f45e5abc89f6cec6e3bab153969e6dfc6af689ae8b3fa4e09307a4d9af01"
+      },
+      "signature": "12fe5ee0573de757",
+      "hash": "c1ace97efa9d4aa44284c6571adab675ece976b04ee12604a1b267ce153fa67f",
+      "asset_sha256": "9a0602d7a9929ac3d91f51234b0d4507d0ea041b262cc1c080818bdb2a876dc0",
+      "bytes": 100746,
+      "subject": "mathematics",
+      "palette": 0,
+      "composition": 1,
+      "layout": {
+        "title_bottom": 290,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "strang-introduction-linear-algebra-4": {
+      "path": "assets/covers/generated/strang-introduction-linear-algebra-4.webp",
+      "svg_path": "assets/covers/generated/strang-introduction-linear-algebra-4.svg",
+      "small_path": "assets/covers/generated/strang-introduction-linear-algebra-4-360.webp",
+      "derivatives": {
+        "strang-introduction-linear-algebra-4.webp": "dbded9bba41b575811c7ebc6a8e2920afb98cf187e92f99ca7948b0f6dfa790b",
+        "strang-introduction-linear-algebra-4-360.webp": "ca3b7a0cc2b98e9668b95c6c08cd18d515d5c2f5de341ffc6c7ffa84b5b161b7"
+      },
+      "signature": "22d886a60fc8de2b",
+      "hash": "1dd7de491dbc3259837b539dbb50325f539b782dac27a2936a474ef5df17c492",
+      "asset_sha256": "372227fd5a661a6bfc1447e63d527ce40755d98ff6e6d1c1d9f1e4c78e0bec77",
+      "bytes": 94690,
+      "subject": "mathematics",
+      "palette": 1,
+      "composition": 3,
+      "layout": {
+        "title_bottom": 290,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "strang-linear-algebra-applications-4": {
+      "path": "assets/covers/generated/strang-linear-algebra-applications-4.webp",
+      "svg_path": "assets/covers/generated/strang-linear-algebra-applications-4.svg",
+      "small_path": "assets/covers/generated/strang-linear-algebra-applications-4-360.webp",
+      "derivatives": {
+        "strang-linear-algebra-applications-4.webp": "ee9907173554e30074d2d7f39e77682350030986ad7d72dd0948b71720f5e22f",
+        "strang-linear-algebra-applications-4-360.webp": "2f0ba6073bedad074d3565c49063a32e4a6f3c9870b349a411e45165319498e0"
+      },
+      "signature": "a0ea68ad6607bedc",
+      "hash": "478a6059f1a5b695871d84b8dc58d41ab8c494db095199bf3eb39048c0ab2f57",
+      "asset_sha256": "bf408da2c17c97c60c35739bb1ef2f40432d04aca0cbc4d4b0af4964b711f56e",
+      "bytes": 75828,
+      "subject": "mathematics",
+      "palette": 0,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 211,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 39
+      }
+    },
+    "thin-film-processes-ii-vossen-kern": {
+      "path": "assets/covers/generated/thin-film-processes-ii-vossen-kern.webp",
+      "svg_path": "assets/covers/generated/thin-film-processes-ii-vossen-kern.svg",
+      "small_path": "assets/covers/generated/thin-film-processes-ii-vossen-kern-360.webp",
+      "derivatives": {
+        "thin-film-processes-ii-vossen-kern.webp": "58251b67fcace8e5a5320ea6d7c26bb020bef48984cbe95a9a7963f9303c328d",
+        "thin-film-processes-ii-vossen-kern-360.webp": "65fbb6bd037229685483a2b27d3239262d482470a93fed653f80b3f896794e7b"
+      },
+      "signature": "38773e62cd1a1657",
+      "hash": "67a52f4964074c761e3f87403a26cfffced9077d2c648584a96681e226b04255",
+      "asset_sha256": "6e4bdf8c01ae963d1585b7f5d8fee551d906d54a48f1a8c18292b67cc8749fa5",
+      "bytes": 79075,
+      "subject": "engineering",
+      "palette": 2,
+      "composition": 3,
+      "layout": {
+        "title_bottom": 255,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "ulaby-ravaioli-fundamentals-applied-electromagnetics-8": {
+      "path": "assets/covers/generated/ulaby-ravaioli-fundamentals-applied-electromagnetics-8.webp",
+      "svg_path": "assets/covers/generated/ulaby-ravaioli-fundamentals-applied-electromagnetics-8.svg",
+      "small_path": "assets/covers/generated/ulaby-ravaioli-fundamentals-applied-electromagnetics-8-360.webp",
+      "derivatives": {
+        "ulaby-ravaioli-fundamentals-applied-electromagnetics-8.webp": "dbcac882c3cceedfb39df92e2c6371983cb0b93875039b6002b2240c7016fd20",
+        "ulaby-ravaioli-fundamentals-applied-electromagnetics-8-360.webp": "44b0e8c1dfd74ade077987721acc4f562684cd26bbb3cec3e897a0571c926471"
+      },
+      "signature": "de5a724e8880ae41",
+      "hash": "a6fd2979d4c9df12993091a490cca9b72f6039ffda24497cef3ef7f893c91662",
+      "asset_sha256": "fab0d90188e2ac9e84ae1d6726bcb381a4c3928a3a439b619e9f69bc4200eeb1",
+      "bytes": 134875,
+      "subject": "engineering",
+      "palette": 1,
+      "composition": 3,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "understanding-models-developed-with-ai-2026": {
+      "path": "assets/covers/generated/understanding-models-developed-with-ai-2026.webp",
+      "svg_path": "assets/covers/generated/understanding-models-developed-with-ai-2026.svg",
+      "small_path": "assets/covers/generated/understanding-models-developed-with-ai-2026-360.webp",
+      "derivatives": {
+        "understanding-models-developed-with-ai-2026.webp": "5cefa8b5f4a0cc80e0f84453f7c357dc36e1afb8f150c50a8a141303894d7a93",
+        "understanding-models-developed-with-ai-2026-360.webp": "8442d8d06cb08f07b73cc9d4d0867de6caa05a5bc6e0e1c55af94442a4c939d4"
+      },
+      "signature": "13dca72a7f417c01",
+      "hash": "e505af024ea18f66e24a5b305e69fd2cacf9df61a7a5275bb9250f8ebcc6b945",
+      "asset_sha256": "81692358c9936ab6a33d26a429519db6c9a22da3a772f6c855dd19b09849bd2e",
+      "bytes": 176414,
+      "subject": "ai",
+      "palette": 2,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 419,
+        "author_top": 787,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "vapnik-nature-statistical-learning-theory-2": {
+      "path": "assets/covers/generated/vapnik-nature-statistical-learning-theory-2.webp",
+      "svg_path": "assets/covers/generated/vapnik-nature-statistical-learning-theory-2.svg",
+      "small_path": "assets/covers/generated/vapnik-nature-statistical-learning-theory-2-360.webp",
+      "derivatives": {
+        "vapnik-nature-statistical-learning-theory-2.webp": "69fc61639c506ac6a215462ff3c6bde1822a92dc852df656d8d5cdd609188d1e",
+        "vapnik-nature-statistical-learning-theory-2-360.webp": "4c875284dfea5d80b08e5301649f5b0f4fb4ef8bd1a6ab906403de8568378329"
+      },
+      "signature": "bcf365dc53136f9b",
+      "hash": "a6712bf3bf90380379627c894c1bcbce680e907c3da7117804794025d2b6349c",
+      "asset_sha256": "19c3802cec48f3f0d97120bab9b10b35d98b53b59d385eda90ac6905312ca235",
+      "bytes": 137080,
+      "subject": "ai",
+      "palette": 0,
+      "composition": 3,
+      "layout": {
+        "title_bottom": 290,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "voet-pratt-fundamentals-biochemistry-5-part-1": {
+      "path": "assets/covers/generated/voet-pratt-fundamentals-biochemistry-5-part-1.webp",
+      "svg_path": "assets/covers/generated/voet-pratt-fundamentals-biochemistry-5-part-1.svg",
+      "small_path": "assets/covers/generated/voet-pratt-fundamentals-biochemistry-5-part-1-360.webp",
+      "derivatives": {
+        "voet-pratt-fundamentals-biochemistry-5-part-1.webp": "e4077d4fc6f15dc954abf2abc15c57e661b35510628f157c0a6e3ee9ed2d1533",
+        "voet-pratt-fundamentals-biochemistry-5-part-1-360.webp": "62f8332f5c085a27fc293eaa47e9845887a989064def09b6391f0df2e8ec3351"
+      },
+      "signature": "fb3bb3d98b98bd00",
+      "hash": "2a977ff59fff605371b0fbace51610ce30e45732869d5125602c48447366f6ff",
+      "asset_sha256": "f7d1b8a5cc42f05a7c111f6e3da1404e9b8692fe4582ae11e6caaa30e31a3961",
+      "bytes": 163282,
+      "subject": "chemistry",
+      "palette": 0,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 424,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "voet-pratt-fundamentals-biochemistry-5-part-2": {
+      "path": "assets/covers/generated/voet-pratt-fundamentals-biochemistry-5-part-2.webp",
+      "svg_path": "assets/covers/generated/voet-pratt-fundamentals-biochemistry-5-part-2.svg",
+      "small_path": "assets/covers/generated/voet-pratt-fundamentals-biochemistry-5-part-2-360.webp",
+      "derivatives": {
+        "voet-pratt-fundamentals-biochemistry-5-part-2.webp": "f835372086e295a2a5b1674a9b43efcdcbcc03b10f8ab5f29a3202d620411355",
+        "voet-pratt-fundamentals-biochemistry-5-part-2-360.webp": "c79b63c30e6b6d77347b5c60d26828212fbdac65ca58f4b35c98a30debdb90aa"
+      },
+      "signature": "7baad5c2c19b9069",
+      "hash": "f42bdf7f31a940ccb2f81ea1a2160ac86af6824bbbdd6458c1caeddd53361c3b",
+      "asset_sha256": "1408b6677a1bce66edc46441417f5e8a03e7024e632b377adef4bf275835762e",
+      "bytes": 164404,
+      "subject": "chemistry",
+      "palette": 1,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 424,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "voet-pratt-fundamentals-biochemistry-5-part-3": {
+      "path": "assets/covers/generated/voet-pratt-fundamentals-biochemistry-5-part-3.webp",
+      "svg_path": "assets/covers/generated/voet-pratt-fundamentals-biochemistry-5-part-3.svg",
+      "small_path": "assets/covers/generated/voet-pratt-fundamentals-biochemistry-5-part-3-360.webp",
+      "derivatives": {
+        "voet-pratt-fundamentals-biochemistry-5-part-3.webp": "b4e49014a4cc067ee0ad15f8d074d47bbe1a7720fb2ead7647e787fdff77eef1",
+        "voet-pratt-fundamentals-biochemistry-5-part-3-360.webp": "f393671cf5dee26297bf2eda1ae1c507b098ebf71d8ec906525311be4b85feff"
+      },
+      "signature": "a0ec2ed5dee544d6",
+      "hash": "9e4b47f86fd1b2aa76de6edeeaafa42e074ecb51b653f48cd2e9ac4c4e78a263",
+      "asset_sha256": "dffd0f79dd4c71f4f3a5ff0d09108fed5c8242065ec5ccc82ee0492eae87db9c",
+      "bytes": 160617,
+      "subject": "chemistry",
+      "palette": 1,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 424,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "waldmann-linear-algebra-1": {
+      "path": "assets/covers/generated/waldmann-linear-algebra-1.webp",
+      "svg_path": "assets/covers/generated/waldmann-linear-algebra-1.svg",
+      "small_path": "assets/covers/generated/waldmann-linear-algebra-1-360.webp",
+      "derivatives": {
+        "waldmann-linear-algebra-1.webp": "6f63d4c2212e8593d03aa37b96c005ce55e1a012363bdfc50254e2839abb0cef",
+        "waldmann-linear-algebra-1-360.webp": "c6d5ebf9143f924fac649e5b475dfe8880ed6bcb7c2f25253bb382bf17e31ad9"
+      },
+      "signature": "ea7d6ed55065571a",
+      "hash": "c963edbcb1b7eb5d1a797ff365b7f3bdd12fbbe17b216b014a4663ff14dafa07",
+      "asset_sha256": "ea81e66a7542f588df9d4f029ef449f7f28b27dc9320e6ee307a092e9f4d8306",
+      "bytes": 73975,
+      "subject": "mathematics",
+      "palette": 1,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 211,
+        "author_top": 812,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 39
+      }
+    },
+    "waldmann-linear-algebra-2": {
+      "path": "assets/covers/generated/waldmann-linear-algebra-2.webp",
+      "svg_path": "assets/covers/generated/waldmann-linear-algebra-2.svg",
+      "small_path": "assets/covers/generated/waldmann-linear-algebra-2-360.webp",
+      "derivatives": {
+        "waldmann-linear-algebra-2.webp": "8382efeb47020029d99a59f3195ebcdb138028d9a277c00aaec73766caf8746d",
+        "waldmann-linear-algebra-2-360.webp": "cd35ee448b06eefbe1e6c0f59425218b4a53e3903a14dedf6ee7d2931564af0c"
+      },
+      "signature": "e4686d0ede1ff1b9",
+      "hash": "bf34c11f8071cf276cb4f155421db951eaeb20c98192b35adceeba857cd3448a",
+      "asset_sha256": "716235693b096ef5a00dd396c31d3dd3efcca562b63c5be48b355ebfade76ac4",
+      "bytes": 82300,
+      "subject": "mathematics",
+      "palette": 0,
+      "composition": 1,
+      "layout": {
+        "title_bottom": 261,
+        "author_top": 812,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 39
+      }
+    },
+    "warren-hackers-delight-1": {
+      "path": "assets/covers/generated/warren-hackers-delight-1.webp",
+      "svg_path": "assets/covers/generated/warren-hackers-delight-1.svg",
+      "small_path": "assets/covers/generated/warren-hackers-delight-1-360.webp",
+      "derivatives": {
+        "warren-hackers-delight-1.webp": "62d145fef471c41d0a7a7795b0ab1f7ca6b0d877fa250e79e3a5ed73fd3cd4f6",
+        "warren-hackers-delight-1-360.webp": "cf1ac41666d26c691ed32f963887d46cde34200b50ceba98e2c6e327d0f94bfb"
+      },
+      "signature": "8afa0246f8997a95",
+      "hash": "0621e6a909061845b0e74576feff50a53b32075419fc913904896bbbd213863b",
+      "asset_sha256": "e34db08e2ab5fdd8520ce34be9c2a57d19a15b2bffe24c51dd7adef621dc9a7f",
+      "bytes": 95215,
+      "subject": "computing",
+      "palette": 0,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 255,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "wempen-computers-for-seniors-for-dummies-7": {
+      "path": "assets/covers/generated/wempen-computers-for-seniors-for-dummies-7.webp",
+      "svg_path": "assets/covers/generated/wempen-computers-for-seniors-for-dummies-7.svg",
+      "small_path": "assets/covers/generated/wempen-computers-for-seniors-for-dummies-7-360.webp",
+      "derivatives": {
+        "wempen-computers-for-seniors-for-dummies-7.webp": "8298427b37bdff1be0039cb7934ac830120d38dbf3f69fe463ecfc0896ab6a18",
+        "wempen-computers-for-seniors-for-dummies-7-360.webp": "50eb23e8868a323affb8b0cc9a692f2847a14b1468f4fc4606619dddd6f8b04d"
+      },
+      "signature": "136874d232016129",
+      "hash": "15103e7d47a5578dfc768b499094c862aefe183ea5c7b47c168a1217fc483a7a",
+      "asset_sha256": "efed629e46d61e40e8d0a8c2389e2afaf6fe40175400e183b30e7f81de6e814d",
+      "bytes": 115053,
+      "subject": "computing",
+      "palette": 0,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "white-how-computers-work-10": {
+      "path": "assets/covers/generated/white-how-computers-work-10.webp",
+      "svg_path": "assets/covers/generated/white-how-computers-work-10.svg",
+      "small_path": "assets/covers/generated/white-how-computers-work-10-360.webp",
+      "derivatives": {
+        "white-how-computers-work-10.webp": "26c1267a86edb97b352bbf87a0a9c3f724da22be9242bd6c5ba6db67ff243395",
+        "white-how-computers-work-10-360.webp": "205d91fe303e994754fdaf55e9b2220e28a77a079ba9eb047b8ab38602c7c548"
+      },
+      "signature": "1308afb87c038c6d",
+      "hash": "88bdc6a36c519831b2b5e834bb2ec3c770e66fbd860bec864d5f9e56b38f1398",
+      "asset_sha256": "b6b5b3d902cb97320d795fc488b583361dbdb789e678e23c63e73bd3efa7318f",
+      "bytes": 127284,
+      "subject": "computing",
+      "palette": 0,
+      "composition": 3,
+      "layout": {
+        "title_bottom": 340,
+        "author_top": 787,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "winston-artificial-intelligence-3-part-1": {
+      "path": "assets/covers/generated/winston-artificial-intelligence-3-part-1.webp",
+      "svg_path": "assets/covers/generated/winston-artificial-intelligence-3-part-1.svg",
+      "small_path": "assets/covers/generated/winston-artificial-intelligence-3-part-1-360.webp",
+      "derivatives": {
+        "winston-artificial-intelligence-3-part-1.webp": "dd26948975ce0b8f90092862898269d281ab9cdee16ece646b3a6f3d98d1c6d2",
+        "winston-artificial-intelligence-3-part-1-360.webp": "e1ad398d139661323a507e6907bae8a45a84ca85d75433079abc36f3bf7ef3b6"
+      },
+      "signature": "ec834ef22d3ab60f",
+      "hash": "8f4026da555ee01d104d0b2f2af8e10e97b0129707fef6c499efaad76d286e25",
+      "asset_sha256": "50db841f93f39595f2547ec30074cba061225f394237347f63f38fb1178c8b9f",
+      "bytes": 172154,
+      "subject": "ai",
+      "palette": 0,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 424,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "winston-artificial-intelligence-3-part-2": {
+      "path": "assets/covers/generated/winston-artificial-intelligence-3-part-2.webp",
+      "svg_path": "assets/covers/generated/winston-artificial-intelligence-3-part-2.svg",
+      "small_path": "assets/covers/generated/winston-artificial-intelligence-3-part-2-360.webp",
+      "derivatives": {
+        "winston-artificial-intelligence-3-part-2.webp": "83712931901df283a3f27fb440d54ba4bb6adb4ed0aa8fec1d08e364fc9f1488",
+        "winston-artificial-intelligence-3-part-2-360.webp": "45a40997cb1b99345f2fd55a97a4054ef66ddf20204d184c69a1ad668c6e1cf2"
+      },
+      "signature": "e053a9463d93e827",
+      "hash": "10ae4d902d7001e2e9749cd43fc159a19883871b29bb296b1e55a25474ff2c3d",
+      "asset_sha256": "ea510be0066e2806dd6a48f9ff6dfd8a53b888f62ca01783aa38108c52bbcb24",
+      "bytes": 157058,
+      "subject": "ai",
+      "palette": 0,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 424,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "wong-introductory-nuclear-physics-2": {
+      "path": "assets/covers/generated/wong-introductory-nuclear-physics-2.webp",
+      "svg_path": "assets/covers/generated/wong-introductory-nuclear-physics-2.svg",
+      "small_path": "assets/covers/generated/wong-introductory-nuclear-physics-2-360.webp",
+      "derivatives": {
+        "wong-introductory-nuclear-physics-2.webp": "ba93c284e77a5b4090b60084c411fa7739285ab5eaa1bf86467eae40a7682fcc",
+        "wong-introductory-nuclear-physics-2-360.webp": "718d28c4fd65f5a9943f9c0ee3d309605bf95fdd2a222c03b83b004797ea9810"
+      },
+      "signature": "a4d7027abe7254cd",
+      "hash": "b7554e81b6aa71a8e4f9b9844e6413327245679102aa025da53d12774051443f",
+      "asset_sha256": "8315db88c3a63497759f5daae6fccf925bfd23220293df099decd950618ff55e",
+      "bytes": 111539,
+      "subject": "physics",
+      "palette": 0,
+      "composition": 2,
+      "layout": {
+        "title_bottom": 290,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "young-freedman-university-physics-modern-13-part-1": {
+      "path": "assets/covers/generated/young-freedman-university-physics-modern-13-part-1.webp",
+      "svg_path": "assets/covers/generated/young-freedman-university-physics-modern-13-part-1.svg",
+      "small_path": "assets/covers/generated/young-freedman-university-physics-modern-13-part-1-360.webp",
+      "derivatives": {
+        "young-freedman-university-physics-modern-13-part-1.webp": "669705519919d375c4a562c50dd5d7a92cc6cf8c6ee30c250966d2a9ff57d62e",
+        "young-freedman-university-physics-modern-13-part-1-360.webp": "76914d08a6bc909b60a15709f8a681b41847e79a18d70b7e389967cb2c54b0e3"
+      },
+      "signature": "a59a42ea17a741d5",
+      "hash": "6d2b24ccce25c9c8bb3d2e7bb8969675270d763b081a2cf60ec19756902a5a2c",
+      "asset_sha256": "5becffb96c7f589de2f3fa5133106abd3c4cdb209b9d6c35c50f71b5f13fa058",
+      "bytes": 160083,
+      "subject": "physics",
+      "palette": 1,
+      "composition": 3,
+      "layout": {
+        "title_bottom": 424,
+        "author_top": 787,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "young-freedman-university-physics-modern-13-part-2": {
+      "path": "assets/covers/generated/young-freedman-university-physics-modern-13-part-2.webp",
+      "svg_path": "assets/covers/generated/young-freedman-university-physics-modern-13-part-2.svg",
+      "small_path": "assets/covers/generated/young-freedman-university-physics-modern-13-part-2-360.webp",
+      "derivatives": {
+        "young-freedman-university-physics-modern-13-part-2.webp": "56b8626a263951f5b3470f687491d193c3bb68e6b313abac890cf889744b9d95",
+        "young-freedman-university-physics-modern-13-part-2-360.webp": "bf85acad7b8a6d33e1e82a7c81ff605e08cca99112e9597e819925f278181a84"
+      },
+      "signature": "b3e056afc2016daa",
+      "hash": "a0d914c518a9f085a41d462688152609c56276dfb89637574c7aa010946f60b9",
+      "asset_sha256": "7d62e469a02535391c899f07c2b67ae8db223c8f6fa5d112657c1d4962d6bf1f",
+      "bytes": 169543,
+      "subject": "physics",
+      "palette": 0,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 404,
+        "author_top": 787,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "young-freedman-university-physics-modern-13-part-3": {
+      "path": "assets/covers/generated/young-freedman-university-physics-modern-13-part-3.webp",
+      "svg_path": "assets/covers/generated/young-freedman-university-physics-modern-13-part-3.svg",
+      "small_path": "assets/covers/generated/young-freedman-university-physics-modern-13-part-3-360.webp",
+      "derivatives": {
+        "young-freedman-university-physics-modern-13-part-3.webp": "754fbb2021f922ed4bffc6549051a8a3a6d40fd780f39f839f8fa9d0a1ac6b84",
+        "young-freedman-university-physics-modern-13-part-3-360.webp": "1cbf326317e87f254a1d0aa9d4c91cc4177024ca5239da5d60bac022307919a2"
+      },
+      "signature": "94fe451bcb0c4c76",
+      "hash": "05d72a237f6fca78bb8da013935bc83b74990b84f18d26f21dae41ea29cfc628",
+      "asset_sha256": "9f6931ca888c680397ce5f2047d9c3b106ba9d54f09409e4627b45f400239eea",
+      "bytes": 187819,
+      "subject": "physics",
+      "palette": 0,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 414,
+        "author_top": 787,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "young-freedman-university-physics-modern-13-part-4": {
+      "path": "assets/covers/generated/young-freedman-university-physics-modern-13-part-4.webp",
+      "svg_path": "assets/covers/generated/young-freedman-university-physics-modern-13-part-4.svg",
+      "small_path": "assets/covers/generated/young-freedman-university-physics-modern-13-part-4-360.webp",
+      "derivatives": {
+        "young-freedman-university-physics-modern-13-part-4.webp": "21382e129768e23dec42ec3d185f1d258a0c9c39dcf02213e74f54222fe18b45",
+        "young-freedman-university-physics-modern-13-part-4-360.webp": "eba6b655ca9642ccce24561b5f4e0ee9251b540c5eb7026f7ef070370813440e"
+      },
+      "signature": "70cdbe17fb7c902a",
+      "hash": "97c7148ca038c6dbc82110d3de2bb8cf2788737792948b7fe7339da756668bfb",
+      "asset_sha256": "454285dd19587dbe07ed251277dca822fefb8b7c1254d7a947e7df0da2cb53a1",
+      "bytes": 158757,
+      "subject": "physics",
+      "palette": 2,
+      "composition": 3,
+      "layout": {
+        "title_bottom": 419,
+        "author_top": 787,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "zumdahl-chemistry-10-part-1": {
+      "path": "assets/covers/generated/zumdahl-chemistry-10-part-1.webp",
+      "svg_path": "assets/covers/generated/zumdahl-chemistry-10-part-1.svg",
+      "small_path": "assets/covers/generated/zumdahl-chemistry-10-part-1-360.webp",
+      "derivatives": {
+        "zumdahl-chemistry-10-part-1.webp": "0f7d4e85685273d10c1e3709985e2cd1dc3601dfb048612f146391d5f0460a15",
+        "zumdahl-chemistry-10-part-1-360.webp": "3ca3433761467ff256d77f994e5781361ea93e350887573fa23ffd1915bcdd57"
+      },
+      "signature": "537aa6862a566df1",
+      "hash": "986fa6681396e30a76282383d8ffd25c47c310055da39c49f033f60091b29a97",
+      "asset_sha256": "74fcac1ceb88f189c430a5845d5aec4dbb234a68e7943762609789740d9b3eef",
+      "bytes": 124263,
+      "subject": "chemistry",
+      "palette": 2,
+      "composition": 1,
+      "layout": {
+        "title_bottom": 255,
+        "author_top": 722,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "zumdahl-chemistry-10-part-2": {
+      "path": "assets/covers/generated/zumdahl-chemistry-10-part-2.webp",
+      "svg_path": "assets/covers/generated/zumdahl-chemistry-10-part-2.svg",
+      "small_path": "assets/covers/generated/zumdahl-chemistry-10-part-2-360.webp",
+      "derivatives": {
+        "zumdahl-chemistry-10-part-2.webp": "9ce562bc01171e25279c1cc358c58d96a240dad107ca43075ab4f87160b12edb",
+        "zumdahl-chemistry-10-part-2-360.webp": "a63a69a2146245cae8e7b8460cfe40dd07f332599a236203d87f2b853689f825"
+      },
+      "signature": "1cb46fe21014aff7",
+      "hash": "c50ca3f6a22168537fbb81c7721803ff59f40b03a8663bae095bccf2dc29dcac",
+      "asset_sha256": "0526ef03d30c2dcb9b831c0c90eb0dc6a2f45ad1ada8e17743e69671b60729ef",
+      "bytes": 125847,
+      "subject": "chemistry",
+      "palette": 0,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 255,
+        "author_top": 722,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "zumdahl-chemistry-10-part-3": {
+      "path": "assets/covers/generated/zumdahl-chemistry-10-part-3.webp",
+      "svg_path": "assets/covers/generated/zumdahl-chemistry-10-part-3.svg",
+      "small_path": "assets/covers/generated/zumdahl-chemistry-10-part-3-360.webp",
+      "derivatives": {
+        "zumdahl-chemistry-10-part-3.webp": "9e5c0207233c079bd7374191f67685ed5c20eb8ca955eb04dab5a1377e9f82e6",
+        "zumdahl-chemistry-10-part-3-360.webp": "9fe7111d0ee6ee3f67b952cb136e995ddff81ac6df577ce86c11f446ecb142d7"
+      },
+      "signature": "ea16ea288fcb2d01",
+      "hash": "11c1a39b394d6e32c3b85a9fe1eb1836ff85c6ec45f6b44692db2d2dd894f103",
+      "asset_sha256": "1e5bc322d56c0b1bc6645855b2b723b21fcb0a8c8c717374e571b8c5711048bb",
+      "bytes": 125704,
+      "subject": "chemistry",
+      "palette": 2,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 255,
+        "author_top": 722,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "zvelebil-baum-understanding-bioinformatics-part-1": {
+      "path": "assets/covers/generated/zvelebil-baum-understanding-bioinformatics-part-1.webp",
+      "svg_path": "assets/covers/generated/zvelebil-baum-understanding-bioinformatics-part-1.svg",
+      "small_path": "assets/covers/generated/zvelebil-baum-understanding-bioinformatics-part-1-360.webp",
+      "derivatives": {
+        "zvelebil-baum-understanding-bioinformatics-part-1.webp": "b8ac683adf113ca1839a5a464804bbd40a675b46dae69b16635cb613e247b661",
+        "zvelebil-baum-understanding-bioinformatics-part-1-360.webp": "67993bf953f3803d94f604835244f6fbefa988f1e8b24e7919bc4cb739769cbd"
+      },
+      "signature": "5fc4e1203bb23c41",
+      "hash": "a3933930bce6ce74ecd06f14ce03d30422656fa8ea95c79217301abd25995262",
+      "asset_sha256": "9955cbf9df2747199b6d1e79cbeac8bec84c80cb1820edf7c033688fd429118d",
+      "bytes": 169866,
+      "subject": "biology",
+      "palette": 1,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 424,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "zvelebil-baum-understanding-bioinformatics-part-2": {
+      "path": "assets/covers/generated/zvelebil-baum-understanding-bioinformatics-part-2.webp",
+      "svg_path": "assets/covers/generated/zvelebil-baum-understanding-bioinformatics-part-2.svg",
+      "small_path": "assets/covers/generated/zvelebil-baum-understanding-bioinformatics-part-2-360.webp",
+      "derivatives": {
+        "zvelebil-baum-understanding-bioinformatics-part-2.webp": "bfbc01d4f2231d3bd7cd9917ee3ef7a620f4c45f407229a891c3b2199edc3900",
+        "zvelebil-baum-understanding-bioinformatics-part-2-360.webp": "348ea3877cae0925d9542040efe242523af7da30f2ba8399ef871edd067f4971"
+      },
+      "signature": "b33aad8618ad3e19",
+      "hash": "9ea6f7dd07ab609bb469b9f6555e27e1ad3c6d7a3cce69e96e884d8a699762b4",
+      "asset_sha256": "f40e35bb7e0a2c0d0c96455e38671eaa762e333f945ded346c82a8620fc5a66f",
+      "bytes": 178932,
+      "subject": "biology",
+      "palette": 2,
+      "composition": 3,
+      "layout": {
+        "title_bottom": 459,
+        "author_top": 814,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "zwiebach-mastering-quantum-mechanics-part-1": {
+      "path": "assets/covers/generated/zwiebach-mastering-quantum-mechanics-part-1.webp",
+      "svg_path": "assets/covers/generated/zwiebach-mastering-quantum-mechanics-part-1.svg",
+      "small_path": "assets/covers/generated/zwiebach-mastering-quantum-mechanics-part-1-360.webp",
+      "derivatives": {
+        "zwiebach-mastering-quantum-mechanics-part-1.webp": "35c53058c2d4d1d019b1f1da96af8dc93a0516e70ea69c5f6298fed670050ea1",
+        "zwiebach-mastering-quantum-mechanics-part-1-360.webp": "194cf9aa6be57561064aa24d78843cf3fb83f30399cb5f2c83a935364391a0c2"
+      },
+      "signature": "0812f62f436d4748",
+      "hash": "6578676ab7b83f86a72aa9ad7433ad6651afaa2b6a4e86aabb41a351b52d70e9",
+      "asset_sha256": "19194525959a8208d7d040bb48abe216b738484d1de453d65444f5fe923adc97",
+      "bytes": 139769,
+      "subject": "quantum",
+      "palette": 2,
+      "composition": 1,
+      "layout": {
+        "title_bottom": 374,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    },
+    "zwiebach-mastering-quantum-mechanics-part-2": {
+      "path": "assets/covers/generated/zwiebach-mastering-quantum-mechanics-part-2.webp",
+      "svg_path": "assets/covers/generated/zwiebach-mastering-quantum-mechanics-part-2.svg",
+      "small_path": "assets/covers/generated/zwiebach-mastering-quantum-mechanics-part-2-360.webp",
+      "derivatives": {
+        "zwiebach-mastering-quantum-mechanics-part-2.webp": "3865ce3ebd18456711893d62e4e6b00286e37322aa9880ac637e13ba9138ed68",
+        "zwiebach-mastering-quantum-mechanics-part-2-360.webp": "151450b8ffe18202a5d313c841592c9a3e783eb799ee6cbae1608e3f6d80c7aa"
+      },
+      "signature": "a621aa7ea5aeb037",
+      "hash": "ecd30299c80d66b30e50adfc310e4613524f75dc9cc5eecbc9e932f9c2dfe97a",
+      "asset_sha256": "19b36fc16b4e9be742d7c50a49c7203c2fdc1e8f92cfe456093285270dca4e4e",
+      "bytes": 141201,
+      "subject": "quantum",
+      "palette": 1,
+      "composition": 0,
+      "layout": {
+        "title_bottom": 374,
+        "author_top": 779,
+        "art_height": 314,
+        "compact_title": false,
+        "compact_authors": false,
+        "unknown_glyphs": 0,
+        "minimum_title_font": 27
+      }
+    }
+  }
+}

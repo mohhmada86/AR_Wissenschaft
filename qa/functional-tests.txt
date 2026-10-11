@@ -1,0 +1,125 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> test
+> node --test tests/*.test.mjs
+
+✔ catalog keeps its schema, valid IDs, links, and multi-part records (10.312279ms)
+✔ all current records have usable generated assets and matching metadata (20.243538ms)
+✔ stable IDs give deterministic illustrations; duplicate titles stay distinct (1.337583ms)
+✔ subject taxonomy covers all requested disciplines and respects explicit overrides (0.632931ms)
+✔ new, stale, missing, and failed cover assets use automatic live designs (0.973293ms)
+✔ untrusted metadata is text; malicious image overrides cannot escape assets (0.413629ms)
+✔ Arabic and English author/title searches and filters remain usable (9.357137ms)
+✔ cards retain their exact book identity and detail navigation (0.788131ms)
+✔ daily discovery is stable, real, and independent of catalog order (4.807742ms)
+{
+  "total": 1,
+  "generated": 1,
+  "skipped": 0,
+  "removed": 0,
+  "fallback": [],
+  "subjects": [
+    "languages"
+  ]
+}
+{
+  "total": 1,
+  "generated": 0,
+  "skipped": 1,
+  "removed": 0,
+  "fallback": [],
+  "subjects": [
+    "languages"
+  ]
+}
+{
+  "total": 1,
+  "generated": 1,
+  "skipped": 0,
+  "removed": 0,
+  "fallback": [],
+  "subjects": [
+    "languages"
+  ]
+}
+{
+  "total": 2,
+  "generated": 1,
+  "skipped": 1,
+  "removed": 0,
+  "fallback": [],
+  "subjects": [
+    "languages"
+  ]
+}
+{
+  "total": 2,
+  "generated": 1,
+  "skipped": 1,
+  "removed": 0,
+  "fallback": [],
+  "subjects": [
+    "languages"
+  ]
+}
+{
+  "total": 2,
+  "generated": 1,
+  "skipped": 1,
+  "removed": 0,
+  "fallback": [],
+  "subjects": [
+    "languages"
+  ]
+}
+{
+  "total": 1,
+  "generated": 0,
+  "skipped": 1,
+  "removed": 3,
+  "fallback": [],
+  "subjects": [
+    "languages"
+  ]
+}
+{
+  "total": 1,
+  "generated": 0,
+  "skipped": 0,
+  "removed": 0,
+  "fallback": [],
+  "subjects": [
+    "languages"
+  ]
+}
+{
+  "total": 1,
+  "generated": 0,
+  "skipped": 0,
+  "removed": 0,
+  "fallback": [],
+  "subjects": [
+    "languages"
+  ]
+}
+Explicit cover missing for automatic-sample-part-2; automatic design remains available: assets/covers/chosen.svg
+{
+  "total": 1,
+  "generated": 1,
+  "skipped": 0,
+  "removed": 0,
+  "fallback": [],
+  "subjects": [
+    "languages"
+  ]
+}
+✔ incremental generation adds, changes, repairs and removes assets without touching document URLs (1962.381353ms)
+✔ invalid duplicate catalog IDs fail validation before generating assets (0.493001ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2149.308169

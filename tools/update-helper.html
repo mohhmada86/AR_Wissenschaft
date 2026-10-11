@@ -48,7 +48,7 @@
             <div class="field"><label for="b-title-en">العنوان الإنجليزي الاختياري — title_en</label><input id="b-title-en" name="title_en" dir="ltr"></div>
             <div class="field"><label for="b-author">المؤلف — author</label><input id="b-author" name="author" dir="auto" required></div>
             <div class="field"><label for="b-category">التخصص — category</label><input id="b-category" name="category" dir="auto" required></div>
-            <div class="field"><label for="b-cover">مسار الغلاف الاختياري — cover</label><input id="b-cover" name="cover" dir="ltr" placeholder="assets/covers/book-cover.webp"></div>
+            <div class="field"><label for="b-cover">مسار الغلاف القديم الاختياري — cover</label><input id="b-cover" name="cover" dir="ltr" placeholder="يمكن تركه فارغًا"><span class="help-text">الغلاف المعروض يُنشأ تلقائيًا من بيانات الكتاب؛ لا تحتاج إلى رفع صورة.</span></div>
             <div class="field"><label for="b-status">الحالة — status</label><select id="b-status" name="status"></select></div>
             <div class="field"><label for="b-version">الإصدار الحالي — version</label><input id="b-version" name="version" dir="ltr" required pattern="v[0-9]+\.[0-9]+" placeholder="v1.0"></div>
             <div class="field"><label for="b-progress">نسبة المراجعة — progress</label><input id="b-progress" name="progress" type="number" min="0" max="100" step="any" dir="ltr" lang="en" aria-describedby="progress-help"><span id="progress-help" class="help-text">0 إلى 100؛ الفراغ يعني null، أي نسبة غير معروفة.</span></div>
@@ -86,7 +86,7 @@
       <button type="button" id="validate-export" class="button primary" disabled>التحقق وتجهيز JSON</button>
       <div id="export-message" class="result-message" role="status" aria-live="polite"></div>
       <div id="export-area" hidden>
-        <p>نزّل الملفين كاملين، ثم GitHub → مجلد <bdi dir="ltr">data</bdi> → <bdi dir="ltr">Add file → Upload files</bdi>. راجع الاستبدالات والفرق قبل <bdi dir="ltr">Commit changes</bdi>. ارفع أي غلاف جديد أولًا.</p>
+        <p>نزّل الملفين كاملين، ثم GitHub → مجلد <bdi dir="ltr">data</bdi> → <bdi dir="ltr">Add file → Upload files</bdi>. راجع الاستبدالات والفرق قبل <bdi dir="ltr">Commit changes</bdi>. يُنشأ غلاف العرض تلقائيًا.</p>
         <div class="form-grid">
           <div class="field"><label for="books-output">books.json الكامل</label><textarea id="books-output" class="json-output" readonly spellcheck="false"></textarea><div class="actions"><button type="button" id="download-books" class="button">تنزيل books.json</button><button type="button" id="copy-books" class="button">نسخ books.json</button></div></div>
           <div class="field"><label for="updates-output">updates.json الكامل</label><textarea id="updates-output" class="json-output" readonly spellcheck="false"></textarea><div class="actions"><button type="button" id="download-updates" class="button">تنزيل updates.json</button><button type="button" id="copy-updates" class="button">نسخ updates.json</button></div></div>

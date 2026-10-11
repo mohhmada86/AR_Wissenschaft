@@ -1,0 +1,26 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> build
+> node tools/build.mjs
+
+{
+  "total": 154,
+  "generated": 0,
+  "skipped": 154,
+  "removed": 0,
+  "fallback": [],
+  "subjects": [
+    "ai",
+    "biology",
+    "chemistry",
+    "computing",
+    "electronics",
+    "engineering",
+    "humanities",
+    "languages",
+    "mathematics",
+    "physics",
+    "quantum"
+  ]
+}
+Static site ready in dist/; original catalog and document links preserved.

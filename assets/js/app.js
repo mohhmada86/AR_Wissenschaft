@@ -1,10 +1,13 @@
 import {
   BASE, loadSite, loadCatalog, applyBranding, bookURL, coverImage,
-  el, link, badges, catalogWarnings
+  el, link, badges, catalogWarnings, isolated
 } from "./common.js";
 import {
   visibleBooks, categorySummaries, selectFeaturedBooks, bookCountLabel
 } from "./home-data.js";
+import { dailyMessage, dailyBook } from "./reading-inspiration.js";
+import { coverMetadata } from "./cover-client.js";
+import { classify, THEMES } from "./cover-design.js";
 
 const categoryGrid = document.getElementById("category-grid");
 const featuredGrid = document.getElementById("featured-grid");
@@ -21,6 +24,7 @@ function renderCategory(summary) {
   anchor.target = "_blank";
   anchor.rel = "noopener noreferrer";
   anchor.setAttribute("aria-label", `${summary.name}، ${bookCountLabel(summary.books.length)}، يفتح في علامة تبويب جديدة`);
+  anchor.style.setProperty("--subject-color", THEMES[classify(summary.books[0])].palettes[0][0]);
   anchor.append(
     el("strong", summary.name),
     el("span", bookCountLabel(summary.books.length), "category-count"),
@@ -43,15 +47,42 @@ function renderFeaturedBook(book) {
   heading.append(link(book.title_ar, bookURL(book.id)));
   const author = el("p", book.author, "featured-author");
   author.dir = "auto";
+  if (book.title_en) {
+    const english = isolated(book.title_en, "ltr", "p");
+    english.className = "original-title";
+    body.append(el("p", book.category, "eyebrow"), heading, english);
+  } else body.append(el("p", book.category, "eyebrow"), heading);
+  const authorAr = coverMetadata(book).author_ar;
+  if (authorAr && authorAr !== book.author) body.append(isolated(authorAr, "rtl", "p"));
   body.append(
-    el("p", book.category, "eyebrow"),
-    heading,
     author,
     badges(book),
     link("تفاصيل الكتاب", bookURL(book.id), "button")
   );
   card.append(imageLink, body);
   return card;
+}
+
+function renderDailyBook(book) {
+  const holder = document.getElementById("daily-book");
+  if (!book || !holder) return;
+  const image = link(null, bookURL(book.id), "spotlight-cover-link");
+  image.tabIndex = -1; image.setAttribute("aria-hidden", "true");
+  image.append(coverImage(book, false));
+  const body = el("div", null, "spotlight-body");
+  const heading = el("h2");
+  heading.append(link(book.title_ar, bookURL(book.id)));
+  body.append(el("p", "من المكتبة اليوم", "eyebrow"), heading);
+  if (book.title_en) body.append(isolated(book.title_en, "ltr", "p"));
+  body.append(el("p", book.category, "spotlight-category"), link("اكتشف هذا الكتاب ←", bookURL(book.id), "section-link"));
+  holder.replaceChildren(image, body);
+  holder.className = "hero-spotlight";
+}
+
+const message = dailyMessage();
+for (const [id, value] of [["reading-message-ar", message.ar], ["reading-message-en", message.en], ["reading-tip", message.tip], ["reading-tip-en", message.tip_en]]) {
+  const holder = document.getElementById(id);
+  if (holder) holder.textContent = value;
 }
 
 function loadingError(container, retry) {
@@ -82,6 +113,7 @@ async function start() {
     const books = visibleBooks(data.books);
     const summaries = categorySummaries(books);
     const featured = selectFeaturedBooks(books, site, summaries);
+    renderDailyBook(dailyBook(books));
 
     document.getElementById("book-stat").textContent = String(books.length);
     document.getElementById("category-stat").textContent = String(summaries.length);

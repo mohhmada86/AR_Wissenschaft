@@ -1,11 +1,15 @@
+/* Typography-only update: Noto Sans Arabic + Inter. Existing layout, colors, covers and data remain unchanged. */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;500;600;700;800&display=swap");
 /* العلم بالعربي — نظام بصري واحد للصفحات العامة وأداة الصيانة. */
+@font-face { font-family: "Library Sans"; src: url("../fonts/DejaVuSans.woff") format("woff"); font-style: normal; font-weight: 400 600; font-display: swap; }
+@font-face { font-family: "Library Sans"; src: url("../fonts/DejaVuSans-Bold.woff") format("woff"); font-style: normal; font-weight: 650 900; font-display: swap; }
 :root {
   color-scheme: light;
   --ink: #183343; --brand: #072e48; --accent: #24624f; --muted: #586961;
   --paper: #fcfbf7; --surface: #ffffff; --tint: #f0f3ed; --line: #dce2d8;
   --gold: #b18a31; --focus: #a36019; --radius: 12px;
   --shadow: 0 5px 20px #132f3510;
-  font-family: system-ui, -apple-system, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-family: "Noto Sans Arabic", "Segoe UI", "Library Sans", Tahoma, Arial, sans-serif;
   line-height: 1.85; color: var(--ink); background: var(--paper);
 }
 * { box-sizing: border-box; }
@@ -304,4 +308,91 @@ legend { margin-block-end: 1rem; }
   .featured-body, .card-body { padding: .75rem; }
   .study-steps { grid-template-columns: minmax(0, 1fr); }
   .actions > .button { inline-size: 100%; }
+}
+
+/* Automatic covers and reading discovery. The original forms/navigation stay intact. */
+.hero-section { background: #f2f3ec; }
+.landing-hero { grid-template-columns: minmax(0, 1.2fr) minmax(300px, .9fr); gap: 3rem; }
+.hero-english { color: var(--accent); font-size: .97rem; margin-block-end: 1.2rem; max-inline-size: 34rem; }
+.hero-spotlight { display: grid; grid-template-columns: minmax(100px, 145px) minmax(0, 1fr); align-items: center; gap: 1.3rem; padding: 1.45rem; border: 1px solid #cfd6c9; background: #fcfbf6; border-radius: 10px; box-shadow: 0 12px 35px #102f3410; }
+.spotlight-cover-link { text-decoration: none; }
+.spotlight-body { min-inline-size: 0; }
+.spotlight-body h2 { font-size: 1.06rem; line-height: 1.65; }
+.spotlight-body h2 a { color: var(--brand); text-decoration: none; }
+.spotlight-body > p[dir='ltr'] { font-size: .75rem; color: var(--muted); line-height: 1.6; }
+.spotlight-body .eyebrow { font-size: .78rem; }
+.spotlight-category { font-size: .8rem; color: var(--muted); margin-block-end: .35rem; }
+.spotlight-body .section-link { font-size: .82rem; }
+.reading-inspiration { border-block-end: 1px solid var(--line); background: #fffcf4; }
+.inspiration-inner { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 3rem; padding-block: 1.7rem; }
+.inspiration-message { border-inline-start: 3px solid var(--gold); padding-inline-start: 1.3rem; }
+.inspiration-message > p { margin-block-end: .45rem; }
+#reading-message-ar { color: var(--brand); font-size: 1.15rem; line-height: 1.9; }
+#reading-message-en { color: var(--muted); font-size: .88rem; }
+.inspiration-tip h2 { font-size: 1rem; margin-block-end: .4rem; }
+.inspiration-tip p { margin-block-end: .25rem; font-size: .9rem; color: var(--muted); }
+#reading-tip-en { font-size: .8rem; }
+.inspiration-tip .help-text { font-size: .7rem; }
+.category-card { border-block-start: 3px solid var(--subject-color, var(--accent)); }
+.featured-cover-link, .book-cover-link { padding: 1.15rem 1.3rem; background: #f0f0e9; }
+.featured-card .cover, .book-cover-link .cover { block-size: auto; max-inline-size: 245px; margin-inline: auto; }
+.display-cover { position: relative; overflow: hidden; container-type: inline-size; background: #243c43; box-shadow: 2px 6px 13px #17383f22; border-radius: 2px; }
+.cover-asset { inline-size: 100%; block-size: 100%; object-fit: contain; }
+.featured-body, .card-body { padding: 1.15rem; }
+.featured-body h3, .card-body h3 { line-height: 1.75; }
+.featured-body p[dir='rtl'], .card-body p[dir='rtl'] { font-size: .85rem; color: var(--muted); line-height: 1.7; margin-block-end: .3rem; }
+.original-title { font-size: .79rem; }
+.detail-cover { margin: 0; min-inline-size: 0; max-inline-size: 270px; }
+.cover-caption { color: var(--muted); font-size: .72rem; line-height: 1.8; margin-block-start: .8rem; }
+.generated-cover { display: flex; flex-direction: column; position: absolute; inset: 0; padding: 5.8% 8%; color: var(--cover-ink); background: var(--cover-bg); line-height: 1.45; }
+.generated-category { display: block; font-size: 3.1cqi; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.generated-subject { font-size: 2.25cqi; letter-spacing: .07em; margin-block: 1.8% 5%; }
+.generated-titles { display: flex; flex-direction: column; gap: 3cqi; }
+.generated-title-ar, .generated-title-en, .generated-author { display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; overflow-wrap: anywhere; }
+.generated-title-ar { font-weight: 750; color: #fffaf0; font-size: 6.3cqi; -webkit-line-clamp: 4; }
+.generated-title-en { font-size: 4.4cqi; -webkit-line-clamp: 4; }
+.generated-artwork { flex: 1 1 0; min-block-size: 12%; display: flex; align-items: center; margin-block: 3cqi; }
+.generated-artwork svg { display: block; inline-size: 100%; max-block-size: 100%; }
+.generated-authors { display: flex; flex-direction: column; gap: 1.8cqi; border-block-start: 1px solid var(--cover-ink); padding-block-start: 2.3cqi; }
+.generated-author { font-size: 3.6cqi; color: #fffaf0; -webkit-line-clamp: 3; }
+.generated-footer { font-size: 2.05cqi; margin-block-start: 3cqi; text-align: end; }
+.composition-0 { border: 1px solid var(--cover-ink); outline: 1.2cqi solid var(--cover-bg); outline-offset: -2cqi; }
+.composition-1 { border-inline-end: 1.2cqi solid var(--cover-accent); border-block-start: .7cqi solid var(--cover-accent); }
+.composition-2 .generated-titles { text-align: center; }
+.composition-3 { box-shadow: inset -4cqi 0 #ffffff09; }
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .book-card, .featured-card { transition: box-shadow .18s ease, border-color .18s ease; }
+  .book-card:hover, .featured-card:hover { border-color: #b7c6b7; box-shadow: 0 9px 25px #163c4015; }
+}
+@media (max-width: 1100px) {
+  .landing-hero { gap: 1.8rem; }
+  .hero-spotlight { grid-template-columns: 115px minmax(0, 1fr); gap: 1rem; padding: 1.15rem; }
+}
+@media (max-width: 800px) {
+  .landing-hero { grid-template-columns: minmax(0, 1fr); }
+  .hero-spotlight { grid-template-columns: 120px minmax(0, 1fr); max-inline-size: 550px; }
+  .inspiration-inner { gap: 1.5rem; }
+}
+@media (max-width: 600px) {
+  .hero-spotlight { grid-template-columns: 104px minmax(0, 1fr); padding: 1rem; }
+  .inspiration-inner { grid-template-columns: minmax(0, 1fr); gap: 1.3rem; }
+  .inspiration-tip { padding-inline-start: 1.3rem; }
+  #reading-message-ar { font-size: 1.02rem; }
+  .book-card, .featured-card { grid-template-columns: minmax(98px, .38fr) minmax(0, 1fr); }
+  .featured-cover-link, .book-cover-link { padding: .75rem .55rem; }
+  .featured-body, .card-body { padding: .9rem; }
+  .detail-cover { max-inline-size: 240px; margin-inline: auto; }
+}
+@media (max-width: 360px) {
+  .container { inline-size: calc(100% - 1.4rem); }
+  .book-card, .featured-card { grid-template-columns: 85px minmax(0, 1fr); }
+  .hero-spotlight { grid-template-columns: 85px minmax(0, 1fr); gap: .75rem; padding: .8rem; }
+}
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation: none !important; transition: none !important; } }
+
+/* Bilingual typography. These rules affect fonts only; no components or graphics are modified. */
+html[lang="ar"] h1 { letter-spacing: normal; }
+:lang(en), [dir="ltr"], .original-title,
+.card-body > p[dir="auto"], .featured-author {
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
 }

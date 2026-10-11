@@ -56,7 +56,9 @@ function showBook(book, data, site) {
   body.append(requests);
   if (book.status === "review") body.append(el("p", "هذه نسخة قراءة ومراجعة قبل النشر النهائي: متاحة للدراسة الآن، ويستمر المشروع في تحسين الإصدارات القادمة.", "storage-note"));
   body.append(el("p", "رقم الإصدار يخص مراجعة المشروع أو ترجمته، وليس طبعة الناشر الأصلية. طلب الملفات يخضع لتوافرها وحقوق استخدامها.", "help-text"), link("سجل التحديثات", "#updates", "back-link"));
-  article.append(coverImage(book, false), body);
+  const visual = el("figure", null, "detail-cover");
+  visual.append(coverImage(book, false), el("figcaption", "غلاف عرض خاص بالمكتبة. بيانات الكتاب وروابطه كما وردت في الفهرس.", "cover-caption"));
+  article.append(visual, body);
   const history = el("section", null, "section");
   history.id = "updates";
   history.tabIndex = -1;

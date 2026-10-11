@@ -1,3 +1,4 @@
+import { displayCover, initializeCovers, coverMetadata } from "./cover-client.js";
 export const BASE = new URL("../../", import.meta.url);
 export const STATUS = Object.freeze({
   review: "قيد المراجعة",
@@ -203,7 +204,7 @@ export async function loadSite() {
 
 export async function loadCatalog() {
   const [bookResult, updateResult] = await Promise.allSettled([
-    fetchJSON("data/books.json"), fetchJSON("data/updates.json")
+    fetchJSON("data/books.json"), fetchJSON("data/updates.json"), initializeCovers()
   ]);
   if (bookResult.status === "rejected") throw bookResult.reason;
   if (!Array.isArray(bookResult.value)) throw new Error("books.json: يجب أن يحتوي مصفوفة.");
@@ -242,7 +243,7 @@ export function compareTitles(a, b) {
 export function selectBooks(books, updates, { search = "", category = "", status = "", sort = "latest" } = {}) {
   const query = normalizeSearch(search);
   return books.filter(book => book.enabled && (!category || book.category === category) && (!status || book.status === status)
-    && normalizeSearch([book.title_ar, book.title_en || "", book.author, book.category].join(" ")).includes(query))
+    && normalizeSearch([book.title_ar, book.title_en || "", book.author, coverMetadata(book).author_ar, book.category].join(" ")).includes(query))
     .sort((a, b) => {
       let order = 0;
       if (sort === "latest") order = latestDate(b, updates).localeCompare(latestDate(a, updates));
@@ -284,16 +285,7 @@ export function readingAction(value, label = "اقرأ الكتاب", className 
 }
 
 export function coverImage(book, lazy = true) {
-  const image = el("img", null, "cover");
-  const fallback = localURL("assets/covers/placeholder.svg");
-  image.width = 600;
-  image.height = 900;
-  image.alt = book.cover && !book.cover.endsWith("placeholder.svg") ? `غلاف ${book.title_ar}` : `غلاف توضيحي — ${book.title_ar}`;
-  image.loading = lazy ? "lazy" : "eager";
-  image.decoding = "async";
-  image.addEventListener("error", () => { image.src = fallback; image.alt = `غلاف بديل — ${book.title_ar}`; }, { once: true });
-  image.src = book.cover && validCover(book.cover) ? localURL(book.cover) : fallback;
-  return image;
+  return displayCover(book, lazy);
 }
 
 export function badges(book) {
@@ -330,6 +322,8 @@ export function metadata(book, updates, updatesAvailable) {
     ["آخر تحديث", dateNode(latestDate(book, updates))],
     ["سجل التحديثات", updatesAvailable ? String(relatedUpdates(book, updates).length) : "غير متاح حاليًا"]
   ];
+  const arabicAuthor = coverMetadata(book).author_ar;
+  if (arabicAuthor && arabicAuthor !== book.author) pairs.splice(1, 0, ["الاسم بالعربية", isolated(arabicAuthor, "rtl")]);
   for (const [label, value] of pairs) {
     const row = el("div");
     row.append(el("dt", label));
@@ -358,7 +352,9 @@ export function renderCard(book, updates, updatesAvailable) {
     original.className = "original-title";
     body.append(original);
   }
-  body.append(isolated(book.author, "auto", "p"), badges(book), link("فتح صفحة الكتاب", bookURL(book.id), "button"));
+  const arabicAuthor = coverMetadata(book).author_ar;
+  if (arabicAuthor && arabicAuthor !== book.author) body.append(isolated(arabicAuthor, "rtl", "p"));
+  body.append(isolated(book.author, "auto", "p"), badges(book), link("فتح صفحة الكتاب ←", bookURL(book.id), "button"));
   card.append(cover, body);
   return card;
 }

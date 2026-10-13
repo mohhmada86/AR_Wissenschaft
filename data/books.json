@@ -2462,5 +2462,53 @@
     "drive_url": "https://drive.google.com/file/d/12kJpxmSjFKla3c6R7sr66LHdEpnb7CAZ/view",
     "enabled": true,
     "demo": false
+  },
+  {
+    "id": "saleh-teich-fundamentals-photonics-3-part-1",
+    "title_ar": "أساسيات الفوتونيات - الطبعة الثالثة - الجزء الأول: البصريات",
+    "title_en": "Fundamentals of Photonics, Third Edition - Part 1: Optics",
+    "author": "Bahaa E. A. Saleh؛ Malvin Carl Teich",
+    "category": "فيزياء",
+    "cover": "assets/covers/placeholder.svg",
+    "status": "review",
+    "version": "v1.0",
+    "progress": null,
+    "last_updated": "2026-10-13",
+    "description": "الجزء الأول من الترجمة العربية لكتاب «Fundamentals of Photonics» لبهاء E. A. Saleh وMalvin Carl Teich، الطبعة الثالثة. يشمل الفصول 1–13، وهي قسم البصريات من الكتاب: بصريات الأشعة، بصريات الموجات، بصريات الحزم، بصريات فورييه، البصريات الكهرومغناطيسية، بصريات الاستقطاب، البلورات الفوتونية، المعادن والمواد الفوقية، الموجات الموجّهة، الألياف، المرنانات، البصريات الإحصائية، وبصريات الفوتونات.",
+    "drive_url": "https://drive.google.com/file/d/1nS2oBHCtwLFW2ckUZPqtL3UexPIY5Svq/view",
+    "enabled": true,
+    "demo": false
+  },
+  {
+    "id": "saleh-teich-fundamentals-photonics-3-part-2",
+    "title_ar": "أساسيات الفوتونيات - الطبعة الثالثة - الجزء الثاني: الضوء والمادة والليزر والأجهزة الفوتونية",
+    "title_en": "Fundamentals of Photonics, Third Edition - Part 2: Light, Lasers, and Photonic Devices",
+    "author": "Bahaa E. A. Saleh؛ Malvin Carl Teich",
+    "category": "فيزياء",
+    "cover": "assets/covers/placeholder.svg",
+    "status": "review",
+    "version": "v1.0",
+    "progress": null,
+    "last_updated": "2026-10-13",
+    "description": "الجزء الثاني من الترجمة العربية لكتاب «Fundamentals of Photonics»، ويشمل الفصول 14–21. يغطي الضوء والمادة، مضخمات الليزر، الليزرات، بصريات أشباه الموصلات، الثنائيات الباعثة للضوء وثنائيات الليزر، الكواشف الضوئية، البصريات الصوتية، ثم البصريات الكهروضوئية.",
+    "drive_url": "https://drive.google.com/file/d/1R-r7zL_p_ciNrRY080baLtoMPnOtsLis/view",
+    "enabled": true,
+    "demo": false
+  },
+  {
+    "id": "saleh-teich-fundamentals-photonics-3-part-3",
+    "title_ar": "أساسيات الفوتونيات - الطبعة الثالثة - الجزء الثالث: البصريات اللاخطية وفائقة السرعة والاتصالات البصرية",
+    "title_en": "Fundamentals of Photonics, Third Edition - Part 3: Nonlinear and Ultrafast Optics, Interconnects, and Fiber Communications",
+    "author": "Bahaa E. A. Saleh؛ Malvin Carl Teich",
+    "category": "فيزياء",
+    "cover": "assets/covers/placeholder.svg",
+    "status": "review",
+    "version": "v1.0",
+    "progress": null,
+    "last_updated": "2026-10-13",
+    "description": "الجزء الثالث والأخير من الترجمة العربية لكتاب «Fundamentals of Photonics»، ويشمل الفصول 22–25 حتى نهاية الكتاب. يغطي البصريات اللاخطية، البصريات فائقة السرعة، الترابطات والمفاتيح البصرية، واتصالات الألياف الضوئية، ثم المواد الختامية للكتاب.",
+    "drive_url": "https://drive.google.com/file/d/106Sr_I7v3DyuNb4TJUW92BTGuqJJClcQ/view",
+    "enabled": true,
+    "demo": false
   }
 ]
